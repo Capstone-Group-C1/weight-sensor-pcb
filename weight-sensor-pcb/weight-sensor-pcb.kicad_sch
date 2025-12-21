@@ -2,9 +2,180 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid 030ca1f5-68f0-4323-9a91-656d7965b13e)
+	(uuid "030ca1f5-68f0-4323-9a91-656d7965b13e")
 	(paper "A4")
+	(title_block
+		(title "Force Sensor CAN Interface Board")
+	)
 	(lib_symbols)
+	(sheet
+		(at 39.37 57.785)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "29936029-5fc3-43fa-9698-e8fdd966363b")
+		(property "Sheetname" "CAN Interface"
+			(at 39.37 57.0734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "can_interface.kicad_sch"
+			(at 39.37 62.1796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "weight-sensor-pcb"
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 85.09 40.64)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6677df09-7d73-4890-91f9-2c1f8721421d")
+		(property "Sheetname" "Force Sensor & Analog Front-End"
+			(at 85.09 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "force_sensor_analog_fe.kicad_sch"
+			(at 85.09 45.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "weight-sensor-pcb"
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 39.37 40.64)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9609f5e9-cdf8-44f2-8bc7-12b44334f144")
+		(property "Sheetname" "Power Supply"
+			(at 39.37 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_supply.kicad_sch"
+			(at 39.37 45.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "weight-sensor-pcb"
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 133.35 40.64)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d023421c-1516-46ef-aa61-fab015035186")
+		(property "Sheetname" "STM32 Microcontroller"
+			(at 133.35 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "stm32_mcu.kicad_sch"
+			(at 133.35 45.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "weight-sensor-pcb"
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e"
+					(page "3")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

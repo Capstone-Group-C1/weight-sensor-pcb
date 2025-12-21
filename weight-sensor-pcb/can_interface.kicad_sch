@@ -1,0 +1,11 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "223bb1d3-3a6d-4b28-b858-e7947edde404")
+	(paper "A4")
+	(title_block
+		(title "CAN Interface")
+	)
+	(lib_symbols)
+)
