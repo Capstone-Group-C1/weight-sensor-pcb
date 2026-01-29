@@ -597,6 +597,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 77.47) (xy 125.73 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b159ea40-9ae7-4f33-8d01-8273cffd26d4")
+	)
+	(wire
+		(pts
 			(xy 125.73 93.98) (xy 130.81 93.98)
 		)
 		(stroke
@@ -607,23 +617,13 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 73.66) (xy 128.27 73.66)
+			(xy 120.65 73.66) (xy 128.27 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e9a2aed4-f3a2-4a37-8b32-b224d4c1a829")
-	)
-	(wire
-		(pts
-			(xy 121.92 77.47) (xy 125.73 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea265533-0944-4681-abe1-d216741150ac")
+		(uuid "dd9d3c3f-0225-44b3-8a46-1fa72e07e762")
 	)
 	(wire
 		(pts
@@ -655,93 +655,49 @@
 		)
 		(uuid "fb76b1e2-cea0-4260-ac8d-b33a787e7436")
 	)
-	(global_label "CAN_TX"
+	(hierarchical_label "CAN_RX"
 		(shape input)
-		(at 121.92 73.66 180)
-		(fields_autoplaced yes)
+		(at 120.65 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "526ab32e-b5f1-4302-a6a4-50ca7e9f2726")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 112.101 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "35ba5505-c4f9-4a5e-b545-6dab554990be")
 	)
-	(global_label "CANL"
+	(hierarchical_label "CAN_TX"
 		(shape output)
+		(at 120.65 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "51eb3b5c-5cdd-421b-9b8e-a1712fa3f13f")
+	)
+	(hierarchical_label "CAN_L"
+		(shape bidirectional)
 		(at 168.91 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "879a80bc-2b88-46db-b357-27e70dc1a60d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.6124 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "c32733b1-0d1c-4cd9-9dc2-b572db452bc7")
 	)
-	(global_label "CANH"
-		(shape output)
+	(hierarchical_label "CAN_H"
+		(shape bidirectional)
 		(at 168.91 82.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "baeb4690-4a17-453a-b9b9-fac8d843db14")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.9148 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CAN_RX"
-		(shape input)
-		(at 121.92 77.47 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d51e9aec-6ce9-4532-80ee-3cb92bc06cb8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.7986 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "f292dda4-6f7e-4b80-a1dc-9f56e4c69c29")
 	)
 	(symbol
 		(lib_id "power:GND")

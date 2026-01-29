@@ -8,9 +8,29 @@
 		(title "Force Sensor CAN Interface Board")
 	)
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 160.02 77.47) (xy 176.53 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d09ec9db-4a57-4b37-8def-66010106fd54")
+	)
+	(wire
+		(pts
+			(xy 160.02 80.01) (xy 176.53 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcf0549d-fda4-4134-a20b-e74e0cfc698f")
+	)
 	(sheet
-		(at 39.37 57.785)
-		(size 12.7 3.81)
+		(at 176.53 66.04)
+		(size 26.67 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -25,7 +45,7 @@
 		)
 		(uuid "29936029-5fc3-43fa-9698-e8fdd966363b")
 		(property "Sheetname" "CAN Interface"
-			(at 39.37 57.0734 0)
+			(at 176.53 65.3284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34,12 +54,52 @@
 			)
 		)
 		(property "Sheetfile" "can_interface.kicad_sch"
-			(at 39.37 62.1796 0)
+			(at 176.53 92.0246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "CAN_TX" output
+			(at 176.53 77.47 180)
+			(uuid "c08a2a59-ff5d-41aa-9510-137ddb0aba67")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_RX" input
+			(at 176.53 80.01 180)
+			(uuid "b640f222-efe1-4bda-aa85-272ce2dd86f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_L" bidirectional
+			(at 203.2 80.01 0)
+			(uuid "e982c3ce-6b10-4002-a791-0a2e340b2469")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_H" bidirectional
+			(at 203.2 77.47 0)
+			(uuid "d7ab61f3-2e53-456b-ba74-7a9cd3124605")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -51,8 +111,8 @@
 		)
 	)
 	(sheet
-		(at 85.09 40.64)
-		(size 12.7 3.81)
+		(at 90.17 66.04)
+		(size 26.67 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -67,7 +127,7 @@
 		)
 		(uuid "6677df09-7d73-4890-91f9-2c1f8721421d")
 		(property "Sheetname" "Force Sensor & Analog Front-End"
-			(at 85.09 39.9284 0)
+			(at 90.17 65.3284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -76,7 +136,7 @@
 			)
 		)
 		(property "Sheetfile" "force_sensor_analog_fe.kicad_sch"
-			(at 85.09 45.0346 0)
+			(at 90.17 92.0246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -93,8 +153,8 @@
 		)
 	)
 	(sheet
-		(at 39.37 40.64)
-		(size 12.7 3.81)
+		(at 118.11 39.37)
+		(size 59.69 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -109,7 +169,7 @@
 		)
 		(uuid "9609f5e9-cdf8-44f2-8bc7-12b44334f144")
 		(property "Sheetname" "Power Supply"
-			(at 39.37 39.9284 0)
+			(at 118.11 38.6584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -118,7 +178,7 @@
 			)
 		)
 		(property "Sheetfile" "power_supply.kicad_sch"
-			(at 39.37 45.0346 0)
+			(at 118.11 53.9246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -135,8 +195,8 @@
 		)
 	)
 	(sheet
-		(at 133.35 40.64)
-		(size 12.7 3.81)
+		(at 133.35 66.04)
+		(size 26.67 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -151,7 +211,7 @@
 		)
 		(uuid "d023421c-1516-46ef-aa61-fab015035186")
 		(property "Sheetname" "STM32 Microcontroller"
-			(at 133.35 39.9284 0)
+			(at 133.35 65.3284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -160,12 +220,102 @@
 			)
 		)
 		(property "Sheetfile" "stm32_mcu.kicad_sch"
-			(at 133.35 45.0346 0)
+			(at 133.35 92.0246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "ADC_IN0" input
+			(at 133.35 74.93 180)
+			(uuid "a20fe8b7-ccf9-4669-a964-92bcdc592857")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC_IN1" input
+			(at 133.35 77.47 180)
+			(uuid "5a6ff4fb-c2c2-4da3-b4dd-4e8d67948bdc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC_IN6" input
+			(at 133.35 82.55 180)
+			(uuid "0bb80308-a2b6-4cd1-8a19-1c0aa8989f65")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC_IN5" input
+			(at 133.35 80.01 180)
+			(uuid "90f60e7f-fbc4-4d78-9e6b-b60c4e82304b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_TX" output
+			(at 160.02 80.01 0)
+			(uuid "336f790f-65be-4ad5-bda4-512564a6ef87")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_RX" input
+			(at 160.02 77.47 0)
+			(uuid "9c19bf17-f5ee-4208-a999-0176be80c1c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO13" bidirectional
+			(at 147.32 91.44 270)
+			(uuid "bc400826-94c6-427f-baff-2eb785c456a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BOOT_SEL" bidirectional
+			(at 144.78 91.44 270)
+			(uuid "5d37279c-c0ce-429a-9865-32e4b4abd104")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO14" bidirectional
+			(at 149.86 91.44 270)
+			(uuid "284935c1-a6f0-43f1-a048-ec1eb5c58677")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

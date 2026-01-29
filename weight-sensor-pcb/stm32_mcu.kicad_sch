@@ -1097,7 +1097,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 87.63) (xy 130.81 87.63)
+			(xy 116.84 90.17) (xy 119.38 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1137,6 +1137,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 92.71) (xy 166.37 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27c2f049-3ce9-46d1-bccf-a24f2752fabb")
+	)
+	(wire
+		(pts
 			(xy 182.88 71.12) (xy 182.88 87.63)
 		)
 		(stroke
@@ -1157,6 +1167,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 87.63) (xy 130.81 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5216d03b-3566-45d4-88ae-a353c5b7b593")
+	)
+	(wire
+		(pts
 			(xy 175.26 59.69) (xy 175.26 72.39)
 		)
 		(stroke
@@ -1167,7 +1187,27 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 85.09) (xy 130.81 85.09)
+			(xy 119.38 90.17) (xy 119.38 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60fd393d-fb0f-47a9-8eda-a928de505499")
+	)
+	(wire
+		(pts
+			(xy 185.42 90.17) (xy 166.37 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64a8f163-c00d-465e-9fb0-87794e944756")
+	)
+	(wire
+		(pts
+			(xy 116.84 85.09) (xy 130.81 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1187,7 +1227,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 96.52) (xy 182.88 96.52)
+			(xy 185.42 99.06) (xy 180.34 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1197,7 +1237,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 92.71) (xy 166.37 92.71)
+			(xy 185.42 95.25) (xy 182.88 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1217,7 +1257,17 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 95.25) (xy 166.37 95.25)
+			(xy 182.88 95.25) (xy 182.88 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ade423a9-0cf4-4f3c-bb6f-7d6cd9e17091")
+	)
+	(wire
+		(pts
+			(xy 180.34 95.25) (xy 166.37 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1287,7 +1337,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 96.52) (xy 182.88 95.25)
+			(xy 180.34 99.06) (xy 180.34 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1425,137 +1475,104 @@
 		)
 		(uuid "f4c488fb-06e5-4eae-b6db-8edc23279cbd")
 	)
-	(global_label "CAN_TX"
+	(hierarchical_label "CAN_TX"
 		(shape output)
-		(at 185.42 96.52 0)
-		(fields_autoplaced yes)
+		(at 185.42 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "27c37311-a5cd-4854-9de9-6ebcd8885c38")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.239 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "03098d6a-0399-4101-b5c2-0d03cb6debea")
 	)
-	(global_label "ADC_IN5"
-		(shape input)
-		(at 185.42 67.31 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "52112fdd-1cd9-4304-887b-4c097df01bf7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.1462 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CAN_RX"
-		(shape output)
-		(at 185.42 92.71 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "872a0310-7e94-4c1c-9720-97dab99f2352")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.5414 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ADC_IN0"
-		(shape input)
-		(at 185.42 59.69 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bf2e52f8-fb61-4c95-b375-267917a85931")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.1462 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ADC_IN1"
-		(shape input)
-		(at 185.42 63.5 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bfedbc6b-d270-48fe-a012-e887d5d3c8d7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.1462 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ADC_IN6"
+	(hierarchical_label "ADC_IN6"
 		(shape input)
 		(at 185.42 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "cd18ea1c-f672-49f6-bc52-2470a613af34")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.1462 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
+		(uuid "10ff50ea-df92-482c-94cf-4b3375466dc9")
+	)
+	(hierarchical_label "GPIO13"
+		(shape bidirectional)
+		(at 185.42 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
+		(uuid "44b39690-ef1b-465d-a265-5514950da0f4")
+	)
+	(hierarchical_label "GPIO14"
+		(shape bidirectional)
+		(at 116.84 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5cd7fe16-70e6-4c96-a277-e927212ba9d5")
+	)
+	(hierarchical_label "ADC_IN5"
+		(shape input)
+		(at 185.42 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "65b883b7-015d-4e19-a3aa-9935063d54b5")
+	)
+	(hierarchical_label "CAN_RX"
+		(shape input)
+		(at 185.42 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "93ebf56b-943a-4d74-8af6-0cafd13a7451")
+	)
+	(hierarchical_label "ADC_IN0"
+		(shape input)
+		(at 185.42 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "988a1b9d-3e74-45c6-8980-2126d08b3ef9")
+	)
+	(hierarchical_label "BOOT_SEL"
+		(shape bidirectional)
+		(at 116.84 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cbb728bf-6c7b-48b2-80d8-a5a714131ed4")
+	)
+	(hierarchical_label "ADC_IN1"
+		(shape input)
+		(at 185.42 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e00dd170-82f2-4db7-8f49-b4ea3b675693")
 	)
 	(symbol
 		(lib_id "MCU_ST_STM32F0:STM32F042F4Px")
