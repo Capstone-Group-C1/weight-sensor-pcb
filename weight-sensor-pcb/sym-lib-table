@@ -1,4 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "Capstone")(type "KiCad")(uri "C:/Users/Rosemi/src/Capstone/weight-sensor-pcb/SamacSys_Parts.kicad_sym")(options "")(descr ""))
+  (lib (name "Capstone")(type "KiCad")(uri "C:/Users/DDing/Documents/Northeastern/Capstone/weight-sensor-pcb/SamacSys_Parts.kicad_sym")(options "")(descr ""))
 )

@@ -12,4 +12,22 @@ K
 F http://www.ti.com/lit/gpn/sn65hvd230
 $ENDCMP
 #
+$CMP GRM155R70J104KA01D
+D Capacitor MLCC GRM 0402 100nF 6.3V X7R Murata 0402 GRM 100nF Ceramic Multilayer Capacitor, 6.3 V dc, +125degC, X7R Dielectric,  /-10% SMD
+K
+F https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R70J104KA01-01A.pdf
+$ENDCMP
+#
+$CMP GRM155R70J105KA12D
+D Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 1.0uF 6.3volts *Derate Voltage/Temp
+K
+F https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R70J105KA12-01A.pdf
+$ENDCMP
+#
+$CMP RC0603FR-07100RL
+D Yageo RC Series Thick Film Surface Mount Resistor 0603 Case 100
+K
+F http://www.yageo.com/documents/recent/PYu-RC0603_51_RoHS_L_v5.pdf
+$ENDCMP
+#
 #End Doc Library

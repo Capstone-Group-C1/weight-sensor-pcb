@@ -8,6 +8,393 @@
 		(title "CAN Interface")
 	)
 	(lib_symbols
+		(symbol "Capstone:GRM155R70J104KA01D"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "100nF"
+				(at 8.89 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "CAPC1005X70N"
+				(at 8.89 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R70J104KA01-01A.pdf"
+				(at 8.89 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Capacitor MLCC GRM 0402 100nF 6.3V X7R Murata 0402 GRM 100nF Ceramic Multilayer Capacitor, 6.3 V dc, +125degC, X7R Dielectric,  /-10% SMD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.7"
+				(at 8.89 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Murata Electronics"
+				(at 8.89 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "GRM155R70J104KA01D"
+				(at 8.89 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "81-GRM155R70J104KA1D"
+				(at 8.89 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM155R70J104KA01D?qs=y02iAgv9n61EgJSmMyZ7gQ%3D%3D"
+				(at 8.89 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "GRM155R70J104KA01D"
+				(at 8.89 -896.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/grm155r70j104ka01d/murata-manufacturing?utm_currency=USD&region=nac"
+				(at 8.89 -996.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "GRM155R70J104KA01D_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.588 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 2.54) (xy 5.588 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 2.54) (xy 7.112 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Capstone:RC0603FR-07100RL"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 13.97 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "100Ω"
+				(at 13.97 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "RESC1608X55N"
+				(at 13.97 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.yageo.com/documents/recent/PYu-RC0603_51_RoHS_L_v5.pdf"
+				(at 13.97 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Yageo RC Series Thick Film Surface Mount Resistor 0603 Case 100"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.55"
+				(at 13.97 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "KEMET"
+				(at 13.97 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "RC0603FR-07100RL"
+				(at 13.97 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "603-RC0603FR-07100RL"
+				(at 13.97 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/RC0603FR-07100RL?qs=NEN%2FsE%2FLsvPIwIWKCOS4%2FA%3D%3D"
+				(at 13.97 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "RC0603FR-07100RL"
+				(at 13.97 -896.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rc0603fr-07100rl/yageo?region=europe"
+				(at 13.97 -996.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "RC0603FR-07100RL_1_1"
+				(rectangle
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Capstone:SN65HVD230DR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -495,9 +882,119 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 13.97 59.69)
+		(end 53.34 92.71)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 35cfe132-5b44-4017-8fdb-d94802520712)
+	)
+	(rectangle
+		(start 13.97 95.25)
+		(end 93.98 130.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 75fdbfb7-1309-45d6-9b74-9cb09bd9e8c8)
+	)
+	(rectangle
+		(start 96.52 59.69)
+		(end 194.31 130.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8253f407-fa63-4f51-97dd-e655f978a2f0)
+	)
+	(text "Decoupling"
+		(exclude_from_sim no)
+		(at 24.892 62.738 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "30c35428-5178-4624-ad5b-829b578bde8c")
+	)
+	(text "CAN Transceiver"
+		(exclude_from_sim no)
+		(at 112.522 62.738 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "aaacf760-c565-45bd-984e-fdc99552230a")
+	)
+	(text "RS Mode\n"
+		(exclude_from_sim no)
+		(at 22.86 98.298 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "cc65e786-2f7d-4eea-994f-7e0fc4e01be4")
+	)
+	(text_box "Modes:\n- High Speed    (~25V/us) :  0 Ohm to GND\n- Slope Control (~15V/us) :  10k Ohm to GND\n- Slope Control (~2V/us)  :  100k Ohm to GND\n- Standby       (Standby) :  0 Ohm to VCC"
+		(exclude_from_sim no)
+		(at 41.91 96.52 0)
+		(size 49.53 11.43)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "12f2c3be-4aae-41ce-9052-5698140dfe76")
+	)
+	(text_box "Place this capacitor as close to VCC and GND as possible.\n"
+		(exclude_from_sim no)
+		(at 15.24 66.04 0)
+		(size 20.32 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "b82d1b00-b23d-4dbb-aec3-9d9470495557")
+	)
+	(no_connect
+		(at 165.1 96.52)
+		(uuid "bd240acf-4f5c-4ba5-94ae-8175d85c92e2")
+	)
 	(wire
 		(pts
-			(xy 130.81 91.44) (xy 116.84 91.44)
+			(xy 135.89 101.6) (xy 137.16 101.6)
 		)
 		(stroke
 			(width 0)
@@ -507,7 +1004,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 88.9) (xy 162.56 88.9)
+			(xy 165.1 99.06) (xy 168.91 99.06)
 		)
 		(stroke
 			(width 0)
@@ -517,7 +1014,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 78.74) (xy 168.91 78.74)
+			(xy 168.91 88.9) (xy 175.26 88.9)
 		)
 		(stroke
 			(width 0)
@@ -527,7 +1024,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 97.79) (xy 121.92 88.9)
+			(xy 133.35 119.38) (xy 133.35 99.06)
 		)
 		(stroke
 			(width 0)
@@ -537,7 +1034,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 91.44) (xy 158.75 91.44)
+			(xy 171.45 101.6) (xy 165.1 101.6)
 		)
 		(stroke
 			(width 0)
@@ -547,17 +1044,27 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 86.36) (xy 130.81 86.36)
+			(xy 111.76 102.87) (xy 111.76 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "349590ee-b1d7-4072-bf67-9bd62eb8744d")
+		(uuid "3a1da8a8-0890-477b-9ec6-318e8869de2c")
 	)
 	(wire
 		(pts
-			(xy 168.91 82.55) (xy 165.1 82.55)
+			(xy 121.92 96.52) (xy 137.16 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c6b4497-93dc-42bb-ba81-47e61e726503")
+	)
+	(wire
+		(pts
+			(xy 175.26 92.71) (xy 171.45 92.71)
 		)
 		(stroke
 			(width 0)
@@ -567,7 +1074,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 82.55) (xy 165.1 91.44)
+			(xy 171.45 92.71) (xy 171.45 101.6)
 		)
 		(stroke
 			(width 0)
@@ -577,17 +1084,17 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 77.47) (xy 125.73 93.98)
+			(xy 111.76 104.14) (xy 137.16 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5136294d-e585-4f42-b5ee-37da813297ae")
+		(uuid "5720e3dc-0900-4abd-8ca9-8e2cdaa49b21")
 	)
 	(wire
 		(pts
-			(xy 162.56 88.9) (xy 162.56 78.74)
+			(xy 168.91 99.06) (xy 168.91 88.9)
 		)
 		(stroke
 			(width 0)
@@ -597,37 +1104,37 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 77.47) (xy 125.73 77.47)
+			(xy 107.95 81.28) (xy 111.76 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b159ea40-9ae7-4f33-8d01-8273cffd26d4")
+		(uuid "75e9dd8d-593e-4705-afae-4decb6b6c821")
 	)
 	(wire
 		(pts
-			(xy 125.73 93.98) (xy 130.81 93.98)
+			(xy 107.95 78.74) (xy 121.92 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bbb078e1-0916-4162-a65e-2182cd5e344a")
+		(uuid "a6de58f8-67d0-450e-8c79-16edadb30638")
 	)
 	(wire
 		(pts
-			(xy 120.65 73.66) (xy 128.27 73.66)
+			(xy 111.76 81.28) (xy 111.76 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dd9d3c3f-0225-44b3-8a46-1fa72e07e762")
+		(uuid "eb42c76b-6acd-4146-b351-da315db5c8b4")
 	)
 	(wire
 		(pts
-			(xy 121.92 88.9) (xy 130.81 88.9)
+			(xy 133.35 99.06) (xy 137.16 99.06)
 		)
 		(stroke
 			(width 0)
@@ -637,7 +1144,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 86.36) (xy 116.84 91.44)
+			(xy 135.89 78.74) (xy 135.89 101.6)
 		)
 		(stroke
 			(width 0)
@@ -645,19 +1152,29 @@
 		)
 		(uuid "f94b3371-0026-4244-b34f-adf3c86c8e82")
 	)
-	(wire
-		(pts
-			(xy 128.27 73.66) (xy 128.27 86.36)
+	(label "RS Mode"
+		(at 83.82 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
 		)
-		(stroke
-			(width 0)
-			(type default)
+		(uuid "3cf3452a-45f4-42a6-baa7-1479103d7212")
+	)
+	(label "RS Mode"
+		(at 165.1 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
 		)
-		(uuid "fb76b1e2-cea0-4260-ac8d-b33a787e7436")
+		(uuid "bd1c7df0-3a08-4552-9a1b-707be5e5c3e8")
 	)
 	(hierarchical_label "CAN_RX"
 		(shape input)
-		(at 120.65 77.47 180)
+		(at 107.95 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -668,7 +1185,7 @@
 	)
 	(hierarchical_label "CAN_TX"
 		(shape output)
-		(at 120.65 73.66 180)
+		(at 107.95 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -679,7 +1196,7 @@
 	)
 	(hierarchical_label "CAN_L"
 		(shape bidirectional)
-		(at 168.91 78.74 0)
+		(at 175.26 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -690,7 +1207,7 @@
 	)
 	(hierarchical_label "CAN_H"
 		(shape bidirectional)
-		(at 168.91 82.55 0)
+		(at 175.26 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -700,8 +1217,150 @@
 		(uuid "f292dda4-6f7e-4b80-a1dc-9f56e4c69c29")
 	)
 	(symbol
+		(lib_id "Capstone:GRM155R70J104KA01D")
+		(at 41.91 71.12 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03d268e5-d6e6-4d21-8670-9342e2f85511")
+		(property "Reference" "C8"
+			(at 45.72 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 45.72 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CAPC1005X70N"
+			(at -54.28 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R70J104KA01-01A.pdf"
+			(at -154.28 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor MLCC GRM 0402 100nF 6.3V X7R Murata 0402 GRM 100nF Ceramic Multilayer Capacitor, 6.3 V dc, +125degC, X7R Dielectric,  /-10% SMD"
+			(at 41.91 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.7"
+			(at -354.28 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
+			(at -454.28 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRM155R70J104KA01D"
+			(at -554.28 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM155R70J104KA1D"
+			(at -654.28 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM155R70J104KA01D?qs=y02iAgv9n61EgJSmMyZ7gQ%3D%3D"
+			(at -754.28 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "GRM155R70J104KA01D"
+			(at -854.28 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/grm155r70j104ka01d/murata-manufacturing?utm_currency=USD&region=nac"
+			(at -954.28 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ece87165-67b7-4b6c-896d-4ccb15085467")
+		)
+		(pin "2"
+			(uuid "59755426-756e-4bc6-a0a6-d9dd0b3c3b03")
+		)
+		(instances
+			(project ""
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/29936029-5fc3-43fa-9698-e8fdd966363b"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 121.92 97.79 0)
+		(at 133.35 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -710,7 +1369,7 @@
 		(fields_autoplaced yes)
 		(uuid "59962685-b5f3-4ea5-bab2-5828790beecf")
 		(property "Reference" "#PWR015"
-			(at 121.92 104.14 0)
+			(at 133.35 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -719,7 +1378,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 121.92 102.87 0)
+			(at 133.35 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -727,7 +1386,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 97.79 0)
+			(at 133.35 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -736,7 +1395,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 97.79 0)
+			(at 133.35 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -745,7 +1404,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 121.92 97.79 0)
+			(at 133.35 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -767,7 +1426,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 116.84 86.36 0)
+		(at 135.89 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -776,7 +1435,7 @@
 		(fields_autoplaced yes)
 		(uuid "6319b82f-f988-47e7-a9c6-24f22363ae8e")
 		(property "Reference" "#PWR016"
-			(at 116.84 90.17 0)
+			(at 135.89 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -785,7 +1444,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 116.84 81.28 0)
+			(at 135.89 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -793,7 +1452,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 86.36 0)
+			(at 135.89 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -802,7 +1461,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 86.36 0)
+			(at 135.89 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -811,7 +1470,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 116.84 86.36 0)
+			(at 135.89 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -832,8 +1491,282 @@
 		)
 	)
 	(symbol
+		(lib_id "Capstone:RC0603FR-07100RL")
+		(at 121.92 78.74 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ce80e2b-a0e1-4694-bacb-5ad2e81b8f15")
+		(property "Reference" "R6"
+			(at 124.46 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100Ω"
+			(at 124.46 88.8999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RESC1608X55N"
+			(at 25.73 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.yageo.com/documents/recent/PYu-RC0603_51_RoHS_L_v5.pdf"
+			(at -74.27 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Yageo RC Series Thick Film Surface Mount Resistor 0603 Case 100"
+			(at 121.92 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55"
+			(at -274.27 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at -374.27 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603FR-07100RL"
+			(at -474.27 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0603FR-07100RL"
+			(at -574.27 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/RC0603FR-07100RL?qs=NEN%2FsE%2FLsvPIwIWKCOS4%2FA%3D%3D"
+			(at -674.27 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "RC0603FR-07100RL"
+			(at -774.27 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rc0603fr-07100rl/yageo?region=europe"
+			(at -874.27 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "554f4d7e-abf2-45d4-abba-b8f43582b607")
+		)
+		(pin "1"
+			(uuid "0c944bf2-c7d5-4ab3-a376-7e63b79f181b")
+		)
+		(instances
+			(project "weight-sensor-pcb"
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/29936029-5fc3-43fa-9698-e8fdd966363b"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 41.91 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7472995-316c-4407-8d4c-2ea94f047cd8")
+		(property "Reference" "#PWR024"
+			(at 41.91 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 41.91 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 41.91 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "000c4c6c-36dd-4da3-8d36-0b0c762420ba")
+		)
+		(instances
+			(project ""
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/29936029-5fc3-43fa-9698-e8fdd966363b"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 41.91 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3b00d13-f31e-49df-bf59-ffe408483823")
+		(property "Reference" "#PWR025"
+			(at 41.91 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 41.91 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 41.91 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44b9474e-85f5-4bc4-8ff9-02b443262607")
+		)
+		(instances
+			(project ""
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/29936029-5fc3-43fa-9698-e8fdd966363b"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Capstone:SN65HVD230DR")
-		(at 130.81 86.36 0)
+		(at 137.16 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -842,7 +1775,7 @@
 		(fields_autoplaced yes)
 		(uuid "ea64fd89-db29-454f-9afb-abd76f0a20f8")
 		(property "Reference" "IC1"
-			(at 144.78 78.74 0)
+			(at 151.13 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -850,7 +1783,7 @@
 			)
 		)
 		(property "Value" "SN65HVD230DR"
-			(at 144.78 81.28 0)
+			(at 151.13 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -858,7 +1791,7 @@
 			)
 		)
 		(property "Footprint" "SOT127P600X175-8N"
-			(at 154.94 181.28 0)
+			(at 161.29 191.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -868,7 +1801,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn65hvd230"
-			(at 154.94 281.28 0)
+			(at 161.29 291.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -878,7 +1811,7 @@
 			)
 		)
 		(property "Description" "3.3 V CAN Transceiver with Standby Mode"
-			(at 130.81 86.36 0)
+			(at 137.16 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -887,7 +1820,7 @@
 			)
 		)
 		(property "Height" "1.75"
-			(at 154.94 481.28 0)
+			(at 161.29 491.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -897,7 +1830,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-SN65HVD230DR"
-			(at 154.94 581.28 0)
+			(at 161.29 591.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -907,7 +1840,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN65HVD230DR?qs=QViXGNcIEAtifeQR3pYVUQ%3D%3D"
-			(at 154.94 681.28 0)
+			(at 161.29 691.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -917,7 +1850,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 154.94 781.28 0)
+			(at 161.29 791.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -927,7 +1860,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SN65HVD230DR"
-			(at 154.94 881.28 0)
+			(at 161.29 891.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -964,6 +1897,148 @@
 			(project ""
 				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/29936029-5fc3-43fa-9698-e8fdd966363b"
 					(reference "IC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capstone:RC0603FR-07100RL")
+		(at 111.76 85.09 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa61ccfd-ee6e-4084-bc78-e2f9d8845156")
+		(property "Reference" "R5"
+			(at 114.3 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100Ω"
+			(at 114.3 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RESC1608X55N"
+			(at 15.57 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.yageo.com/documents/recent/PYu-RC0603_51_RoHS_L_v5.pdf"
+			(at -84.43 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Yageo RC Series Thick Film Surface Mount Resistor 0603 Case 100"
+			(at 111.76 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55"
+			(at -284.43 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at -384.43 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603FR-07100RL"
+			(at -484.43 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0603FR-07100RL"
+			(at -584.43 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/RC0603FR-07100RL?qs=NEN%2FsE%2FLsvPIwIWKCOS4%2FA%3D%3D"
+			(at -684.43 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "RC0603FR-07100RL"
+			(at -784.43 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rc0603fr-07100rl/yageo?region=europe"
+			(at -884.43 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "28cc9b4b-0e4b-4e71-8576-818274b9435e")
+		)
+		(pin "1"
+			(uuid "6e8a5c0a-eacf-4b3c-9cfd-16e82f4bcef8")
+		)
+		(instances
+			(project ""
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/29936029-5fc3-43fa-9698-e8fdd966363b"
+					(reference "R5")
 					(unit 1)
 				)
 			)
