@@ -8,6 +8,178 @@
 		(title "STM32 Microcontroller")
 	)
 	(lib_symbols
+		(symbol "Capstone:BLM15AG601SN1D"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FB"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "600Ω@100MHz"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "NFZ15SG152SN10B"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "BLM15_N1D Series EMI Suppression Filter 600+/-25% at 100MHz 300mA @85"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.55"
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Murata Electronics"
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "BLM15AG601SN1D"
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "81-BLM15AG601SN1D"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/BLM15AG601SN1D?qs=%2FjCH2pcB5WLSIF5DG9Nbqw%3D%3D"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "BLM15AG601SN1D"
+				(at 16.51 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/blm15ag601sn1d/murata-manufacturing?region=nac"
+				(at 16.51 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "BLM15AG601SN1D_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Capstone:GRM155R70J104KA01D"
 			(pin_names
 				(hide yes)
@@ -1609,7 +1781,7 @@
 	)
 	(rectangle
 		(start 201.93 87.63)
-		(end 281.94 119.38)
+		(end 281.94 121.92)
 		(stroke
 			(width 0)
 			(type default)
@@ -1643,6 +1815,28 @@
 		)
 		(uuid d48e0971-67ea-49d3-a44a-b33dc2c16b97)
 	)
+	(rectangle
+		(start 201.93 124.46)
+		(end 281.94 158.75)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid fec0197e-fe08-4a5c-bb8c-5190ee315d78)
+	)
+	(text "Analog Noise Filtering"
+		(exclude_from_sim no)
+		(at 224.028 127.508 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "344fc898-25be-41e9-a428-11d1f8cf6dbe")
+	)
 	(text "MCU"
 		(exclude_from_sim no)
 		(at 106.426 17.018 0)
@@ -1655,7 +1849,7 @@
 	)
 	(text "Decoupling"
 		(exclude_from_sim no)
-		(at 213.106 90.17 0)
+		(at 212.852 90.678 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -1673,9 +1867,29 @@
 		)
 		(uuid "ff1a494c-adbd-48a3-a088-3c6d592ec47d")
 	)
+	(text_box "ADC:\nThe included ADC on the STM32F042 has 9 channels. We only need a maximum of 4 channels for 4 different force sensors. They have been routed to channels 0, 1, 5, & 6 shown below."
+		(exclude_from_sim no)
+		(at 163.83 16.51 0)
+		(size 31.75 17.78)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "24128582-970c-4551-abea-c35d585d2ad0")
+	)
 	(text_box "Place these capacitors as close to the VDD, VDDA, and VSS pins on the MCU as possible.\n"
 		(exclude_from_sim no)
-		(at 203.2 92.71 0)
+		(at 203.2 93.98 0)
 		(size 20.32 13.97)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -1692,6 +1906,110 @@
 			(justify left top)
 		)
 		(uuid "299b960b-7a27-4456-9cb0-18e631003f8a")
+	)
+	(text_box "USART:\nPins 8, 9, & 10 have been routed out for a possible USART2 connection. This is important for debugging, as we can output logging data to find any possible bugs during development."
+		(exclude_from_sim no)
+		(at 163.83 36.83 0)
+		(size 31.75 17.78)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "4736cb79-addd-4119-9a14-098c1687ae14")
+	)
+	(text_box "GPIO:\n2 GPIO pins have been routed out from pins 13 & 14. These unused pins should provide future use for any extra features (i.e. indicator LED, buzzer, etc)."
+		(exclude_from_sim no)
+		(at 106.68 36.83 0)
+		(size 31.75 17.78)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "7037c90f-ac18-42de-b9e8-1e339af2fa26")
+	)
+	(text_box "CAN:\nThe CAN Controller pinout is assigned to pin pair PA11/12. However, by default, those pins are assigned pin pair PA9/10. In order to remap PA11/12 to PA9/10, use SYSCFG_CFGR1."
+		(exclude_from_sim no)
+		(at 163.83 116.84 0)
+		(size 31.75 17.78)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "ad2332ea-9749-411e-b95a-c1fc3696221c")
+	)
+	(text_box "To prevent increased noise in weight readings, a ferrite bead between VDD and VDDA should act as a low-pass filter, so digital switching noise gets blocked from VDDA.\n"
+		(exclude_from_sim no)
+		(at 203.2 130.81 0)
+		(size 20.32 24.13)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "d13a60f6-71b1-47c7-a5c4-effad4c34b84")
+	)
+	(text_box "Place ferrite bead as close to decoupling capacitor between VDDA and GND as possible."
+		(exclude_from_sim no)
+		(at 250.19 128.27 0)
+		(size 27.94 11.43)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "e402c15b-f797-48d9-9f21-3a3cf864bd1b")
+	)
+	(no_connect
+		(at 248.92 50.8)
+		(uuid "2bcad964-cc2d-473c-a667-ec51b0e6ea07")
 	)
 	(no_connect
 		(at 130.81 77.47)
@@ -1750,6 +2068,16 @@
 			(type default)
 		)
 		(uuid "1f9846ca-e45c-4d17-b420-8b174482de39")
+	)
+	(wire
+		(pts
+			(xy 245.11 147.32) (xy 233.68 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "233edf53-148f-4826-b890-2050a64e9c7e")
 	)
 	(wire
 		(pts
@@ -1830,16 +2158,6 @@
 			(type default)
 		)
 		(uuid "64a8f163-c00d-465e-9fb0-87794e944756")
-	)
-	(wire
-		(pts
-			(xy 248.92 50.8) (xy 255.27 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e17e55e-cc8f-4515-b5fe-2973506c7c52")
 	)
 	(wire
 		(pts
@@ -1953,6 +2271,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 144.78) (xy 245.11 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4d4c90b-1ba0-4cdc-ae55-db6c0b1192ee")
+	)
+	(wire
+		(pts
 			(xy 229.87 50.8) (xy 236.22 50.8)
 		)
 		(stroke
@@ -2013,6 +2341,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 138.43) (xy 241.3 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4c68aae-b572-43d0-9e01-83fdd2e1e864")
+	)
+	(wire
+		(pts
 			(xy 185.42 71.12) (xy 182.88 71.12)
 		)
 		(stroke
@@ -2020,6 +2358,16 @@
 			(type default)
 		)
 		(uuid "fcd0c114-10c3-4ba7-92da-77d171e56716")
+	)
+	(wire
+		(pts
+			(xy 233.68 147.32) (xy 233.68 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff52c41d-7b67-4bb0-8121-6deee1dec890")
 	)
 	(label "SWCLK"
 		(at 248.92 48.26 0)
@@ -2121,16 +2469,6 @@
 		)
 		(uuid "8eb90012-8eeb-4a7e-ae89-dfc185933a8c")
 	)
-	(label "SWO"
-		(at 251.46 50.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a4137b37-a2b8-4045-a38f-1f6f077b7f32")
-	)
 	(label "SWDIO"
 		(at 166.37 97.79 0)
 		(effects
@@ -2228,8 +2566,8 @@
 		)
 		(uuid "988a1b9d-3e74-45c6-8980-2126d08b3ef9")
 	)
-	(hierarchical_label "BOOT_SEL"
-		(shape bidirectional)
+	(hierarchical_label "BOOT0"
+		(shape input)
 		(at 116.84 90.17 180)
 		(effects
 			(font
@@ -2377,7 +2715,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 234.95 96.52 0)
+		(at 234.95 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2386,7 +2724,7 @@
 		(fields_autoplaced yes)
 		(uuid "152b89f7-d18c-4e97-950c-2250ccdfdba2")
 		(property "Reference" "#PWR022"
-			(at 234.95 100.33 0)
+			(at 234.95 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2395,7 +2733,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 234.95 91.44 0)
+			(at 234.95 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2403,7 +2741,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.95 96.52 0)
+			(at 234.95 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2412,7 +2750,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 96.52 0)
+			(at 234.95 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2421,7 +2759,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 234.95 96.52 0)
+			(at 234.95 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2522,6 +2860,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 241.3 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6236c778-6733-4675-b5c7-3b0e9f838906")
+		(property "Reference" "#PWR026"
+			(at 241.3 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 241.3 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 241.3 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1520771-f2c9-4cac-8789-582db9b3cd63")
+		)
+		(instances
+			(project ""
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/d023421c-1516-46ef-aa61-fab015035186"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 148.59 107.95 0)
 		(unit 1)
@@ -2589,7 +2992,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 252.73 109.22 0)
+		(at 252.73 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2598,7 +3001,7 @@
 		(fields_autoplaced yes)
 		(uuid "6d75a690-2eca-423b-9bdf-259b8a9a9293")
 		(property "Reference" "#PWR020"
-			(at 252.73 115.57 0)
+			(at 252.73 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2607,7 +3010,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 252.73 114.3 0)
+			(at 252.73 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2615,7 +3018,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 252.73 109.22 0)
+			(at 252.73 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2624,7 +3027,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 109.22 0)
+			(at 252.73 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2633,7 +3036,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 252.73 109.22 0)
+			(at 252.73 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2655,7 +3058,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 270.51 109.22 0)
+		(at 270.51 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2664,7 +3067,7 @@
 		(fields_autoplaced yes)
 		(uuid "7426f3a1-cec8-4cbb-978a-c87338e7ba67")
 		(property "Reference" "#PWR021"
-			(at 270.51 115.57 0)
+			(at 270.51 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2673,7 +3076,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 270.51 114.3 0)
+			(at 270.51 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2681,7 +3084,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 270.51 109.22 0)
+			(at 270.51 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2690,7 +3093,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 270.51 109.22 0)
+			(at 270.51 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2699,7 +3102,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 270.51 109.22 0)
+			(at 270.51 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2714,6 +3117,72 @@
 			(project "weight-sensor-pcb"
 				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/d023421c-1516-46ef-aa61-fab015035186"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3VA")
+		(at 233.68 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75f13f2d-68ab-42cc-85b5-4c3c47ca6407")
+		(property "Reference" "#PWR027"
+			(at 233.68 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3VA"
+			(at 233.68 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(at 233.68 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e69270b-8b6c-4223-bb57-0b31626d950e")
+		)
+		(instances
+			(project ""
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/d023421c-1516-46ef-aa61-fab015035186"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -2787,7 +3256,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3VA")
-		(at 270.51 96.52 0)
+		(at 270.51 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2796,7 +3265,7 @@
 		(fields_autoplaced yes)
 		(uuid "84254f9a-4701-42ed-b7a7-cbabf7eec991")
 		(property "Reference" "#PWR019"
-			(at 270.51 100.33 0)
+			(at 270.51 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2805,7 +3274,7 @@
 			)
 		)
 		(property "Value" "+3.3VA"
-			(at 270.51 91.44 0)
+			(at 270.51 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2813,7 +3282,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 270.51 96.52 0)
+			(at 270.51 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2822,7 +3291,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 270.51 96.52 0)
+			(at 270.51 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2831,7 +3300,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 270.51 96.52 0)
+			(at 270.51 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2853,7 +3322,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 234.95 109.22 0)
+		(at 234.95 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2862,7 +3331,7 @@
 		(fields_autoplaced yes)
 		(uuid "891f793f-cf14-4ef5-9d7b-1ed3f3fc785c")
 		(property "Reference" "#PWR023"
-			(at 234.95 115.57 0)
+			(at 234.95 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2871,7 +3340,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 234.95 114.3 0)
+			(at 234.95 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2879,7 +3348,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.95 109.22 0)
+			(at 234.95 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2888,7 +3357,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 109.22 0)
+			(at 234.95 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2897,7 +3366,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 234.95 109.22 0)
+			(at 234.95 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2919,7 +3388,7 @@
 	)
 	(symbol
 		(lib_id "Capstone:GRM155R70J104KA01D")
-		(at 270.51 96.52 270)
+		(at 270.51 97.79 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2928,7 +3397,7 @@
 		(fields_autoplaced yes)
 		(uuid "98ea6f28-3c98-43a3-92ac-30e1f65c8002")
 		(property "Reference" "C6"
-			(at 274.32 101.5999 90)
+			(at 274.32 102.8699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2937,7 +3406,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 274.32 104.1399 90)
+			(at 274.32 105.4099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2946,7 +3415,7 @@
 			)
 		)
 		(property "Footprint" "CAPC1005X70N"
-			(at 174.32 105.41 0)
+			(at 174.32 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2956,7 +3425,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R70J104KA01-01A.pdf"
-			(at 74.32 105.41 0)
+			(at 74.32 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2966,7 +3435,7 @@
 			)
 		)
 		(property "Description" "Capacitor MLCC GRM 0402 100nF 6.3V X7R Murata 0402 GRM 100nF Ceramic Multilayer Capacitor, 6.3 V dc, +125degC, X7R Dielectric,  /-10% SMD"
-			(at 270.51 96.52 0)
+			(at 270.51 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2975,7 +3444,7 @@
 			)
 		)
 		(property "Height" "0.7"
-			(at -125.68 105.41 0)
+			(at -125.68 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2985,7 +3454,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Murata Electronics"
-			(at -225.68 105.41 0)
+			(at -225.68 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2995,7 +3464,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "GRM155R70J104KA01D"
-			(at -325.68 105.41 0)
+			(at -325.68 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3005,7 +3474,7 @@
 			)
 		)
 		(property "Mouser Part Number" "81-GRM155R70J104KA1D"
-			(at -425.68 105.41 0)
+			(at -425.68 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3015,7 +3484,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM155R70J104KA01D?qs=y02iAgv9n61EgJSmMyZ7gQ%3D%3D"
-			(at -525.68 105.41 0)
+			(at -525.68 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3025,7 +3494,7 @@
 			)
 		)
 		(property "Arrow Part Number" "GRM155R70J104KA01D"
-			(at -625.68 105.41 0)
+			(at -625.68 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3035,7 +3504,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/grm155r70j104ka01d/murata-manufacturing?utm_currency=USD&region=nac"
-			(at -725.68 105.41 0)
+			(at -725.68 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3061,7 +3530,7 @@
 	)
 	(symbol
 		(lib_id "Capstone:GRM155R70J105KA12D")
-		(at 234.95 96.52 270)
+		(at 234.95 97.79 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3070,7 +3539,7 @@
 		(fields_autoplaced yes)
 		(uuid "bfdf5c09-4447-463f-8e02-2e82a3434ff4")
 		(property "Reference" "C7"
-			(at 238.76 101.5999 90)
+			(at 238.76 102.8699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3079,7 +3548,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 238.76 104.1399 90)
+			(at 238.76 105.4099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3088,7 +3557,7 @@
 			)
 		)
 		(property "Footprint" "CAPC1005X70N"
-			(at 138.76 105.41 0)
+			(at 138.76 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3098,7 +3567,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R70J105KA12-01A.pdf"
-			(at 38.76 105.41 0)
+			(at 38.76 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3108,7 +3577,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 1.0uF 6.3volts *Derate Voltage/Temp"
-			(at 234.95 96.52 0)
+			(at 234.95 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3117,7 +3586,7 @@
 			)
 		)
 		(property "Height" "0.7"
-			(at -161.24 105.41 0)
+			(at -161.24 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3127,7 +3596,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Murata Electronics"
-			(at -261.24 105.41 0)
+			(at -261.24 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3137,7 +3606,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "GRM155R70J105KA12D"
-			(at -361.24 105.41 0)
+			(at -361.24 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3147,7 +3616,7 @@
 			)
 		)
 		(property "Mouser Part Number" "81-GRM155R70J105KA2D"
-			(at -461.24 105.41 0)
+			(at -461.24 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3157,7 +3626,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM155R70J105KA12D?qs=OXzh9Ga2KBHWfvlODrgZnQ%3D%3D"
-			(at -561.24 105.41 0)
+			(at -561.24 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3167,7 +3636,7 @@
 			)
 		)
 		(property "Arrow Part Number" "GRM155R70J105KA12D"
-			(at -661.24 105.41 0)
+			(at -661.24 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3177,7 +3646,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/grm155r70j105ka12d/murata-manufacturing?utm_currency=USD&region=europe"
-			(at -761.24 105.41 0)
+			(at -761.24 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3335,7 +3804,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 252.73 96.52 0)
+		(at 252.73 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3344,7 +3813,7 @@
 		(fields_autoplaced yes)
 		(uuid "d4083cb7-1707-4fff-ad07-04e873db55a1")
 		(property "Reference" "#PWR014"
-			(at 252.73 100.33 0)
+			(at 252.73 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3353,7 +3822,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 252.73 91.44 0)
+			(at 252.73 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3361,7 +3830,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 252.73 96.52 0)
+			(at 252.73 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3370,7 +3839,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 96.52 0)
+			(at 252.73 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3379,7 +3848,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 252.73 96.52 0)
+			(at 252.73 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3466,17 +3935,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Capstone:GRM155R70J104KA01D")
-		(at 252.73 96.52 270)
+		(lib_id "Capstone:BLM15AG601SN1D")
+		(at 245.11 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fd7ae56c-2f83-4b92-bb5f-ab6a4990454a")
-		(property "Reference" "C5"
-			(at 256.54 101.5999 90)
+		(uuid "e78f4358-6879-4b64-b553-410f0f27c625")
+		(property "Reference" "FB1"
+			(at 261.62 144.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3484,8 +3953,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 256.54 104.1399 90)
+		(property "Value" "600Ω@100MHz"
+			(at 261.62 147.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3493,8 +3962,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC1005X70N"
-			(at 156.54 105.41 0)
+		(property "Footprint" "NFZ15SG152SN10B"
+			(at 261.62 239.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3503,8 +3972,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R70J104KA01-01A.pdf"
-			(at 56.54 105.41 0)
+		(property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb"
+			(at 261.62 339.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3513,8 +3982,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitor MLCC GRM 0402 100nF 6.3V X7R Murata 0402 GRM 100nF Ceramic Multilayer Capacitor, 6.3 V dc, +125degC, X7R Dielectric,  /-10% SMD"
-			(at 252.73 96.52 0)
+		(property "Description" "BLM15_N1D Series EMI Suppression Filter 600+/-25% at 100MHz 300mA @85"
+			(at 245.11 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3522,8 +3991,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.7"
-			(at -143.46 105.41 0)
+		(property "Height" "0.55"
+			(at 261.62 539.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3533,7 +4002,149 @@
 			)
 		)
 		(property "Manufacturer_Name" "Murata Electronics"
-			(at -243.46 105.41 0)
+			(at 261.62 639.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BLM15AG601SN1D"
+			(at 261.62 739.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-BLM15AG601SN1D"
+			(at 261.62 839.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/BLM15AG601SN1D?qs=%2FjCH2pcB5WLSIF5DG9Nbqw%3D%3D"
+			(at 261.62 939.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "BLM15AG601SN1D"
+			(at 261.62 1039.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/blm15ag601sn1d/murata-manufacturing?region=nac"
+			(at 261.62 1139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b548ca04-074a-4c95-bc4a-2cf805ba64ee")
+		)
+		(pin "2"
+			(uuid "b78e45e0-18d3-46d6-a06e-176eddd70aa9")
+		)
+		(instances
+			(project ""
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/d023421c-1516-46ef-aa61-fab015035186"
+					(reference "FB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capstone:GRM155R70J104KA01D")
+		(at 252.73 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd7ae56c-2f83-4b92-bb5f-ab6a4990454a")
+		(property "Reference" "C5"
+			(at 256.54 102.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 256.54 105.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CAPC1005X70N"
+			(at 156.54 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R70J104KA01-01A.pdf"
+			(at 56.54 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor MLCC GRM 0402 100nF 6.3V X7R Murata 0402 GRM 100nF Ceramic Multilayer Capacitor, 6.3 V dc, +125degC, X7R Dielectric,  /-10% SMD"
+			(at 252.73 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.7"
+			(at -143.46 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
+			(at -243.46 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3543,7 +4154,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "GRM155R70J104KA01D"
-			(at -343.46 105.41 0)
+			(at -343.46 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3553,7 +4164,7 @@
 			)
 		)
 		(property "Mouser Part Number" "81-GRM155R70J104KA1D"
-			(at -443.46 105.41 0)
+			(at -443.46 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3563,7 +4174,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM155R70J104KA01D?qs=y02iAgv9n61EgJSmMyZ7gQ%3D%3D"
-			(at -543.46 105.41 0)
+			(at -543.46 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3573,7 +4184,7 @@
 			)
 		)
 		(property "Arrow Part Number" "GRM155R70J104KA01D"
-			(at -643.46 105.41 0)
+			(at -643.46 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3583,7 +4194,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/grm155r70j104ka01d/murata-manufacturing?utm_currency=USD&region=nac"
-			(at -743.46 105.41 0)
+			(at -743.46 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)

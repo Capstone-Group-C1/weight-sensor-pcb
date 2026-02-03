@@ -30,4 +30,10 @@ K
 F http://www.yageo.com/documents/recent/PYu-RC0603_51_RoHS_L_v5.pdf
 $ENDCMP
 #
+$CMP BLM15AG601SN1D
+D BLM15_N1D Series EMI Suppression Filter 600+/-25% at 100MHz 300mA @85
+K
+F http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb
+$ENDCMP
+#
 #End Doc Library
