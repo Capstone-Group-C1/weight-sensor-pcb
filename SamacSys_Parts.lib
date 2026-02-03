@@ -148,4 +148,76 @@ P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
 ENDDRAW
 ENDDEF
 #
+#SamacSys ECAD Model RC0603JR-070RL
+#/238579/1493432/2.50/2/3/Resistor
+DEF RC0603JR-070RL R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "RC0603JR-070RL" 550 150 50 H V L CNN
+F2 "RESC1608X55N" 550 50 50 H I L CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RC0603_51_RoHS_L_v5.pdf" 550 -50 50 H I L CNN
+F4 "YAGEO (PHYCOMP) - RC0603JR-070RL - RES, THICK FILM, 0R, 5%, 0.1W, 0603" 550 -150 50 H I L CNN "Description"
+F5 "0.55" 550 -250 50 H I L CNN "Height"
+F6 "KEMET" 550 -350 50 H I L CNN "Manufacturer_Name"
+F7 "RC0603JR-070RL" 550 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "603-RC0603JR-070RL" 550 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/YAGEO/RC0603JR-070RL?qs=2cAdsCoAWRGWyPcuXgGiXQ%3D%3D" 550 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "RC0603JR-070RL" 550 -750 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/rc0603jr-070rl/yageo?utm_currency=USD&region=nac" 550 -850 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model RC0402FR-07100KL
+#/11497014/1493432/2.50/2/3/Resistor
+DEF RC0402FR-07100KL R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "RC0402FR-07100KL" 550 150 50 H V L CNN
+F2 "RESC1005X40N" 550 50 50 H I L CNN
+F3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" 550 -50 50 H I L CNN
+F4 "RES SMD 100K OHM 1% 1/16W 0402" 550 -150 50 H I L CNN "Description"
+F5 "0.4" 550 -250 50 H I L CNN "Height"
+F6 "垈훇_" 550 -350 50 H I L CNN "Manufacturer_Name"
+F7 "RC0402FR-07100KL" 550 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 550 -550 50 H I L CNN "Mouser Part Number"
+F9 "" 550 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "" 550 -750 50 H I L CNN "Arrow Part Number"
+F11 "" 550 -850 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 54602-908LF
+#/18771205/1493432/2.50/8/2/Connector
+DEF 54602-908LF J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "54602-908LF" 650 200 50 H V L CNN
+F2 "54602908LF" 650 100 50 H I L CNN
+F3 "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/c-bmj-0102.pdf" 650 0 50 H I L CNN
+F4 "Modular Jack, Input Output Connectors, Cat 3 Single Modular Jack, Horizontal, Board Through Mount, 8P8C, 1 Port" 650 -100 50 H I L CNN "Description"
+F5 "12.85" 650 -200 50 H I L CNN "Height"
+F6 "Amphenol Communications Solutions" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "54602-908LF" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "54602-908LF" 650 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/54602-908lf/amphenol-fci?utm_currency=USD&region=nac" 650 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 800 0 200 L 50 50 0 0 P
+X 3 3 0 -100 200 R 50 50 0 0 P
+X 4 4 800 -100 200 L 50 50 0 0 P
+X 5 5 0 -200 200 R 50 50 0 0 P
+X 6 6 800 -200 200 L 50 50 0 0 P
+X 7 7 0 -300 200 R 50 50 0 0 P
+X 8 8 800 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
 #End Library

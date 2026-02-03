@@ -10,6 +10,46 @@
 	(lib_symbols)
 	(wire
 		(pts
+			(xy 209.55 77.47) (xy 209.55 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a1c4166-54d6-46f5-a8e0-0ffb8e3831f4")
+	)
+	(wire
+		(pts
+			(xy 177.8 105.41) (xy 207.01 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0868f49-7ce1-42a9-abc0-1d594ceb327e")
+	)
+	(wire
+		(pts
+			(xy 207.01 80.01) (xy 203.2 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abb90a66-60ce-47fc-88a9-c1a4736b39ac")
+	)
+	(wire
+		(pts
+			(xy 177.8 109.22) (xy 209.55 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd2329ee-8d3e-41b7-b51d-52bbf2c09cec")
+	)
+	(wire
+		(pts
 			(xy 160.02 77.47) (xy 176.53 77.47)
 		)
 		(stroke
@@ -17,6 +57,26 @@
 			(type default)
 		)
 		(uuid "d09ec9db-4a57-4b37-8def-66010106fd54")
+	)
+	(wire
+		(pts
+			(xy 207.01 105.41) (xy 207.01 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f459dcd6-7f07-4245-943a-ba6ad6286af9")
+	)
+	(wire
+		(pts
+			(xy 203.2 77.47) (xy 209.55 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7967d46-edac-442b-ad2b-39779f589680")
 	)
 	(wire
 		(pts
@@ -106,6 +166,68 @@
 			(project "weight-sensor-pcb"
 				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 118.1099 100.3299)
+		(size 59.69 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "475e8643-d62a-4908-a92e-220cf1933ab9")
+		(property "Sheetname" "Connectors"
+			(at 118.1099 99.6183 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connectors.kicad_sch"
+			(at 118.1099 114.8845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CAN_H" bidirectional
+			(at 177.7999 109.22 0)
+			(uuid "76685205-4382-492e-8fd5-1741b2c3a39d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_L" bidirectional
+			(at 177.7999 105.41 0)
+			(uuid "1939777d-d629-4349-a3b2-85e0f0716974")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "weight-sensor-pcb"
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e"
+					(page "6")
 				)
 			)
 		)
