@@ -54,4 +54,22 @@ K
 F https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/c-bmj-0102.pdf
 $ENDCMP
 #
+$CMP OP07CSZ
+D OP07CSZ, Precision Operational Amplifier, 8-Pin SOIC
+K
+F http://www.analog.com/static/imported-files/data_sheets/OP07.pdf
+$ENDCMP
+#
+$CMP INA333AIDGKR
+D Low-Power, Zero-Drift, Precision Instrumentation Amplifier
+K
+F http://www.ti.com/lit/ds/symlink/ina333.pdf
+$ENDCMP
+#
+$CMP HSFPAR004A
+D Resistive Force Sensor 0.82kgf (1.8lbs)
+K
+F https://eu.mouser.com/datasheet/2/15/Alps_09242019_HSFPAR004A_datasheet-1651683.pdf
+$ENDCMP
+#
 #End Doc Library
