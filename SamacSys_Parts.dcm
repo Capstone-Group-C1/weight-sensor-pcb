@@ -72,4 +72,10 @@ K
 F https://eu.mouser.com/datasheet/2/15/Alps_09242019_HSFPAR004A_datasheet-1651683.pdf
 $ENDCMP
 #
+$CMP OPA333AIDR
+D 1.8V, 17A, microPower, precision, zero-drift CMOS op amp
+K
+F http://www.ti.com/lit/gpn/OPA333
+$ENDCMP
+#
 #End Doc Library
