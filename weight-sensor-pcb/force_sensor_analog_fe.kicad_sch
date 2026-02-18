@@ -3407,7 +3407,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0096fb6d-629a-40d7-9c1c-875359fe5a22")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR07"
 			(at 53.34 63.5 0)
 			(effects
 				(font
@@ -3479,7 +3479,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "015ce9d1-db9d-43d3-af4d-7ac2b5cab08e")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR08"
 			(at 78.74 34.29 0)
 			(effects
 				(font
@@ -3550,7 +3550,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "028bdfa7-b52e-421c-830b-fba860d7fcb3")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 90.932 82.042 0)
 			(effects
 				(font
@@ -3619,6 +3619,12 @@
 			(uuid "1e5cad4d-fb78-453e-83b9-99fa969cd41b")
 		)
 		(instances
+			(project "weight-sensor-pcb"
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
+					(reference "U3")
+					(unit 1)
+				)
+			)
 			(project "force_sensor_analog_fe"
 				(path "/d326fe0b-f81f-461c-8be3-8cfa0c7f2e25"
 					(reference "U2")
@@ -3637,7 +3643,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05081f59-efad-466d-87d6-de4372ebeace")
-		(property "Reference" "R12"
+		(property "Reference" "R10"
 			(at 60.96 173.99 90)
 			(effects
 				(font
@@ -3687,6 +3693,12 @@
 			(uuid "a08c1041-fc2c-4669-be9a-41d00ff8a35c")
 		)
 		(instances
+			(project "weight-sensor-pcb"
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
+					(reference "R10")
+					(unit 1)
+				)
+			)
 			(project "force_sensor_analog_fe"
 				(path "/d326fe0b-f81f-461c-8be3-8cfa0c7f2e25"
 					(reference "R12")
@@ -3781,7 +3793,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13871044-691a-47f4-8fff-ee9508341e80")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR02"
 			(at 132.08 77.47 0)
 			(effects
 				(font
@@ -3853,7 +3865,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f10717e-eb30-4358-bdf7-095d08249195")
-		(property "Reference" "IC4"
+		(property "Reference" "IC2"
 			(at 38.1 167.64 0)
 			(effects
 				(font
@@ -3993,6 +4005,12 @@
 			(uuid "594f42ea-25f0-4ff7-8a36-f624c8b48e0f")
 		)
 		(instances
+			(project "weight-sensor-pcb"
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
+					(reference "IC2")
+					(unit 1)
+				)
+			)
 			(project "force_sensor_analog_fe"
 				(path "/d326fe0b-f81f-461c-8be3-8cfa0c7f2e25"
 					(reference "IC4")
@@ -4010,7 +4028,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "25d8efeb-c546-470c-bffd-6421c2b3b9d0")
-		(property "Reference" "J2"
+		(property "Reference" "J6"
 			(at 161.925 16.51 0)
 			(effects
 				(font
@@ -4066,6 +4084,12 @@
 			(uuid "e8bb58bd-685b-4b13-80b2-d07d8e39c238")
 		)
 		(instances
+			(project "weight-sensor-pcb"
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
+					(reference "J6")
+					(unit 1)
+				)
+			)
 			(project "force_sensor_analog_fe"
 				(path "/d326fe0b-f81f-461c-8be3-8cfa0c7f2e25"
 					(reference "J2")
@@ -4084,7 +4108,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ecb112c-d6b4-4734-9dcd-a42560d63a7a")
-		(property "Reference" "R6"
+		(property "Reference" "R12"
 			(at 62.23 86.36 90)
 			(effects
 				(font
@@ -4134,6 +4158,12 @@
 			(uuid "5e69811a-0849-4fef-b62f-be011611a896")
 		)
 		(instances
+			(project "weight-sensor-pcb"
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
+					(reference "R12")
+					(unit 1)
+				)
+			)
 			(project "force_sensor_analog_fe"
 				(path "/d326fe0b-f81f-461c-8be3-8cfa0c7f2e25"
 					(reference "R6")
@@ -4151,7 +4181,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "39728fe8-b0e6-459f-a583-ae1f5a0aed1b")
-		(property "Reference" "J3"
+		(property "Reference" "J5"
 			(at 136.525 38.1 0)
 			(effects
 				(font
@@ -4207,6 +4237,12 @@
 			(uuid "8869a2bb-d7a0-4c73-bd27-39be91a933a7")
 		)
 		(instances
+			(project "weight-sensor-pcb"
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
+					(reference "J5")
+					(unit 1)
+				)
+			)
 			(project "force_sensor_analog_fe"
 				(path "/d326fe0b-f81f-461c-8be3-8cfa0c7f2e25"
 					(reference "J3")
@@ -4225,7 +4261,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3fbbbe46-a40d-42c5-8290-3992c5b90748")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR0106"
 			(at 78.74 77.47 0)
 			(effects
 				(font
@@ -4273,6 +4309,12 @@
 			(uuid "804a406c-e600-4223-aedf-c20e555d78c4")
 		)
 		(instances
+			(project "weight-sensor-pcb"
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
+					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
 			(project "force_sensor_analog_fe"
 				(path "/d326fe0b-f81f-461c-8be3-8cfa0c7f2e25"
 					(reference "#PWR02")
@@ -4291,7 +4333,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "403e3674-319c-4b0b-b413-7140b6207aab")
-		(property "Reference" "R15"
+		(property "Reference" "R20"
 			(at 105.41 127 90)
 			(effects
 				(font
@@ -4341,6 +4383,12 @@
 			(uuid "3c849bf9-0f01-407b-9aaf-0a0db42499dd")
 		)
 		(instances
+			(project "weight-sensor-pcb"
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
+					(reference "R20")
+					(unit 1)
+				)
+			)
 			(project "force_sensor_analog_fe"
 				(path "/d326fe0b-f81f-461c-8be3-8cfa0c7f2e25"
 					(reference "R15")
@@ -4359,7 +4407,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4728504d-1ac0-45c7-81b0-afe66648faa4")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR03"
 			(at 144.78 77.47 0)
 			(effects
 				(font
@@ -4431,7 +4479,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f5a9a1a-5c7d-4c0f-a962-76e7aee40bc7")
-		(property "Reference" "R16"
+		(property "Reference" "R18"
 			(at 104.14 171.45 90)
 			(effects
 				(font
@@ -4481,6 +4529,12 @@
 			(uuid "691fa017-083e-4254-a2c2-7d8cd5428edd")
 		)
 		(instances
+			(project "weight-sensor-pcb"
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
+					(reference "R18")
+					(unit 1)
+				)
+			)
 			(project "force_sensor_analog_fe"
 				(path "/d326fe0b-f81f-461c-8be3-8cfa0c7f2e25"
 					(reference "R16")
@@ -4498,7 +4552,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "50b1b8cf-5760-44f4-95c0-f8556ff43557")
-		(property "Reference" "J4"
+		(property "Reference" "J7"
 			(at 161.925 38.1 0)
 			(effects
 				(font
@@ -4554,6 +4608,12 @@
 			(uuid "0d9be008-1a99-43bd-aa6a-be7d02724fff")
 		)
 		(instances
+			(project "weight-sensor-pcb"
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
+					(reference "J7")
+					(unit 1)
+				)
+			)
 			(project "force_sensor_analog_fe"
 				(path "/d326fe0b-f81f-461c-8be3-8cfa0c7f2e25"
 					(reference "J4")
@@ -4572,7 +4632,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5172d9f1-dad1-4d52-b80c-4964de5d3b98")
-		(property "Reference" "R4"
+		(property "Reference" "R15"
 			(at 83.82 25.4 90)
 			(effects
 				(font
@@ -4622,6 +4682,12 @@
 			(uuid "b9a083ea-74ea-436d-8532-b52e242bdef0")
 		)
 		(instances
+			(project "weight-sensor-pcb"
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
+					(reference "R15")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/d326fe0b-f81f-461c-8be3-8cfa0c7f2e25"
 					(reference "R4")
@@ -4716,7 +4782,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fdd1b17-b006-4015-b0ee-9519bb988689")
-		(property "Reference" "R2"
+		(property "Reference" "R11"
 			(at 62.23 43.18 90)
 			(effects
 				(font
@@ -4766,6 +4832,12 @@
 			(uuid "8a8fcc48-1ec0-4f16-b0c8-dbb6173b919b")
 		)
 		(instances
+			(project "weight-sensor-pcb"
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
+					(reference "R11")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/d326fe0b-f81f-461c-8be3-8cfa0c7f2e25"
 					(reference "R2")
@@ -4858,7 +4930,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "722c3972-62d2-490a-8a75-94d6b5a72bac")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR0103"
 			(at 53.34 149.86 0)
 			(effects
 				(font
@@ -4906,6 +4978,12 @@
 			(uuid "77ad577f-4284-4af8-adb0-d53a4af55827")
 		)
 		(instances
+			(project "weight-sensor-pcb"
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
+					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
 			(project "force_sensor_analog_fe"
 				(path "/d326fe0b-f81f-461c-8be3-8cfa0c7f2e25"
 					(reference "#PWR04")
@@ -4924,7 +5002,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77bd22b2-b69c-4602-b238-0f04448361bc")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR05"
 			(at 135.89 88.9 0)
 			(effects
 				(font
@@ -4996,7 +5074,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d613517-9d4d-44b9-ac08-03b1b45ef2b6")
-		(property "Reference" "IC3"
+		(property "Reference" "IC5"
 			(at 39.37 123.19 0)
 			(effects
 				(font
@@ -5136,6 +5214,12 @@
 			(uuid "69165743-16d1-43e5-838e-eb225a5a984d")
 		)
 		(instances
+			(project "weight-sensor-pcb"
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
+					(reference "IC5")
+					(unit 1)
+				)
+			)
 			(project "force_sensor_analog_fe"
 				(path "/d326fe0b-f81f-461c-8be3-8cfa0c7f2e25"
 					(reference "IC3")
@@ -5154,7 +5238,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7fa97567-cdf8-4d31-9440-79add9b73577")
-		(property "Reference" "IC2"
+		(property "Reference" "IC4"
 			(at 39.37 80.01 0)
 			(effects
 				(font
@@ -5294,6 +5378,12 @@
 			(uuid "d80b455f-9d1b-487e-9caf-e4628205c9b3")
 		)
 		(instances
+			(project "weight-sensor-pcb"
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
+					(reference "IC4")
+					(unit 1)
+				)
+			)
 			(project "force_sensor_analog_fe"
 				(path "/d326fe0b-f81f-461c-8be3-8cfa0c7f2e25"
 					(reference "IC2")
@@ -5312,7 +5402,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84ad4354-18bf-4ed7-970e-d8171d53f94d")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR0102"
 			(at 78.74 120.65 0)
 			(effects
 				(font
@@ -5360,6 +5450,12 @@
 			(uuid "ea782f78-b2bf-4420-b4da-c45ad368df9e")
 		)
 		(instances
+			(project "weight-sensor-pcb"
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
 			(project "force_sensor_analog_fe"
 				(path "/d326fe0b-f81f-461c-8be3-8cfa0c7f2e25"
 					(reference "#PWR06")
@@ -5428,6 +5524,12 @@
 			(uuid "c8294eae-7f24-44d0-a9e5-88defcc8a70b")
 		)
 		(instances
+			(project "weight-sensor-pcb"
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
+					(reference "R9")
+					(unit 1)
+				)
+			)
 			(project "force_sensor_analog_fe"
 				(path "/d326fe0b-f81f-461c-8be3-8cfa0c7f2e25"
 					(reference "R9")
@@ -5446,7 +5548,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f1987f0-f4b1-4147-985c-539309a0fc37")
-		(property "Reference" "R8"
+		(property "Reference" "R19"
 			(at 105.41 83.82 90)
 			(effects
 				(font
@@ -5496,6 +5598,12 @@
 			(uuid "a7f16a42-ee21-4baa-81a8-9d6b878df9df")
 		)
 		(instances
+			(project "weight-sensor-pcb"
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
+					(reference "R19")
+					(unit 1)
+				)
+			)
 			(project "force_sensor_analog_fe"
 				(path "/d326fe0b-f81f-461c-8be3-8cfa0c7f2e25"
 					(reference "R8")
@@ -5514,7 +5622,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ed16b0f-c086-4171-94a9-d7336656a3dc")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR0104"
 			(at 77.47 165.1 0)
 			(effects
 				(font
@@ -5562,6 +5670,12 @@
 			(uuid "7ca7b757-d232-4fbe-b94e-10ebbf58c69b")
 		)
 		(instances
+			(project "weight-sensor-pcb"
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
+					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
 			(project "force_sensor_analog_fe"
 				(path "/d326fe0b-f81f-461c-8be3-8cfa0c7f2e25"
 					(reference "#PWR07")
@@ -5579,7 +5693,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ae50cd80-55ba-43bd-b82e-c645a660ce8f")
-		(property "Reference" "U3"
+		(property "Reference" "U5"
 			(at 90.932 125.222 0)
 			(effects
 				(font
@@ -5648,6 +5762,12 @@
 			(uuid "570c9b71-6790-4f16-86f6-26c6dcfd97ee")
 		)
 		(instances
+			(project "weight-sensor-pcb"
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
+					(reference "U5")
+					(unit 1)
+				)
+			)
 			(project "force_sensor_analog_fe"
 				(path "/d326fe0b-f81f-461c-8be3-8cfa0c7f2e25"
 					(reference "U3")
@@ -5716,6 +5836,12 @@
 			(uuid "8538e2cc-841b-4ffb-8d88-9842a30b8637")
 		)
 		(instances
+			(project "weight-sensor-pcb"
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
+					(reference "R14")
+					(unit 1)
+				)
+			)
 			(project "force_sensor_analog_fe"
 				(path "/d326fe0b-f81f-461c-8be3-8cfa0c7f2e25"
 					(reference "R14")
@@ -5733,7 +5859,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bbe82ffc-ba97-4d47-9d6a-f63001cfe68e")
-		(property "Reference" "U4"
+		(property "Reference" "U1"
 			(at 89.662 169.672 0)
 			(effects
 				(font
@@ -5802,6 +5928,12 @@
 			(uuid "d63e461e-68ab-4bb0-a9a8-e44504098bfd")
 		)
 		(instances
+			(project "weight-sensor-pcb"
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
+					(reference "U1")
+					(unit 1)
+				)
+			)
 			(project "force_sensor_analog_fe"
 				(path "/d326fe0b-f81f-461c-8be3-8cfa0c7f2e25"
 					(reference "U4")
@@ -5819,7 +5951,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c3159b65-800d-4797-9b01-b0f92467bf13")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 90.932 38.862 0)
 			(effects
 				(font
@@ -5888,6 +6020,12 @@
 			(uuid "80d4bc59-abe7-40f9-8f13-b46b6830f6bc")
 		)
 		(instances
+			(project "weight-sensor-pcb"
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
+					(reference "U2")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/d326fe0b-f81f-461c-8be3-8cfa0c7f2e25"
 					(reference "U1")
@@ -5906,7 +6044,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3774fc1-bd14-47de-ae77-7b8c86943656")
-		(property "Reference" "R10"
+		(property "Reference" "R2"
 			(at 38.1 157.48 90)
 			(effects
 				(font
@@ -5956,6 +6094,12 @@
 			(uuid "30a85cbd-0b59-416d-b96a-3b3e7470ec12")
 		)
 		(instances
+			(project "weight-sensor-pcb"
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
+					(reference "R2")
+					(unit 1)
+				)
+			)
 			(project "force_sensor_analog_fe"
 				(path "/d326fe0b-f81f-461c-8be3-8cfa0c7f2e25"
 					(reference "R10")
@@ -5974,7 +6118,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6fdffe0-7bc6-47ac-a2ac-5f338aed951c")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR0105"
 			(at 53.34 106.68 0)
 			(effects
 				(font
@@ -6022,6 +6166,12 @@
 			(uuid "4842b955-01a5-40b9-8a4f-37ec8d3ef790")
 		)
 		(instances
+			(project "weight-sensor-pcb"
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
 			(project "force_sensor_analog_fe"
 				(path "/d326fe0b-f81f-461c-8be3-8cfa0c7f2e25"
 					(reference "#PWR01")
@@ -6040,7 +6190,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c77cd0ed-f1ff-475c-b15d-84c56e313f1d")
-		(property "Reference" "C4"
+		(property "Reference" "C9"
 			(at 83.8263 58.42 90)
 			(effects
 				(font
@@ -6090,6 +6240,12 @@
 			(uuid "236d2750-c780-466e-940f-583bb5778167")
 		)
 		(instances
+			(project "weight-sensor-pcb"
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
+					(reference "C9")
+					(unit 1)
+				)
+			)
 			(project "force_sensor_analog_fe"
 				(path "/d326fe0b-f81f-461c-8be3-8cfa0c7f2e25"
 					(reference "C4")
@@ -6108,7 +6264,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca64bbef-3764-44ba-b847-750285fb6f0f")
-		(property "Reference" "C6"
+		(property "Reference" "C3"
 			(at 82.5563 146.05 90)
 			(effects
 				(font
@@ -6158,6 +6314,12 @@
 			(uuid "62ca35e8-448d-4bb3-86e8-ea1e803d0d9c")
 		)
 		(instances
+			(project "weight-sensor-pcb"
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
+					(reference "C3")
+					(unit 1)
+				)
+			)
 			(project "force_sensor_analog_fe"
 				(path "/d326fe0b-f81f-461c-8be3-8cfa0c7f2e25"
 					(reference "C6")
@@ -6176,7 +6338,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0647619-78f7-49ab-90a6-fe9d15f1b547")
-		(property "Reference" "IC1"
+		(property "Reference" "IC3"
 			(at 39.37 36.83 0)
 			(effects
 				(font
@@ -6339,7 +6501,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d9bb1faf-dd77-4d9a-8d54-7a5c1e01140e")
-		(property "Reference" "J1"
+		(property "Reference" "J3"
 			(at 136.525 16.51 0)
 			(effects
 				(font
@@ -6395,6 +6557,12 @@
 			(uuid "5b32438f-d31b-49a4-ba09-2a541a6c5fb0")
 		)
 		(instances
+			(project "weight-sensor-pcb"
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
+					(reference "J3")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/d326fe0b-f81f-461c-8be3-8cfa0c7f2e25"
 					(reference "J1")
@@ -6413,7 +6581,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd9a1900-3cf2-40f0-ace6-9f6e8bb8580b")
-		(property "Reference" "R3"
+		(property "Reference" "R4"
 			(at 105.41 40.64 90)
 			(effects
 				(font
@@ -6487,7 +6655,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df445844-c800-4ea1-a780-1d16b3015b07")
-		(property "Reference" "C3"
+		(property "Reference" "C4"
 			(at 83.8263 15.24 90)
 			(effects
 				(font
@@ -6537,6 +6705,12 @@
 			(uuid "ee0388de-339e-42f5-8609-957f90e7d6f5")
 		)
 		(instances
+			(project "weight-sensor-pcb"
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
+					(reference "C4")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/d326fe0b-f81f-461c-8be3-8cfa0c7f2e25"
 					(reference "C3")
@@ -6555,7 +6729,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e18c65b4-546c-4ae0-8d99-e154fc0029c1")
-		(property "Reference" "R13"
+		(property "Reference" "R17"
 			(at 83.82 111.76 90)
 			(effects
 				(font
@@ -6605,6 +6779,12 @@
 			(uuid "1b853d58-9a84-46cf-b45f-21b15dfb9a9b")
 		)
 		(instances
+			(project "weight-sensor-pcb"
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
+					(reference "R17")
+					(unit 1)
+				)
+			)
 			(project "force_sensor_analog_fe"
 				(path "/d326fe0b-f81f-461c-8be3-8cfa0c7f2e25"
 					(reference "R13")
@@ -6623,7 +6803,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e217a120-06e0-4baf-abb0-63e76e59dd28")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR0101"
 			(at 52.07 194.31 0)
 			(effects
 				(font
@@ -6671,6 +6851,12 @@
 			(uuid "6aad3886-4c7c-4ad0-a8d2-77fb89ecb3d2")
 		)
 		(instances
+			(project "weight-sensor-pcb"
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
 			(project "force_sensor_analog_fe"
 				(path "/d326fe0b-f81f-461c-8be3-8cfa0c7f2e25"
 					(reference "#PWR05")
@@ -6689,7 +6875,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e713a1e0-916a-4f95-b7e1-5f8e84f9fe1c")
-		(property "Reference" "R7"
+		(property "Reference" "R16"
 			(at 83.82 68.58 90)
 			(effects
 				(font
@@ -6739,6 +6925,12 @@
 			(uuid "cae3efb2-51de-4598-b710-c7e614a301e5")
 		)
 		(instances
+			(project "weight-sensor-pcb"
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
+					(reference "R16")
+					(unit 1)
+				)
+			)
 			(project "force_sensor_analog_fe"
 				(path "/d326fe0b-f81f-461c-8be3-8cfa0c7f2e25"
 					(reference "R7")
@@ -6757,7 +6949,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e741a506-4000-46aa-8c50-c67b63c94a42")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR06"
 			(at 148.59 88.9 0)
 			(effects
 				(font
@@ -6829,7 +7021,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea2abdff-b027-4950-84e6-e99d716df672")
-		(property "Reference" "C5"
+		(property "Reference" "C10"
 			(at 83.8263 101.6 90)
 			(effects
 				(font
@@ -6879,6 +7071,12 @@
 			(uuid "aef579ca-a624-481d-8bb6-471de6c94b67")
 		)
 		(instances
+			(project "weight-sensor-pcb"
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
+					(reference "C10")
+					(unit 1)
+				)
+			)
 			(project "force_sensor_analog_fe"
 				(path "/d326fe0b-f81f-461c-8be3-8cfa0c7f2e25"
 					(reference "C5")
@@ -6897,7 +7095,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa1b1a08-0715-4397-8aa0-81f27e42cafd")
-		(property "Reference" "R5"
+		(property "Reference" "R3"
 			(at 39.37 69.85 90)
 			(effects
 				(font
@@ -6947,6 +7145,12 @@
 			(uuid "f97c1f2c-b382-4d94-8be0-c2b7a04b6f36")
 		)
 		(instances
+			(project "weight-sensor-pcb"
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
+					(reference "R3")
+					(unit 1)
+				)
+			)
 			(project "force_sensor_analog_fe"
 				(path "/d326fe0b-f81f-461c-8be3-8cfa0c7f2e25"
 					(reference "R5")
@@ -6965,7 +7169,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa8d53ff-c181-495c-975f-9a7f6c5e29bb")
-		(property "Reference" "R11"
+		(property "Reference" "R13"
 			(at 62.23 129.54 90)
 			(effects
 				(font
@@ -7015,6 +7219,12 @@
 			(uuid "aa766cf5-c407-4c42-9ab3-8e90af7f3f5a")
 		)
 		(instances
+			(project "weight-sensor-pcb"
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
+					(reference "R13")
+					(unit 1)
+				)
+			)
 			(project "force_sensor_analog_fe"
 				(path "/d326fe0b-f81f-461c-8be3-8cfa0c7f2e25"
 					(reference "R11")

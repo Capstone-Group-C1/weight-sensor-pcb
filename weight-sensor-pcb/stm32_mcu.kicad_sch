@@ -3459,7 +3459,7 @@
 		)
 		(uuid "fc70a95e-7651-4847-ba1b-95ee5da1b3b8")
 	)
-	(hierarchical_label "CAN_TX"
+	(hierarchical_label "CAN_RX"
 		(shape output)
 		(at 185.42 99.06 0)
 		(effects
@@ -3514,7 +3514,7 @@
 		)
 		(uuid "65b883b7-015d-4e19-a3aa-9935063d54b5")
 	)
-	(hierarchical_label "CAN_RX"
+	(hierarchical_label "CAN_TX"
 		(shape input)
 		(at 185.42 95.25 0)
 		(effects
