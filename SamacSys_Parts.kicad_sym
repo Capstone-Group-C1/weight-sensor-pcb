@@ -2,6 +2,724 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
+	(symbol "54602-908LF"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 16.51 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "54602-908LF"
+			(at 16.51 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "54602908LF"
+			(at 16.51 -94.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/c-bmj-0102.pdf"
+			(at 16.51 -194.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Modular Jack, Input Output Connectors, Cat 3 Single Modular Jack, Horizontal, Board Through Mount, 8P8C, 1 Port"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "12.85"
+			(at 16.51 -394.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Amphenol Communications Solutions"
+			(at 16.51 -494.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "54602-908LF"
+			(at 16.51 -594.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 16.51 -694.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 16.51 -794.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "54602-908LF"
+			(at 16.51 -894.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/54602-908lf/amphenol-fci?utm_currency=USD&region=nac"
+			(at 16.51 -994.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(symbol "54602-908LF_1_1"
+			(rectangle
+				(start 5.08 2.54)
+				(end 15.24 -10.16)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5.08)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 0)
+				(length 5.08)
+				(name "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 0)
+				(length 5.08)
+				(name "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -7.62 0)
+				(length 5.08)
+				(name "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20.32 0 180)
+				(length 5.08)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20.32 -2.54 180)
+				(length 5.08)
+				(name "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20.32 -5.08 180)
+				(length 5.08)
+				(name "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20.32 -7.62 180)
+				(length 5.08)
+				(name "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "AP2112K-3.3TRG1"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "IC"
+			(at 26.67 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "AP2112K-3.3TRG1"
+			(at 26.67 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "SOT95P285X140-5N"
+			(at 26.67 -94.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/AP2112.pdf"
+			(at 26.67 -194.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "600mA 3.3V LDO Regulator Enable SOT23-5 DiodesZetex AP2112K-3.3TRG1, LDO Voltage Regulator, 3.3 V +/-1.5%, 2.5  6 Vin, 5-Pin SOT-23"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.4"
+			(at 26.67 -394.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 26.67 -494.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AP2112K-3.3TRG1"
+			(at 26.67 -594.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-AP2112K-3.3TRG1"
+			(at 26.67 -694.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP2112K-3.3TRG1?qs=x6A8l6qLYDDPYHosCdzh%2FA%3D%3D"
+			(at 26.67 -794.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "AP2112K-3.3TRG1"
+			(at 26.67 -894.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ap2112k-3.3trg1/diodes-incorporated?utm_currency=USD&region=europe"
+			(at 26.67 -994.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(symbol "AP2112K-3.3TRG1_1_1"
+			(rectangle
+				(start 5.08 2.54)
+				(end 25.4 -7.62)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5.08)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 0)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 0)
+				(length 5.08)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 0 180)
+				(length 5.08)
+				(name "VOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 30.48 -5.08 180)
+				(length 5.08)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "BAT54KFILM"
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 11.43 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "BAT54KFILM"
+			(at 11.43 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "SODFL1608X70N"
+			(at 11.43 -97.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/bat54.pdf"
+			(at 11.43 -197.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "BAT54KFILM, Schottky Diode,  0.3A max, 40V 5ns, 2-Pin, SOD-523"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.7"
+			(at 11.43 -397.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "STMicroelectronics"
+			(at 11.43 -497.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BAT54KFILM"
+			(at 11.43 -597.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "511-BAT54KFILM"
+			(at 11.43 -697.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/BAT54KFILM?qs=jZi1jxfVU95Y9ce6l3OT%252BA%3D%3D"
+			(at 11.43 -797.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "BAT54KFILM"
+			(at 11.43 -897.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/bat54kfilm/stmicroelectronics?region=europe"
+			(at 11.43 -997.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(symbol "BAT54KFILM_1_1"
+			(polyline
+				(pts
+					(xy 2.54 0) (xy 5.08 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 2.54) (xy 5.08 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 0) (xy 12.7 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 2.54)
+				(name "K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 0 180)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "BLM15AG601SN1D"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -598,6 +1316,512 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "HSFPAR004A"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "IC"
+			(at 26.67 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "HSFPAR004A"
+			(at 26.67 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "HSFPAR004A"
+			(at 26.67 -94.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/15/Alps_09242019_HSFPAR004A_datasheet-1651683.pdf"
+			(at 26.67 -194.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistive Force Sensor 0.82kgf (1.8lbs)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.66"
+			(at 26.67 -394.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ALPS Electric"
+			(at 26.67 -494.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "HSFPAR004A"
+			(at 26.67 -594.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "688-HSFPAR004A"
+			(at 26.67 -694.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/HSFPAR004A?qs=XeJtXLiO41SKORml6bvmQg%3D%3D"
+			(at 26.67 -794.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 26.67 -894.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 26.67 -994.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(symbol "HSFPAR004A_1_1"
+			(rectangle
+				(start 5.08 2.54)
+				(end 25.4 -7.62)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5.08)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 0)
+				(length 5.08)
+				(name "V2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 0)
+				(length 5.08)
+				(name "GND_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 0 180)
+				(length 5.08)
+				(name "V1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 -2.54 180)
+				(length 5.08)
+				(name "GND_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "INA333AIDGKR"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "IC"
+			(at 24.13 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "INA333AIDGKR"
+			(at 24.13 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "SOP65P490X110-8N"
+			(at 24.13 -94.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina333.pdf"
+			(at 24.13 -194.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Zero-Drift, Precision Instrumentation Amplifier"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 24.13 -394.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 24.13 -494.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "INA333AIDGKR"
+			(at 24.13 -594.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-INA333AIDGKR"
+			(at 24.13 -694.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/INA333AIDGKR?qs=nJRxFdq%252BlvaKwfZOdHFpKg%3D%3D"
+			(at 24.13 -794.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "INA333AIDGKR"
+			(at 24.13 -894.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ina333aidgkr/texas-instruments?utm_currency=USD&region=nac"
+			(at 24.13 -994.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(symbol "INA333AIDGKR_1_1"
+			(rectangle
+				(start 5.08 2.54)
+				(end 22.86 -10.16)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5.08)
+				(name "RG_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 0)
+				(length 5.08)
+				(name "VIN-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 0)
+				(length 5.08)
+				(name "VIN+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -7.62 0)
+				(length 5.08)
+				(name "V-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 27.94 0 180)
+				(length 5.08)
+				(name "RG_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 27.94 -2.54 180)
+				(length 5.08)
+				(name "V+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 27.94 -5.08 180)
+				(length 5.08)
+				(name "VOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 27.94 -7.62 180)
+				(length 5.08)
+				(name "REF"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "NE555DR"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -868,6 +2092,566 @@
 					)
 				)
 				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "OP07CSZ"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "IC"
+			(at 39.37 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "OP07CSZ"
+			(at 39.37 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "SOIC127P600X175-8N"
+			(at 39.37 -94.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.analog.com/static/imported-files/data_sheets/OP07.pdf"
+			(at 39.37 -194.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "OP07CSZ, Precision Operational Amplifier, 8-Pin SOIC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 39.37 -394.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Analog Devices"
+			(at 39.37 -494.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "OP07CSZ"
+			(at 39.37 -594.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "584-OP07CSZ"
+			(at 39.37 -694.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices/OP07CSZ?qs=WIvQP4zGanizySAfbhm6qA%3D%3D"
+			(at 39.37 -794.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "OP07CSZ"
+			(at 39.37 -894.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/op07csz/analog-devices?utm_currency=USD&region=europe"
+			(at 39.37 -994.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(symbol "OP07CSZ_1_1"
+			(rectangle
+				(start 5.08 2.54)
+				(end 38.1 -10.16)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5.08)
+				(name "VOS_TRIM_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 0)
+				(length 5.08)
+				(name "-IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 0)
+				(length 5.08)
+				(name "+IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -7.62 0)
+				(length 5.08)
+				(name "V-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 43.18 0 180)
+				(length 5.08)
+				(name "VOS_TRIM_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 43.18 -2.54 180)
+				(length 5.08)
+				(name "V+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 43.18 -5.08 180)
+				(length 5.08)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 43.18 -7.62 180)
+				(length 5.08)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "OPA333AIDR"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "IC"
+			(at 26.67 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "OPA333AIDR"
+			(at 26.67 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "SOIC127P600X175-8N"
+			(at 26.67 -94.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/OPA333"
+			(at 26.67 -194.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.8V, 17A, microPower, precision, zero-drift CMOS op amp"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 26.67 -394.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 26.67 -494.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "OPA333AIDR"
+			(at 26.67 -594.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-OPA333AIDR"
+			(at 26.67 -694.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/OPA333AIDR?qs=7nS3%252BbEUL6tpUjs%252BXnTdhQ%3D%3D"
+			(at 26.67 -794.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "OPA333AIDR"
+			(at 26.67 -894.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/opa333aidr/texas-instruments?utm_currency=USD&region=nac"
+			(at 26.67 -994.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(symbol "OPA333AIDR_1_1"
+			(rectangle
+				(start 5.08 2.54)
+				(end 25.4 -10.16)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5.08)
+				(name "OUT_A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 0)
+				(length 5.08)
+				(name "-IN_A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 0)
+				(length 5.08)
+				(name "+IN_A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -7.62 0)
+				(length 5.08)
+				(name "V-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 0 180)
+				(length 5.08)
+				(name "V+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 -2.54 180)
+				(length 5.08)
+				(name "OUT_B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 -5.08 180)
+				(length 5.08)
+				(name "-IN_B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 -7.62 180)
+				(length 5.08)
+				(name "+IN_B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1403,6 +3187,181 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "RMCF0603FT10K0"
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 13.97 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "10k"
+			(at 13.97 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "RESC1608X55N"
+			(at 13.97 -96.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf"
+			(at 13.97 -196.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES, 0603, 10 Kohm, 1%, 0.1W"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55"
+			(at 13.97 -396.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Stackpole Electronics, Inc."
+			(at 13.97 -496.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RMCF0603FT10K0"
+			(at 13.97 -596.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "708-RMCF0603FT10K0"
+			(at 13.97 -696.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/SEI-Stackpole/RMCF0603FT10K0?qs=eqvyn46aSBQsvdGhIyiuWw%3D%3D"
+			(at 13.97 -796.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "RMCF0603FT10K0"
+			(at 13.97 -896.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rmcf0603ft10k0/stackpole-electronics?utm_currency=USD&region=asia"
+			(at 13.97 -996.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(symbol "RMCF0603FT10K0_1_1"
+			(rectangle
+				(start 5.08 1.27)
+				(end 12.7 -1.27)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5.08)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 17.78 0 180)
+				(length 5.08)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "SN65HVD230DR"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1663,46 +3622,272 @@
 		)
 		(embedded_fonts no)
 	)
-  (symbol "54602-908LF" (in_bom yes) (on_board yes)
-    (property "Reference" "J" (at 16.51 7.62 0)
+  (symbol "BAT30KFILM" (in_bom yes) (on_board yes) (pin_names hide)
+    (property "Reference" "D" (at 11.43 5.08 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (property "Value" "54602-908LF" (at 16.51 5.08 0)
+    (property "Value" "BAT30KFILM" (at 11.43 2.54 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (property "Footprint" "54602908LF" (at 16.51 -94.92 0)
+    (property "Footprint" "SODFL1608X70N" (at 11.43 -97.46 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/c-bmj-0102.pdf" (at 16.51 -194.92 0)
+    (property "Datasheet" "https://www.st.com/resource/en/datasheet/bat30.pdf" (at 11.43 -197.46 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (property "ki_description" "Modular Jack, Input Output Connectors, Cat 3 Single Modular Jack, Horizontal, Board Through Mount, 8P8C, 1 Port" (at 16.51 -294.92 0)
+    (property "ki_description" "STMicroelectronics BAT30KFILM, SMT Schottky Diode, 30V 300mA, 2-Pin SOD-523" (at 11.43 -297.46 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (property "Height" "12.85" (at 16.51 -394.92 0)
+    (property "Height" "0.7" (at 11.43 -397.46 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (property "Manufacturer_Name" "Amphenol Communications Solutions" (at 16.51 -494.92 0)
+    (property "Manufacturer_Name" "STMicroelectronics" (at 11.43 -497.46 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (property "Manufacturer_Part_Number" "54602-908LF" (at 16.51 -594.92 0)
+    (property "Manufacturer_Part_Number" "BAT30KFILM" (at 11.43 -597.46 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (property "Mouser Part Number" "" (at 16.51 -694.92 0)
+    (property "Mouser Part Number" "511-BAT30KFILM" (at 11.43 -697.46 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (property "Mouser Price/Stock" "" (at 16.51 -794.92 0)
+    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/BAT30KFILM?qs=jZi1jxfVU97WgdRkbosYSw%3D%3D" (at 11.43 -797.46 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (property "Arrow Part Number" "54602-908LF" (at 16.51 -894.92 0)
+    (property "Arrow Part Number" "BAT30KFILM" (at 11.43 -897.46 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (property "Arrow Price/Stock" "https://www.arrow.com/en/products/54602-908lf/amphenol-fci?utm_currency=USD&region=nac" (at 16.51 -994.92 0)
+    (property "Arrow Price/Stock" "https://www.arrow.com/en/products/bat30kfilm/stmicroelectronics?utm_currency=USD&region=europe" (at 11.43 -997.46 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (polyline
+      (pts
+        (xy 5.08 2.54)
+        (xy 5.08 -2.54)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 2.54 0)
+        (xy 5.08 0)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 10.16 0)
+        (xy 12.7 0)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 5.08 0)
+        (xy 10.16 2.54)
+        (xy 10.16 -2.54)
+        (xy 5.08 0)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type outline))
+    )
+    (pin passive line (at 0 0 0) (length 2.54)
+      (name "K" (effects (font (size 1.27 1.27))))
+      (number "1" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 15.24 0 180) (length 2.54)
+      (name "A" (effects (font (size 1.27 1.27))))
+      (number "2" (effects (font (size 1.27 1.27))))
+    )
+  )
+  (symbol "DMP3099L-7" (in_bom yes) (on_board yes) (pin_names hide)
+    (property "Reference" "Q" (at 11.43 3.81 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Value" "DMP3099L-7" (at 11.43 1.27 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Footprint" "SOT96P240X115-3N" (at 11.43 -98.73 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Datasheet" "https://www.diodes.com//assets/Datasheets/DMP3099L.pdf" (at 11.43 -198.73 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "ki_description" "Diodes Inc DMP3099L-7 P-channel MOSFET Transistor, 2.9 A, -30 V, 3-Pin SOT-23" (at 11.43 -298.73 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Height" "1.15" (at 11.43 -398.73 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Manufacturer_Name" "Diodes Incorporated" (at 11.43 -498.73 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Manufacturer_Part_Number" "DMP3099L-7" (at 11.43 -598.73 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Mouser Part Number" "621-DMP3099L-7" (at 11.43 -698.73 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMP3099L-7?qs=L1DZKBg7t5HhdiZT7qYxFw%3D%3D" (at 11.43 -798.73 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Arrow Part Number" "DMP3099L-7" (at 11.43 -898.73 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Arrow Price/Stock" "https://www.arrow.com/en/products/dmp3099l-7/diodes-incorporated?utm_currency=USD&region=nac" (at 11.43 -998.73 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (polyline
+      (pts
+        (xy 7.62 2.54)
+        (xy 7.62 -2.54)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 7.62 5.08)
+        (xy 7.62 7.62)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 2.54 0)
+        (xy 5.08 0)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 5.08 5.08)
+        (xy 5.08 0)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 7.62 2.54)
+        (xy 5.842 2.54)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 7.62 5.08)
+        (xy 5.842 5.08)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 5.842 0)
+        (xy 7.62 0)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 5.842 5.588)
+        (xy 5.842 4.572)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 5.842 -0.508)
+        (xy 5.842 0.508)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 5.842 2.032)
+        (xy 5.842 3.048)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type none))
+    )
+    (circle
+      (center 6.35 2.54)
+      (radius 3.81)
+      (stroke (width 0.254) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 7.62 2.54)
+        (xy 6.604 3.048)
+        (xy 6.604 2.032)
+        (xy 7.62 2.54)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type outline))
+    )
+    (pin passive line (at 0 0 0) (length 2.54)
+      (name "G" (effects (font (size 1.27 1.27))))
+      (number "1" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 7.62 10.16 270) (length 2.54)
+      (name "D" (effects (font (size 1.27 1.27))))
+      (number "3" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 7.62 -5.08 90) (length 2.54)
+      (name "S" (effects (font (size 1.27 1.27))))
+      (number "2" (effects (font (size 1.27 1.27))))
+    )
+  )
+  (symbol "DX4R005HJ5R2000" (in_bom yes) (on_board yes)
+    (property "Reference" "J" (at 19.05 7.62 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Value" "DX4R005HJ5R2000" (at 19.05 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Footprint" "DX4R005HJ5R2000" (at 19.05 -94.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Datasheet" "https://www.jae.com/direct/topics/topics_file_download/topics_id=88137&ext_no=06&index=0&_lang=en&v=" (at 19.05 -194.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "ki_description" "(Not Recommended for New Designs.) USB 2.0 micro-B Type, On-Board, Right-angle Standard mount" (at 19.05 -294.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Height" "2.55" (at 19.05 -394.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Manufacturer_Name" "JAE" (at 19.05 -494.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Manufacturer_Part_Number" "DX4R005HJ5R2000" (at 19.05 -594.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Mouser Part Number" "656-DX4R005HJ5R2000" (at 19.05 -694.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JAE-Electronics/DX4R005HJ5R2000?qs=ckml%252BxrUdjRCojuv779Rbg%3D%3D" (at 19.05 -794.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Arrow Part Number" "" (at 19.05 -894.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Arrow Price/Stock" "" (at 19.05 -994.92 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (rectangle
       (start 5.08 2.54)
-      (end 15.24 -10.16)
+      (end 17.78 -12.7)
       (stroke (width 0.254) (type default))
       (fill (type background))
     )
@@ -1710,325 +3895,37 @@
       (name "1" (effects (font (size 1.27 1.27))))
       (number "1" (effects (font (size 1.27 1.27))))
     )
-    (pin passive line (at 20.32 0 180) (length 5.08)
+    (pin passive line (at 0 -2.54 0) (length 5.08)
       (name "2" (effects (font (size 1.27 1.27))))
       (number "2" (effects (font (size 1.27 1.27))))
     )
-    (pin passive line (at 0 -2.54 0) (length 5.08)
+    (pin passive line (at 0 -5.08 0) (length 5.08)
       (name "3" (effects (font (size 1.27 1.27))))
       (number "3" (effects (font (size 1.27 1.27))))
     )
-    (pin passive line (at 20.32 -2.54 180) (length 5.08)
+    (pin passive line (at 0 -7.62 0) (length 5.08)
       (name "4" (effects (font (size 1.27 1.27))))
       (number "4" (effects (font (size 1.27 1.27))))
     )
-    (pin passive line (at 0 -5.08 0) (length 5.08)
+    (pin passive line (at 0 -10.16 0) (length 5.08)
       (name "5" (effects (font (size 1.27 1.27))))
       (number "5" (effects (font (size 1.27 1.27))))
     )
-    (pin passive line (at 20.32 -5.08 180) (length 5.08)
-      (name "6" (effects (font (size 1.27 1.27))))
-      (number "6" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -7.62 0) (length 5.08)
-      (name "7" (effects (font (size 1.27 1.27))))
-      (number "7" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 20.32 -7.62 180) (length 5.08)
-      (name "8" (effects (font (size 1.27 1.27))))
-      (number "8" (effects (font (size 1.27 1.27))))
-    )
-  )
-  (symbol "OP07CSZ" (in_bom yes) (on_board yes)
-    (property "Reference" "IC" (at 39.37 7.62 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (property "Value" "OP07CSZ" (at 39.37 5.08 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (property "Footprint" "SOIC127P600X175-8N" (at 39.37 -94.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Datasheet" "http://www.analog.com/static/imported-files/data_sheets/OP07.pdf" (at 39.37 -194.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "ki_description" "OP07CSZ, Precision Operational Amplifier, 8-Pin SOIC" (at 39.37 -294.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Height" "1.75" (at 39.37 -394.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Manufacturer_Name" "Analog Devices" (at 39.37 -494.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Manufacturer_Part_Number" "OP07CSZ" (at 39.37 -594.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Mouser Part Number" "584-OP07CSZ" (at 39.37 -694.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices/OP07CSZ?qs=WIvQP4zGanizySAfbhm6qA%3D%3D" (at 39.37 -794.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Arrow Part Number" "OP07CSZ" (at 39.37 -894.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Arrow Price/Stock" "https://www.arrow.com/en/products/op07csz/analog-devices?utm_currency=USD&region=europe" (at 39.37 -994.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (rectangle
-      (start 5.08 2.54)
-      (end 38.1 -10.16)
-      (stroke (width 0.254) (type default))
-      (fill (type background))
-    )
-    (pin passive line (at 0 0 0) (length 5.08)
-      (name "VOS_TRIM_1" (effects (font (size 1.27 1.27))))
-      (number "1" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -2.54 0) (length 5.08)
-      (name "-IN" (effects (font (size 1.27 1.27))))
-      (number "2" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -5.08 0) (length 5.08)
-      (name "+IN" (effects (font (size 1.27 1.27))))
-      (number "3" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -7.62 0) (length 5.08)
-      (name "V-" (effects (font (size 1.27 1.27))))
-      (number "4" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 43.18 0 180) (length 5.08)
-      (name "VOS_TRIM_2" (effects (font (size 1.27 1.27))))
-      (number "8" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 43.18 -2.54 180) (length 5.08)
-      (name "V+" (effects (font (size 1.27 1.27))))
-      (number "7" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 43.18 -5.08 180) (length 5.08)
-      (name "OUT" (effects (font (size 1.27 1.27))))
-      (number "6" (effects (font (size 1.27 1.27))))
-    )
-    (pin no_connect line (at 43.18 -7.62 180) (length 5.08)
-      (name "NC" (effects (font (size 1.27 1.27))))
-      (number "5" (effects (font (size 1.27 1.27))))
-    )
-  )
-  (symbol "INA333AIDGKR" (in_bom yes) (on_board yes)
-    (property "Reference" "IC" (at 24.13 7.62 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (property "Value" "INA333AIDGKR" (at 24.13 5.08 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (property "Footprint" "SOP65P490X110-8N" (at 24.13 -94.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina333.pdf" (at 24.13 -194.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "ki_description" "Low-Power, Zero-Drift, Precision Instrumentation Amplifier" (at 24.13 -294.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Height" "1.1" (at 24.13 -394.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Manufacturer_Name" "Texas Instruments" (at 24.13 -494.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Manufacturer_Part_Number" "INA333AIDGKR" (at 24.13 -594.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Mouser Part Number" "595-INA333AIDGKR" (at 24.13 -694.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/INA333AIDGKR?qs=nJRxFdq%252BlvaKwfZOdHFpKg%3D%3D" (at 24.13 -794.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Arrow Part Number" "INA333AIDGKR" (at 24.13 -894.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Arrow Price/Stock" "https://www.arrow.com/en/products/ina333aidgkr/texas-instruments?utm_currency=USD&region=nac" (at 24.13 -994.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (rectangle
-      (start 5.08 2.54)
-      (end 22.86 -10.16)
-      (stroke (width 0.254) (type default))
-      (fill (type background))
-    )
-    (pin passive line (at 0 0 0) (length 5.08)
-      (name "RG_1" (effects (font (size 1.27 1.27))))
-      (number "1" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -2.54 0) (length 5.08)
-      (name "VIN-" (effects (font (size 1.27 1.27))))
-      (number "2" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -5.08 0) (length 5.08)
-      (name "VIN+" (effects (font (size 1.27 1.27))))
-      (number "3" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -7.62 0) (length 5.08)
-      (name "V-" (effects (font (size 1.27 1.27))))
-      (number "4" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 27.94 0 180) (length 5.08)
-      (name "RG_2" (effects (font (size 1.27 1.27))))
-      (number "8" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 27.94 -2.54 180) (length 5.08)
-      (name "V+" (effects (font (size 1.27 1.27))))
-      (number "7" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 27.94 -5.08 180) (length 5.08)
-      (name "VOUT" (effects (font (size 1.27 1.27))))
-      (number "6" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 27.94 -7.62 180) (length 5.08)
-      (name "REF" (effects (font (size 1.27 1.27))))
-      (number "5" (effects (font (size 1.27 1.27))))
-    )
-  )
-  (symbol "HSFPAR004A" (in_bom yes) (on_board yes)
-    (property "Reference" "IC" (at 26.67 7.62 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (property "Value" "HSFPAR004A" (at 26.67 5.08 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (property "Footprint" "HSFPAR004A" (at 26.67 -94.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Datasheet" "https://eu.mouser.com/datasheet/2/15/Alps_09242019_HSFPAR004A_datasheet-1651683.pdf" (at 26.67 -194.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "ki_description" "Resistive Force Sensor 0.82kgf (1.8lbs)" (at 26.67 -294.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Height" "0.66" (at 26.67 -394.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Manufacturer_Name" "ALPS Electric" (at 26.67 -494.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Manufacturer_Part_Number" "HSFPAR004A" (at 26.67 -594.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Mouser Part Number" "688-HSFPAR004A" (at 26.67 -694.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/HSFPAR004A?qs=XeJtXLiO41SKORml6bvmQg%3D%3D" (at 26.67 -794.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Arrow Part Number" "" (at 26.67 -894.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Arrow Price/Stock" "" (at 26.67 -994.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (rectangle
-      (start 5.08 2.54)
-      (end 25.4 -7.62)
-      (stroke (width 0.254) (type default))
-      (fill (type background))
-    )
-    (pin passive line (at 0 0 0) (length 5.08)
-      (name "VDD" (effects (font (size 1.27 1.27))))
-      (number "1" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -2.54 0) (length 5.08)
-      (name "V2" (effects (font (size 1.27 1.27))))
-      (number "2" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -5.08 0) (length 5.08)
-      (name "GND_1" (effects (font (size 1.27 1.27))))
-      (number "3" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 30.48 0 180) (length 5.08)
-      (name "V1" (effects (font (size 1.27 1.27))))
-      (number "4" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 30.48 -2.54 180) (length 5.08)
-      (name "GND_2" (effects (font (size 1.27 1.27))))
-      (number "5" (effects (font (size 1.27 1.27))))
-    )
-  )
-  (symbol "OPA333AIDR" (in_bom yes) (on_board yes)
-    (property "Reference" "IC" (at 26.67 7.62 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (property "Value" "OPA333AIDR" (at 26.67 5.08 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (property "Footprint" "SOIC127P600X175-8N" (at 26.67 -94.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Datasheet" "http://www.ti.com/lit/gpn/OPA333" (at 26.67 -194.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "ki_description" "1.8V, 17A, microPower, precision, zero-drift CMOS op amp" (at 26.67 -294.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Height" "1.75" (at 26.67 -394.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Manufacturer_Name" "Texas Instruments" (at 26.67 -494.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Manufacturer_Part_Number" "OPA333AIDR" (at 26.67 -594.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Mouser Part Number" "595-OPA333AIDR" (at 26.67 -694.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/OPA333AIDR?qs=7nS3%252BbEUL6tpUjs%252BXnTdhQ%3D%3D" (at 26.67 -794.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Arrow Part Number" "OPA333AIDR" (at 26.67 -894.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Arrow Price/Stock" "https://www.arrow.com/en/products/opa333aidr/texas-instruments?utm_currency=USD&region=nac" (at 26.67 -994.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (rectangle
-      (start 5.08 2.54)
-      (end 25.4 -10.16)
-      (stroke (width 0.254) (type default))
-      (fill (type background))
-    )
-    (pin passive line (at 0 0 0) (length 5.08)
-      (name "OUT_A" (effects (font (size 1.27 1.27))))
-      (number "1" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -2.54 0) (length 5.08)
-      (name "-IN_A" (effects (font (size 1.27 1.27))))
-      (number "2" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -5.08 0) (length 5.08)
-      (name "+IN_A" (effects (font (size 1.27 1.27))))
-      (number "3" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -7.62 0) (length 5.08)
-      (name "V-" (effects (font (size 1.27 1.27))))
-      (number "4" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 30.48 0 180) (length 5.08)
-      (name "V+" (effects (font (size 1.27 1.27))))
-      (number "8" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 30.48 -2.54 180) (length 5.08)
-      (name "OUT_B" (effects (font (size 1.27 1.27))))
-      (number "7" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 30.48 -5.08 180) (length 5.08)
-      (name "-IN_B" (effects (font (size 1.27 1.27))))
-      (number "6" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 30.48 -7.62 180) (length 5.08)
-      (name "+IN_B" (effects (font (size 1.27 1.27))))
-      (number "5" (effects (font (size 1.27 1.27))))
+    (pin passive line (at 22.86 0 180) (length 5.08)
+      (name "MP1" (effects (font (size 1.27 1.27))))
+      (number "MP1" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 22.86 -2.54 180) (length 5.08)
+      (name "MP2" (effects (font (size 1.27 1.27))))
+      (number "MP2" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 22.86 -5.08 180) (length 5.08)
+      (name "MP3" (effects (font (size 1.27 1.27))))
+      (number "MP3" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 22.86 -7.62 180) (length 5.08)
+      (name "MP4" (effects (font (size 1.27 1.27))))
+      (number "MP4" (effects (font (size 1.27 1.27))))
     )
   )
 )

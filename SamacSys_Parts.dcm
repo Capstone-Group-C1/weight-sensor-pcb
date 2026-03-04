@@ -78,4 +78,34 @@ K
 F http://www.ti.com/lit/gpn/OPA333
 $ENDCMP
 #
+$CMP AP2112K-3.3TRG1
+D 600mA 3.3V LDO Regulator Enable SOT23-5 DiodesZetex AP2112K-3.3TRG1, LDO Voltage Regulator, 3.3 V +/-1.5%, 2.5  6 Vin, 5-Pin SOT-23
+K
+F https://www.diodes.com//assets/Datasheets/AP2112.pdf
+$ENDCMP
+#
+$CMP BAT54KFILM
+D BAT54KFILM, Schottky Diode,  0.3A max, 40V 5ns, 2-Pin, SOD-523
+K
+F https://www.st.com/resource/en/datasheet/bat54.pdf
+$ENDCMP
+#
+$CMP RMCF0603FT10K0
+D RES, 0603, 10 Kohm, 1%, 0.1W
+K
+F https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf
+$ENDCMP
+#
+$CMP DMP3099L-7
+D Diodes Inc DMP3099L-7 P-channel MOSFET Transistor, 2.9 A, -30 V, 3-Pin SOT-23
+K
+F https://www.diodes.com//assets/Datasheets/DMP3099L.pdf
+$ENDCMP
+#
+$CMP DX4R005HJ5R2000
+D (Not Recommended for New Designs.) USB 2.0 micro-B Type, On-Board, Right-angle Standard mount
+K
+F https://www.jae.com/direct/topics/topics_file_download/topics_id=88137&ext_no=06&index=0&_lang=en&v=
+$ENDCMP
+#
 #End Doc Library

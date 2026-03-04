@@ -2661,6 +2661,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 100.33) (xy 166.37 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0055cb01-9b25-4bd1-b1b6-c4e70177bcd0")
+	)
+	(wire
+		(pts
 			(xy 166.37 85.09) (xy 180.34 85.09)
 		)
 		(stroke
@@ -3011,6 +3021,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 77.47) (xy 166.37 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a40a4634-ac30-4cec-84d7-85ed8766220e")
+	)
+	(wire
+		(pts
 			(xy 177.8 63.5) (xy 177.8 74.93)
 		)
 		(stroke
@@ -3028,6 +3048,16 @@
 			(type default)
 		)
 		(uuid "ade423a9-0cf4-4f3c-bb6f-7d6cd9e17091")
+	)
+	(wire
+		(pts
+			(xy 167.64 80.01) (xy 166.37 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af373492-e729-4765-95e4-d48253f7d6c4")
 	)
 	(wire
 		(pts
@@ -3058,6 +3088,16 @@
 			(type default)
 		)
 		(uuid "b9564d13-3d08-48b0-a241-c9d6bca15cbd")
+	)
+	(wire
+		(pts
+			(xy 167.64 97.79) (xy 166.37 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf066237-27d9-4f18-9ce1-9a5a12fb1180")
 	)
 	(wire
 		(pts
@@ -3161,6 +3201,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 82.55) (xy 166.37 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee590f7a-cf35-4439-bd12-16ea4e3f1da8")
+	)
+	(wire
+		(pts
 			(xy 229.87 48.26) (xy 236.22 48.26)
 		)
 		(stroke
@@ -3260,7 +3310,7 @@
 		(uuid "130190b3-bdc1-4abf-a07c-11f061c0d131")
 	)
 	(label "USART2_TX"
-		(at 166.37 77.47 0)
+		(at 167.64 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3270,7 +3320,7 @@
 		(uuid "17658e9d-287b-4b9c-be23-28e79d995fed")
 	)
 	(label "USART2_CK"
-		(at 166.37 82.55 0)
+		(at 167.64 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3290,7 +3340,7 @@
 		(uuid "35fdefab-2305-4886-bdfc-ea7277e76e9f")
 	)
 	(label "USART2_RX"
-		(at 166.37 80.01 0)
+		(at 167.64 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3400,7 +3450,7 @@
 		(uuid "81104c3d-b393-4b27-a655-a3002e90000a")
 	)
 	(label "SWCLK"
-		(at 166.37 100.33 0)
+		(at 167.64 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3420,7 +3470,7 @@
 		(uuid "bdc33d36-4fda-4f8c-8462-5f000a396861")
 	)
 	(label "SWDIO"
-		(at 166.37 97.79 0)
+		(at 167.64 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)

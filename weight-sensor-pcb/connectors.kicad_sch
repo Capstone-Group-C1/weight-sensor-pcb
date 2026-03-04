@@ -285,70 +285,782 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Capstone:DX4R005HJ5R2000"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 19.05 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "DX4R005HJ5R2000"
+				(at 19.05 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "DX4R005HJ5R2000"
+				(at 19.05 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.jae.com/direct/topics/topics_file_download/topics_id=88137&ext_no=06&index=0&_lang=en&v="
+				(at 19.05 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "(Not Recommended for New Designs.) USB 2.0 micro-B Type, On-Board, Right-angle Standard mount"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "2.55"
+				(at 19.05 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "JAE"
+				(at 19.05 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "DX4R005HJ5R2000"
+				(at 19.05 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "656-DX4R005HJ5R2000"
+				(at 19.05 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JAE-Electronics/DX4R005HJ5R2000?qs=ckml%252BxrUdjRCojuv779Rbg%3D%3D"
+				(at 19.05 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 19.05 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 19.05 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "DX4R005HJ5R2000_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 17.78 -12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 0 180)
+					(length 5.08)
+					(name "MP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -2.54 180)
+					(length 5.08)
+					(name "MP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -5.08 180)
+					(length 5.08)
+					(name "MP3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -7.62 180)
+					(length 5.08)
+					(name "MP4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 62.23 26.035)
+		(end 106.045 55.88)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a7f7768c-f51d-4cd2-9db8-47a6486640ee)
+	)
+	(rectangle
+		(start 108.585 26.035)
+		(end 145.415 64.77)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e861019a-74ff-4279-96ea-70d169ce4f00)
+	)
+	(text "MicroUSB\n"
+		(exclude_from_sim no)
+		(at 118.618 29.464 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "5a3fed8b-e4d5-4d5e-a433-e047f7a4c478")
+	)
+	(text "RJ45"
+		(exclude_from_sim no)
+		(at 68.58 28.956 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "72890b6c-c474-4589-b275-b4300dced842")
+	)
+	(junction
+		(at 139.7 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a4aad92-6ec5-4dd5-9df4-5d00d8f4dc92")
+	)
+	(junction
+		(at 139.7 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "475ea0f8-c125-4045-9ba2-49854dddcdd8")
+	)
+	(junction
+		(at 128.27 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "695be6f8-48e8-44c4-95ee-737ba6b9cbfb")
+	)
+	(junction
+		(at 139.7 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d4aa99c-8608-467f-a0e7-e44dfa6c883e")
 	)
 	(wire
 		(pts
-			(xy 133.35 90.17) (xy 140.97 90.17)
+			(xy 72.39 41.91) (xy 73.66 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0ad2a5f4-06be-4ffe-be20-3a7c98c25892")
+		(uuid "1ef92bab-5a00-4792-b30e-65afb94cb831")
 	)
 	(wire
 		(pts
-			(xy 133.35 78.74) (xy 133.35 90.17)
+			(xy 116.84 55.88) (xy 116.84 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "641008a0-1122-4cc5-84a0-e385d860a1f6")
+		(uuid "2c3334e0-2806-44f3-9756-914a900eb1d9")
 	)
 	(wire
 		(pts
-			(xy 168.91 78.74) (xy 175.26 78.74)
+			(xy 128.27 55.88) (xy 116.84 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9dc53ff7-d6ea-4d42-b246-e27cd91ec0f5")
+		(uuid "5946c057-1941-4c69-a604-d9f583f71de0")
 	)
 	(wire
 		(pts
-			(xy 161.29 90.17) (xy 168.91 90.17)
+			(xy 139.7 45.72) (xy 139.7 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b30bfb8b-be7f-4fc2-8176-045443a42178")
+		(uuid "5dd272bb-4c15-4213-9f2f-b021d5f8414f")
 	)
 	(wire
 		(pts
-			(xy 168.91 90.17) (xy 168.91 78.74)
+			(xy 128.27 57.15) (xy 128.27 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "be854269-b1f4-4433-9436-c7956a55e8ce")
+		(uuid "73de7b56-babd-4fb3-9ca6-413826cc7eae")
 	)
 	(wire
 		(pts
-			(xy 127 78.74) (xy 133.35 78.74)
+			(xy 114.3 48.26) (xy 116.84 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ef5013a1-c45d-49e9-8852-5056c0887704")
+		(uuid "74a46878-2710-48e2-bae1-9b8153c167bd")
+	)
+	(wire
+		(pts
+			(xy 114.3 40.64) (xy 116.84 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86c60c00-c927-4b3c-a50b-8ee39c8eccc6")
+	)
+	(wire
+		(pts
+			(xy 114.3 43.18) (xy 116.84 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88db689e-22f9-40ef-a921-3c640f23b5e1")
+	)
+	(wire
+		(pts
+			(xy 114.3 45.72) (xy 116.84 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba285eb1-05c2-440c-9954-7d9b9bdb6476")
+	)
+	(wire
+		(pts
+			(xy 139.7 43.18) (xy 139.7 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc7d7965-3c5b-45bc-a358-805b3da85e3f")
+	)
+	(wire
+		(pts
+			(xy 93.98 41.91) (xy 95.25 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3522b4b-926e-49af-b72f-bc80e9f76a6e")
+	)
+	(wire
+		(pts
+			(xy 114.3 38.1) (xy 114.3 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df168f60-285e-4956-91ca-262df118a9d9")
+	)
+	(wire
+		(pts
+			(xy 139.7 55.88) (xy 139.7 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e35035ec-14a6-4b1e-ae95-7cadddac9994")
+	)
+	(wire
+		(pts
+			(xy 139.7 40.64) (xy 139.7 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9468b9b-18dd-4ebc-b57d-b5733322c9cb")
+	)
+	(wire
+		(pts
+			(xy 128.27 55.88) (xy 139.7 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2753c55-7478-44a7-9c00-33aa88880906")
+	)
+	(label "D-"
+		(at 114.3 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "01b5f74d-b3e0-4acb-99c4-3d419529192a")
+	)
+	(label "ID"
+		(at 114.3 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3e94bc7d-4543-422c-be6b-5db95bce770f")
+	)
+	(label "D+"
+		(at 114.3 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d1c947c0-0936-4e3d-8a30-360e6f37a77d")
 	)
 	(hierarchical_label "CAN_L"
 		(shape bidirectional)
-		(at 175.26 78.74 0)
+		(at 95.25 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -359,7 +1071,7 @@
 	)
 	(hierarchical_label "CAN_H"
 		(shape bidirectional)
-		(at 127 78.74 180)
+		(at 72.39 41.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -369,8 +1081,301 @@
 		(uuid "b1e97d2f-fce0-48e1-8c43-5e3adab7d856")
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 114.3 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1aa6ecea-3e33-4995-8a99-3abbc2660e42")
+		(property "Reference" "#PWR09"
+			(at 114.3 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 114.3 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 114.3 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e0c4237-08a8-4834-9f23-1213d118641c")
+		)
+		(instances
+			(project ""
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/475e8643-d62a-4908-a92e-220cf1933ab9"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 128.27 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38e7f5db-482b-428b-afce-7d1d557442ed")
+		(property "Reference" "#PWR04"
+			(at 128.27 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.27 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 128.27 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30bfc26c-4583-43c2-8e5a-f025fc82452d")
+		)
+		(instances
+			(project ""
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/475e8643-d62a-4908-a92e-220cf1933ab9"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capstone:DX4R005HJ5R2000")
+		(at 116.84 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5832cb7-7a23-4478-84d2-6eff28149aab")
+		(property "Reference" "J8"
+			(at 128.27 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DX4R005HJ5R2000"
+			(at 128.27 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DX4R005HJ5R2000"
+			(at 135.89 135.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jae.com/direct/topics/topics_file_download/topics_id=88137&ext_no=06&index=0&_lang=en&v="
+			(at 135.89 235.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "(Not Recommended for New Designs.) USB 2.0 micro-B Type, On-Board, Right-angle Standard mount"
+			(at 116.84 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.55"
+			(at 135.89 435.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "JAE"
+			(at 135.89 535.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DX4R005HJ5R2000"
+			(at 135.89 635.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "656-DX4R005HJ5R2000"
+			(at 135.89 735.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JAE-Electronics/DX4R005HJ5R2000?qs=ckml%252BxrUdjRCojuv779Rbg%3D%3D"
+			(at 135.89 835.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 135.89 935.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 135.89 1035.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "MP3"
+			(uuid "847ffeca-3b48-4c9a-8b87-b7fb792d7bdb")
+		)
+		(pin "1"
+			(uuid "2be5c2af-b656-4713-99a6-d603bbc002c8")
+		)
+		(pin "3"
+			(uuid "174481d5-d2d8-4cc8-9543-be81a771720a")
+		)
+		(pin "MP2"
+			(uuid "b2d85065-2a4a-4664-a1bc-cb56b25c6e28")
+		)
+		(pin "MP1"
+			(uuid "be61a801-9cb7-4fc6-bed3-ee18c32c7764")
+		)
+		(pin "2"
+			(uuid "4f85fbbd-1c81-4abd-841c-929b1700a3b7")
+		)
+		(pin "5"
+			(uuid "f3311ddb-9748-4432-ad0a-daefbf88c2b0")
+		)
+		(pin "4"
+			(uuid "ff8873e1-5d4f-4341-8a17-901952e36a4b")
+		)
+		(pin "MP4"
+			(uuid "90b8d012-92e6-4cd5-bda4-f7ae2f176e36")
+		)
+		(instances
+			(project ""
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/475e8643-d62a-4908-a92e-220cf1933ab9"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Capstone:54602-908LF")
-		(at 140.97 90.17 0)
+		(at 73.66 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -379,7 +1384,7 @@
 		(fields_autoplaced yes)
 		(uuid "c6ad6fb7-3411-49ec-96e1-ab0ebbbc5f83")
 		(property "Reference" "J2"
-			(at 151.13 82.55 0)
+			(at 83.82 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -387,7 +1392,7 @@
 			)
 		)
 		(property "Value" "54602-908LF"
-			(at 151.13 85.09 0)
+			(at 83.82 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -395,7 +1400,7 @@
 			)
 		)
 		(property "Footprint" "54602908LF"
-			(at 157.48 185.09 0)
+			(at 90.17 136.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -405,7 +1410,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/c-bmj-0102.pdf"
-			(at 157.48 285.09 0)
+			(at 90.17 236.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -415,7 +1420,7 @@
 			)
 		)
 		(property "Description" "Modular Jack, Input Output Connectors, Cat 3 Single Modular Jack, Horizontal, Board Through Mount, 8P8C, 1 Port"
-			(at 140.97 90.17 0)
+			(at 73.66 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -424,7 +1429,7 @@
 			)
 		)
 		(property "Height" "12.85"
-			(at 157.48 485.09 0)
+			(at 90.17 436.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -434,7 +1439,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Amphenol Communications Solutions"
-			(at 157.48 585.09 0)
+			(at 90.17 536.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -444,7 +1449,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "54602-908LF"
-			(at 157.48 685.09 0)
+			(at 90.17 636.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -454,7 +1459,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 157.48 785.09 0)
+			(at 90.17 736.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -464,7 +1469,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 157.48 885.09 0)
+			(at 90.17 836.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -474,7 +1479,7 @@
 			)
 		)
 		(property "Arrow Part Number" "54602-908LF"
-			(at 157.48 985.09 0)
+			(at 90.17 936.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -484,7 +1489,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/54602-908lf/amphenol-fci?utm_currency=USD&region=nac"
-			(at 157.48 1085.09 0)
+			(at 90.17 1036.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
