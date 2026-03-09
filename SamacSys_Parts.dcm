@@ -108,4 +108,10 @@ K
 F https://www.jae.com/direct/topics/topics_file_download/topics_id=88137&ext_no=06&index=0&_lang=en&v=
 $ENDCMP
 #
+$CMP AP63203WU-7
+D Switching Voltage Regulators DCDC Conv HV Buck TSOT26 T&R 3K
+K
+F https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf
+$ENDCMP
+#
 #End Doc Library
