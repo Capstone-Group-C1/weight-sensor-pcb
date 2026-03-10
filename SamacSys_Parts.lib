@@ -612,4 +612,50 @@ P 5 0 1 6 200 100 800 100 800 -600 200 -600 200 100 N
 ENDDRAW
 ENDDEF
 #
+#SamacSys ECAD Model C2220X164KFRLCAUTO
+#/15440091/1493432/2.50/2/2/Capacitor
+DEF C2220X164KFRLCAUTO C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "C2220X164KFRLCAUTO" 350 150 50 H V L CNN
+F2 "CAPC5950X550N" 350 50 50 H I L CNN
+F3 "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1108_KONNEKT_X7R" 350 -50 50 H I L CNN
+F4 "SMD, MLCC, KONNEKT, Ultra-Stable, Class II" 350 -150 50 H I L CNN "Description"
+F5 "5.5" 350 -250 50 H I L CNN "Height"
+F6 "" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Yageo Group" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "C2220X164KFRLCAUTO" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model C4532C0G1H154J250KA
+#/14634661/1493432/2.50/2/2/Capacitor
+DEF C4532C0G1H154J250KA C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "C4532C0G1H154J250KA" 350 150 50 H V L CNN
+F2 "C4532_Commercial" 350 50 50 H I L CNN
+F3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" 350 -50 50 H I L CNN
+F4 "MULTILAYER CERAMIC CHIP CAPACITORS, 4532, Commercial grade, general (Up to 75V)" 350 -150 50 H I L CNN "Description"
+F5 "2.2" 350 -250 50 H I L CNN "Height"
+F6 "" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "TDK" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "C4532C0G1H154J250KA" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
 #End Library

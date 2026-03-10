@@ -138,4 +138,16 @@ K
 F https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/10118192.pdf
 $ENDCMP
 #
+$CMP C2220X164KFRLCAUTO
+D SMD, MLCC, KONNEKT, Ultra-Stable, Class II
+K
+F https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1108_KONNEKT_X7R
+$ENDCMP
+#
+$CMP C4532C0G1H154J250KA
+D MULTILAYER CERAMIC CHIP CAPACITORS, 4532, Commercial grade, general (Up to 75V)
+K
+F https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf
+$ENDCMP
+#
 #End Doc Library
