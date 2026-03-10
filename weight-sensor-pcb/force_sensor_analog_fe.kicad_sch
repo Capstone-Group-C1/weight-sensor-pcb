@@ -524,6 +524,181 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Capstone:RMCF0603FT10K0"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 13.97 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "10k"
+				(at 13.97 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "RESC1608X55N"
+				(at 13.97 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf"
+				(at 13.97 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "RES, 0603, 10 Kohm, 1%, 0.1W"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.55"
+				(at 13.97 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Stackpole Electronics, Inc."
+				(at 13.97 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "RMCF0603FT10K0"
+				(at 13.97 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "708-RMCF0603FT10K0"
+				(at 13.97 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/SEI-Stackpole/RMCF0603FT10K0?qs=eqvyn46aSBQsvdGhIyiuWw%3D%3D"
+				(at 13.97 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "RMCF0603FT10K0"
+				(at 13.97 -896.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rmcf0603ft10k0/stackpole-electronics?utm_currency=USD&region=asia"
+				(at 13.97 -996.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "RMCF0603FT10K0_1_1"
+				(rectangle
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x04_Socket"
 			(pin_names
 				(offset 1.016)
@@ -1418,18 +1593,6 @@
 		(uuid "14ef8a3a-d6e6-49fa-a6aa-7f748c0ed2dd")
 	)
 	(junction
-		(at 72.39 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2d223844-ebc4-4bfa-b30c-8c19776d1126")
-	)
-	(junction
-		(at 71.12 180.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "37dd3110-1071-4034-8608-21de93162549")
-	)
-	(junction
 		(at 96.52 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1466,16 +1629,22 @@
 		(uuid "5f8aced6-2fc2-45c4-85c2-1b3a889183be")
 	)
 	(junction
-		(at 72.39 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "74134a3a-9f29-4d8d-952e-16d540d5a775")
-	)
-	(junction
 		(at 144.78 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "79f9fd74-e8ce-45ff-b602-e1637da02da1")
+	)
+	(junction
+		(at 72.39 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89baa37e-628a-41cc-a165-d2a9649a7e7c")
+	)
+	(junction
+		(at 71.12 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "911ca508-0b61-46d3-897f-9c3c7cfcca5c")
 	)
 	(junction
 		(at 97.79 118.11)
@@ -1496,6 +1665,12 @@
 		(uuid "b0bb4023-8185-4aa4-85ff-b48c0d88d996")
 	)
 	(junction
+		(at 72.39 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb79f745-6e7a-4069-b1f5-3376e9a51ecb")
+	)
+	(junction
 		(at 72.39 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1505,7 +1680,7 @@
 		(at 72.39 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cd6fb781-b546-4225-95d6-4bd84b60fc41")
+		(uuid "ca201a07-1ab9-4f97-aa92-0dbacab0b3c3")
 	)
 	(junction
 		(at 72.39 74.93)
@@ -1602,16 +1777,6 @@
 			(type default)
 		)
 		(uuid "0e3b1495-081e-44e7-9ebd-bc1ff7817733")
-	)
-	(wire
-		(pts
-			(xy 66.04 49.53) (xy 72.39 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f923773-95b2-48a2-822f-75cab00e347c")
 	)
 	(wire
 		(pts
@@ -1722,6 +1887,16 @@
 			(type default)
 		)
 		(uuid "2a1fa095-938f-42bd-83bb-6bd6d636429b")
+	)
+	(wire
+		(pts
+			(xy 71.12 49.53) (xy 72.39 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b525e2e-f6ce-42d4-b4e1-e54db0e27578")
 	)
 	(wire
 		(pts
@@ -2235,16 +2410,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 135.89) (xy 72.39 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8eb9a5a7-8d78-4030-a3f2-bcf04908db19")
-	)
-	(wire
-		(pts
 			(xy 83.82 38.1) (xy 83.82 39.37)
 		)
 		(stroke
@@ -2255,16 +2420,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 180.34) (xy 71.12 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "901a7555-21db-4769-a041-ec325468f957")
-	)
-	(wire
-		(pts
 			(xy 78.74 127) (xy 78.74 130.81)
 		)
 		(stroke
@@ -2272,16 +2427,6 @@
 			(type default)
 		)
 		(uuid "903095a8-7b67-400e-a530-44de59428436")
-	)
-	(wire
-		(pts
-			(xy 66.04 92.71) (xy 72.39 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9058bec3-e24d-4ed8-a090-00495bdb5d68")
 	)
 	(wire
 		(pts
@@ -2302,6 +2447,16 @@
 			(type default)
 		)
 		(uuid "919d0768-503e-4c2a-b6ae-045432ad1b8e")
+	)
+	(wire
+		(pts
+			(xy 71.12 92.71) (xy 72.39 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92227d5a-b6df-45b7-9507-a14b39da19f2")
 	)
 	(wire
 		(pts
@@ -2353,6 +2508,16 @@
 		)
 		(uuid "995865cd-9058-4216-8375-a0055f0337cf")
 	)
+	(wire
+		(pts
+			(xy 69.85 180.34) (xy 71.12 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c4172e5-8b62-4845-9f22-3e94e9c07289")
+	)
 	(polyline
 		(pts
 			(xy 124.46 13.97) (xy 124.46 54.61)
@@ -2372,16 +2537,6 @@
 			(type default)
 		)
 		(uuid "a110b8ef-4f7d-4754-ab68-4f5e2ed5c77c")
-	)
-	(wire
-		(pts
-			(xy 52.07 180.34) (xy 57.15 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a20db4c0-ce4c-498c-8bb4-c44849627521")
 	)
 	(wire
 		(pts
@@ -2455,16 +2610,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 135.89) (xy 58.42 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae32124e-4716-4392-9ad5-aa644d80abdb")
-	)
-	(wire
-		(pts
 			(xy 72.39 118.11) (xy 72.39 135.89)
 		)
 		(stroke
@@ -2525,6 +2670,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 135.89) (xy 72.39 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3d0c770-4563-4532-8947-ae4047a1a670")
+	)
+	(wire
+		(pts
 			(xy 53.34 95.25) (xy 53.34 100.33)
 		)
 		(stroke
@@ -2582,16 +2737,6 @@
 			(type default)
 		)
 		(uuid "ce33bec9-7191-4d81-b89c-5bbfc86b18b2")
-	)
-	(wire
-		(pts
-			(xy 53.34 92.71) (xy 58.42 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf58c17b-56dd-4aa0-9058-9ba060d3e7bd")
 	)
 	(wire
 		(pts
@@ -2812,16 +2957,6 @@
 			(type default)
 		)
 		(uuid "e972ff7b-0a0d-4808-b835-a1900ca6d7fe")
-	)
-	(wire
-		(pts
-			(xy 53.34 49.53) (xy 58.42 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea0768d0-f164-4a66-bf46-7594e0d01738")
 	)
 	(wire
 		(pts
@@ -3634,80 +3769,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 60.96 180.34 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "05081f59-efad-466d-87d6-de4372ebeace")
-		(property "Reference" "R10"
-			(at 60.96 173.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 60.96 176.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 182.118 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 60.96 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 60.96 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7523011a-57f6-4b71-8706-ed92758a5452")
-		)
-		(pin "1"
-			(uuid "a08c1041-fc2c-4669-be9a-41d00ff8a35c")
-		)
-		(instances
-			(project "weight-sensor-pcb"
-				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-			(project "force_sensor_analog_fe"
-				(path "/d326fe0b-f81f-461c-8be3-8cfa0c7f2e25"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 148.59 77.47 0)
 		(unit 1)
@@ -4099,17 +4160,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 62.23 92.71 90)
+		(lib_id "Capstone:RMCF0603FT10K0")
+		(at 53.34 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2ecb112c-d6b4-4734-9dcd-a42560d63a7a")
-		(property "Reference" "R12"
-			(at 62.23 86.36 90)
+		(uuid "2897ad0c-7017-4f69-ab0c-1ede2437211c")
+		(property "Reference" "R11"
+			(at 62.23 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4117,15 +4178,35 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 62.23 88.9 90)
+			(at 62.23 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 62.23 94.488 90)
+		(property "Footprint" "RESC1608X55N"
+			(at 67.31 188.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf"
+			(at 67.31 288.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES, 0603, 10 Kohm, 1%, 0.1W"
+			(at 53.34 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4133,40 +4214,86 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 62.23 92.71 0)
+		(property "Height" "0.55"
+			(at 67.31 488.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 62.23 92.71 0)
+		(property "Manufacturer_Name" "Stackpole Electronics, Inc."
+			(at 67.31 588.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RMCF0603FT10K0"
+			(at 67.31 688.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "708-RMCF0603FT10K0"
+			(at 67.31 788.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/SEI-Stackpole/RMCF0603FT10K0?qs=eqvyn46aSBQsvdGhIyiuWw%3D%3D"
+			(at 67.31 888.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "RMCF0603FT10K0"
+			(at 67.31 988.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rmcf0603ft10k0/stackpole-electronics?utm_currency=USD&region=asia"
+			(at 67.31 1088.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 				(hide yes)
 			)
 		)
 		(pin "2"
-			(uuid "ba9b8dd8-52fb-4dca-af9e-b67ec90e99ad")
+			(uuid "d9d52c58-0bb8-4e8b-8e6c-e932e2af95ee")
 		)
 		(pin "1"
-			(uuid "5e69811a-0849-4fef-b62f-be011611a896")
+			(uuid "f3b99fa6-c1a7-4a00-9060-512ecdc102b8")
 		)
 		(instances
 			(project "weight-sensor-pcb"
 				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-			(project "force_sensor_analog_fe"
-				(path "/d326fe0b-f81f-461c-8be3-8cfa0c7f2e25"
-					(reference "R6")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -4774,80 +4901,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 62.23 49.53 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5fdd1b17-b006-4015-b0ee-9519bb988689")
-		(property "Reference" "R11"
-			(at 62.23 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 62.23 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 51.308 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 62.23 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 62.23 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a3ee4b16-db9b-4b8d-9fad-f542670a9e1d")
-		)
-		(pin "1"
-			(uuid "8a8fcc48-1ec0-4f16-b0c8-dbb6173b919b")
-		)
-		(instances
-			(project "weight-sensor-pcb"
-				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/d326fe0b-f81f-461c-8be3-8cfa0c7f2e25"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 39.37 33.02 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5059,6 +5112,146 @@
 			(project "force_sensor_analog_fe"
 				(path "/d326fe0b-f81f-461c-8be3-8cfa0c7f2e25"
 					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capstone:RMCF0603FT10K0")
+		(at 53.34 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "793c07de-1a10-403b-9394-cc8aad7831fc")
+		(property "Reference" "R10"
+			(at 62.23 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 62.23 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RESC1608X55N"
+			(at 67.31 145.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf"
+			(at 67.31 245.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES, 0603, 10 Kohm, 1%, 0.1W"
+			(at 53.34 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55"
+			(at 67.31 445.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Stackpole Electronics, Inc."
+			(at 67.31 545.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RMCF0603FT10K0"
+			(at 67.31 645.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "708-RMCF0603FT10K0"
+			(at 67.31 745.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/SEI-Stackpole/RMCF0603FT10K0?qs=eqvyn46aSBQsvdGhIyiuWw%3D%3D"
+			(at 67.31 845.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "RMCF0603FT10K0"
+			(at 67.31 945.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rmcf0603ft10k0/stackpole-electronics?utm_currency=USD&region=asia"
+			(at 67.31 1045.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1e1c85a4-ba50-4d2a-bfad-6dd86601e4f5")
+		)
+		(pin "1"
+			(uuid "50b3eb0a-a63d-4677-9b96-1021bddd6d73")
+		)
+		(instances
+			(project ""
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -5679,6 +5872,146 @@
 			(project "force_sensor_analog_fe"
 				(path "/d326fe0b-f81f-461c-8be3-8cfa0c7f2e25"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capstone:RMCF0603FT10K0")
+		(at 53.34 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2bb6684-ce69-4e1b-8e3b-3d6c304d51a9")
+		(property "Reference" "R12"
+			(at 62.23 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 62.23 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RESC1608X55N"
+			(at 67.31 232.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf"
+			(at 67.31 332.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES, 0603, 10 Kohm, 1%, 0.1W"
+			(at 53.34 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55"
+			(at 67.31 532.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Stackpole Electronics, Inc."
+			(at 67.31 632.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RMCF0603FT10K0"
+			(at 67.31 732.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "708-RMCF0603FT10K0"
+			(at 67.31 832.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/SEI-Stackpole/RMCF0603FT10K0?qs=eqvyn46aSBQsvdGhIyiuWw%3D%3D"
+			(at 67.31 932.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "RMCF0603FT10K0"
+			(at 67.31 1032.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rmcf0603ft10k0/stackpole-electronics?utm_currency=USD&region=asia"
+			(at 67.31 1132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ba94aaad-d8c5-4b1a-bdc7-d4b27fd58bc8")
+		)
+		(pin "1"
+			(uuid "aa183f27-38fb-4b11-b339-bbc866ccf7a2")
+		)
+		(instances
+			(project "weight-sensor-pcb"
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -7160,17 +7493,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 62.23 135.89 90)
+		(lib_id "Capstone:RMCF0603FT10K0")
+		(at 52.07 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fa8d53ff-c181-495c-975f-9a7f6c5e29bb")
+		(uuid "ffc13169-40bc-4e36-bff9-928e731eea64")
 		(property "Reference" "R13"
-			(at 62.23 129.54 90)
+			(at 60.96 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7178,15 +7511,35 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 62.23 132.08 90)
+			(at 60.96 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 62.23 137.668 90)
+		(property "Footprint" "RESC1608X55N"
+			(at 66.04 276.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf"
+			(at 66.04 376.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES, 0603, 10 Kohm, 1%, 0.1W"
+			(at 52.07 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7194,40 +7547,86 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 62.23 135.89 0)
+		(property "Height" "0.55"
+			(at 66.04 576.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 62.23 135.89 0)
+		(property "Manufacturer_Name" "Stackpole Electronics, Inc."
+			(at 66.04 676.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RMCF0603FT10K0"
+			(at 66.04 776.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "708-RMCF0603FT10K0"
+			(at 66.04 876.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/SEI-Stackpole/RMCF0603FT10K0?qs=eqvyn46aSBQsvdGhIyiuWw%3D%3D"
+			(at 66.04 976.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "RMCF0603FT10K0"
+			(at 66.04 1076.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rmcf0603ft10k0/stackpole-electronics?utm_currency=USD&region=asia"
+			(at 66.04 1176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 				(hide yes)
 			)
 		)
 		(pin "2"
-			(uuid "690f65dc-55f9-4668-8d02-72994f969cd7")
+			(uuid "0fc74c2a-5e3d-4dc9-bce4-9901404513f3")
 		)
 		(pin "1"
-			(uuid "aa766cf5-c407-4c42-9ab3-8e90af7f3f5a")
+			(uuid "a25d1ce6-c4f6-42bd-99f3-16ef82daf813")
 		)
 		(instances
 			(project "weight-sensor-pcb"
 				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
 					(reference "R13")
-					(unit 1)
-				)
-			)
-			(project "force_sensor_analog_fe"
-				(path "/d326fe0b-f81f-461c-8be3-8cfa0c7f2e25"
-					(reference "R11")
 					(unit 1)
 				)
 			)

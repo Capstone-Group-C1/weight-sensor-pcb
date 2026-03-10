@@ -132,4 +132,10 @@ K
 F https://abracon.com/Magnetics/new/ASPI-0628.pdf
 $ENDCMP
 #
+$CMP 10118192-0002LF
+D Micro USB 2.0, Input Output Connectors, B TYPE RECEPTACLE without flange
+K
+F https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/10118192.pdf
+$ENDCMP
+#
 #End Doc Library

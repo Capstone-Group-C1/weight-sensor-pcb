@@ -5,6 +5,320 @@
 	(uuid "8472073a-7115-4de4-9c29-cdbccb8e1566")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Capstone:10118192-0002LF"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 21.59 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "10118192-0002LF"
+				(at 21.59 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "101181920002LF"
+				(at 21.59 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/10118192.pdf"
+				(at 21.59 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Micro USB 2.0, Input Output Connectors, B TYPE RECEPTACLE without flange"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "3.08"
+				(at 21.59 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 21.59 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 21.59 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Amphenol Communications Solutions"
+				(at 21.59 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "10118192-0002LF"
+				(at 21.59 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "10118192-0002LF_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 20.32 -15.24)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "MP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 0 180)
+					(length 5.08)
+					(name "MP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -2.54 180)
+					(length 5.08)
+					(name "MP3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -5.08 180)
+					(length 5.08)
+					(name "MP4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -7.62 180)
+					(length 5.08)
+					(name "MP5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -10.16 180)
+					(length 5.08)
+					(name "MP6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Capstone:54602-908LF"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -285,304 +599,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Capstone:DX4R005HJ5R2000"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 19.05 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "DX4R005HJ5R2000"
-				(at 19.05 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "DX4R005HJ5R2000"
-				(at 19.05 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.jae.com/direct/topics/topics_file_download/topics_id=88137&ext_no=06&index=0&_lang=en&v="
-				(at 19.05 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "(Not Recommended for New Designs.) USB 2.0 micro-B Type, On-Board, Right-angle Standard mount"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "2.55"
-				(at 19.05 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "JAE"
-				(at 19.05 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "DX4R005HJ5R2000"
-				(at 19.05 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "656-DX4R005HJ5R2000"
-				(at 19.05 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JAE-Electronics/DX4R005HJ5R2000?qs=ckml%252BxrUdjRCojuv779Rbg%3D%3D"
-				(at 19.05 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" ""
-				(at 19.05 -894.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" ""
-				(at 19.05 -994.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "DX4R005HJ5R2000_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 17.78 -12.7)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -10.16 0)
-					(length 5.08)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 0 180)
-					(length 5.08)
-					(name "MP1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -2.54 180)
-					(length 5.08)
-					(name "MP2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -5.08 180)
-					(length 5.08)
-					(name "MP3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -7.62 180)
-					(length 5.08)
-					(name "MP4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers
@@ -824,7 +840,7 @@
 	)
 	(rectangle
 		(start 108.585 26.035)
-		(end 145.415 64.77)
+		(end 146.685 67.945)
 		(stroke
 			(width 0)
 			(type default)
@@ -855,28 +871,62 @@
 		(uuid "72890b6c-c474-4589-b275-b4300dced842")
 	)
 	(junction
-		(at 139.7 48.26)
+		(at 143.51 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2a4aad92-6ec5-4dd5-9df4-5d00d8f4dc92")
+		(uuid "01b4460e-1892-4832-b8d7-31ba9436e8b3")
 	)
 	(junction
-		(at 139.7 45.72)
+		(at 129.54 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "475ea0f8-c125-4045-9ba2-49854dddcdd8")
+		(uuid "0d11f7bc-f37f-4859-ac56-4c6310703870")
 	)
 	(junction
-		(at 128.27 55.88)
+		(at 143.51 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "695be6f8-48e8-44c4-95ee-737ba6b9cbfb")
+		(uuid "65206c8d-c8d0-4f52-a60e-b90869c29d62")
 	)
 	(junction
-		(at 139.7 43.18)
+		(at 143.51 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6d4aa99c-8608-467f-a0e7-e44dfa6c883e")
+		(uuid "6bc5f989-7afd-4a57-a3fc-6d27adf7b977")
+	)
+	(junction
+		(at 143.51 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc93d5cf-91ae-447f-b538-89e28b0681e2")
+	)
+	(junction
+		(at 115.57 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de76d968-21d6-4394-a930-c3a701536e39")
+	)
+	(no_connect
+		(at 114.3 44.45)
+		(uuid "10399c71-ee63-4c20-8f5e-36caa4b5fe6c")
+	)
+	(no_connect
+		(at 114.3 49.53)
+		(uuid "28b98070-d09d-45df-97ae-931de354a4e2")
+	)
+	(no_connect
+		(at 114.3 46.99)
+		(uuid "3f036a25-acff-48cd-8ab4-3ec906e1b659")
+	)
+	(wire
+		(pts
+			(xy 129.54 59.69) (xy 143.51 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10e83cb6-732b-44c1-a961-4a7f0ff8361e")
 	)
 	(wire
 		(pts
@@ -890,93 +940,163 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 55.88) (xy 116.84 50.8)
+			(xy 143.51 59.69) (xy 143.51 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2c3334e0-2806-44f3-9756-914a900eb1d9")
+		(uuid "1f7d72d8-40ba-4dfa-87a9-dce119b48be3")
 	)
 	(wire
 		(pts
-			(xy 128.27 55.88) (xy 116.84 55.88)
+			(xy 142.24 52.07) (xy 143.51 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5946c057-1941-4c69-a604-d9f583f71de0")
+		(uuid "2e0ae0b7-e7c2-4554-ba4c-b02a5209e29d")
 	)
 	(wire
 		(pts
-			(xy 139.7 45.72) (xy 139.7 48.26)
+			(xy 143.51 46.99) (xy 143.51 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5dd272bb-4c15-4213-9f2f-b021d5f8414f")
+		(uuid "32198e0b-9a2b-4eb2-9f5b-1571ff925587")
 	)
 	(wire
 		(pts
-			(xy 128.27 57.15) (xy 128.27 55.88)
+			(xy 114.3 49.53) (xy 116.84 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "73de7b56-babd-4fb3-9ca6-413826cc7eae")
+		(uuid "39032314-1253-4a47-8e54-8f2ed51880f6")
 	)
 	(wire
 		(pts
-			(xy 114.3 48.26) (xy 116.84 48.26)
+			(xy 116.84 54.61) (xy 115.57 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "74a46878-2710-48e2-bae1-9b8153c167bd")
+		(uuid "3cd7044e-e626-46f1-a894-d34d192d2ca0")
 	)
 	(wire
 		(pts
-			(xy 114.3 40.64) (xy 116.84 40.64)
+			(xy 116.84 52.07) (xy 115.57 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "86c60c00-c927-4b3c-a50b-8ee39c8eccc6")
+		(uuid "4606a066-0f80-4353-93dc-1bb6c5d58a65")
 	)
 	(wire
 		(pts
-			(xy 114.3 43.18) (xy 116.84 43.18)
+			(xy 142.24 44.45) (xy 143.51 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "88db689e-22f9-40ef-a921-3c640f23b5e1")
+		(uuid "5a2feb0b-bcea-41ef-82b4-c449efc5be81")
 	)
 	(wire
 		(pts
-			(xy 114.3 45.72) (xy 116.84 45.72)
+			(xy 115.57 59.69) (xy 129.54 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ba285eb1-05c2-440c-9954-7d9b9bdb6476")
+		(uuid "660a9f6e-5167-45b8-8492-8a9fe54a7898")
 	)
 	(wire
 		(pts
-			(xy 139.7 43.18) (xy 139.7 45.72)
+			(xy 143.51 41.91) (xy 142.24 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bc7d7965-3c5b-45bc-a358-805b3da85e3f")
+		(uuid "6e06a317-a521-4065-a741-475c1c3c28a8")
+	)
+	(wire
+		(pts
+			(xy 114.3 46.99) (xy 116.84 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73a99678-7f60-46d3-b18f-4e710c6d2999")
+	)
+	(wire
+		(pts
+			(xy 143.51 49.53) (xy 143.51 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dd5dc0f-8d28-402d-a0dd-480765e68799")
+	)
+	(wire
+		(pts
+			(xy 142.24 46.99) (xy 143.51 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91e744e3-59bc-496c-a6fa-71e66de2fdb1")
+	)
+	(wire
+		(pts
+			(xy 115.57 52.07) (xy 115.57 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "924c4b66-8a38-469e-87dd-4017dee61440")
+	)
+	(wire
+		(pts
+			(xy 143.51 44.45) (xy 143.51 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f07f308-029e-474b-ac03-5714842b87d6")
+	)
+	(wire
+		(pts
+			(xy 143.51 52.07) (xy 143.51 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a399ab09-5ae1-4217-a945-1a61d5cefc85")
+	)
+	(wire
+		(pts
+			(xy 114.3 44.45) (xy 116.84 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b968632d-22eb-40a9-86f9-719541cfa675")
 	)
 	(wire
 		(pts
@@ -990,73 +1110,83 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 38.1) (xy 114.3 40.64)
+			(xy 142.24 49.53) (xy 143.51 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "df168f60-285e-4956-91ca-262df118a9d9")
+		(uuid "e0f57057-6aad-4acb-9d7b-ab406c93d683")
 	)
 	(wire
 		(pts
-			(xy 139.7 55.88) (xy 139.7 48.26)
+			(xy 111.76 41.91) (xy 116.84 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e35035ec-14a6-4b1e-ae95-7cadddac9994")
+		(uuid "e4f74bcb-8bba-4c0b-a5b3-f315c269c309")
 	)
 	(wire
 		(pts
-			(xy 139.7 40.64) (xy 139.7 43.18)
+			(xy 129.54 59.69) (xy 129.54 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e9468b9b-18dd-4ebc-b57d-b5733322c9cb")
+		(uuid "ec95a6d2-76f0-43a0-8386-53330dcfc5f8")
 	)
 	(wire
 		(pts
-			(xy 128.27 55.88) (xy 139.7 55.88)
+			(xy 111.76 38.1) (xy 111.76 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f2753c55-7478-44a7-9c00-33aa88880906")
+		(uuid "ee195e6e-403f-4ee4-8ae2-db4f2d70678c")
 	)
-	(label "D-"
-		(at 114.3 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+	(wire
+		(pts
+			(xy 115.57 54.61) (xy 115.57 59.69)
 		)
-		(uuid "01b5f74d-b3e0-4acb-99c4-3d419529192a")
-	)
-	(label "ID"
-		(at 114.3 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+		(stroke
+			(width 0)
+			(type default)
 		)
-		(uuid "3e94bc7d-4543-422c-be6b-5db95bce770f")
+		(uuid "ee555d33-92a1-4f8a-8d55-42ba4ec531a8")
 	)
 	(label "D+"
-		(at 114.3 45.72 0)
+		(at 114.3 46.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "d1c947c0-0936-4e3d-8a30-360e6f37a77d")
+		(uuid "87056598-e338-47ac-a513-771f94e0470d")
+	)
+	(label "D-"
+		(at 114.3 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a27614db-e58e-4d0f-8c1f-9549e0ba87b7")
+	)
+	(label "ID"
+		(at 114.3 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d87c20d8-709f-4e40-91a1-6b8c2f3687f3")
 	)
 	(hierarchical_label "CAN_L"
 		(shape bidirectional)
@@ -1081,83 +1211,17 @@
 		(uuid "b1e97d2f-fce0-48e1-8c43-5e3adab7d856")
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 114.3 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1aa6ecea-3e33-4995-8a99-3abbc2660e42")
-		(property "Reference" "#PWR09"
-			(at 114.3 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 114.3 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 114.3 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6e0c4237-08a8-4834-9f23-1213d118641c")
-		)
-		(instances
-			(project ""
-				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/475e8643-d62a-4908-a92e-220cf1933ab9"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 128.27 57.15 0)
+		(at 129.54 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "38e7f5db-482b-428b-afce-7d1d557442ed")
-		(property "Reference" "#PWR04"
-			(at 128.27 63.5 0)
+		(uuid "5388ac37-0836-4e87-a8c0-1b18e65debf0")
+		(property "Reference" "#PWR01"
+			(at 129.54 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1166,7 +1230,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 128.27 62.23 0)
+			(at 129.54 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1174,7 +1238,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 57.15 0)
+			(at 129.54 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1183,7 +1247,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 57.15 0)
+			(at 129.54 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1192,7 +1256,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 128.27 57.15 0)
+			(at 129.54 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1201,55 +1265,45 @@
 			)
 		)
 		(pin "1"
-			(uuid "30bfc26c-4583-43c2-8e5a-f025fc82452d")
+			(uuid "4ac83c7f-0b84-4fcc-aca8-331ea7f0be0f")
 		)
 		(instances
 			(project ""
 				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/475e8643-d62a-4908-a92e-220cf1933ab9"
-					(reference "#PWR04")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Capstone:DX4R005HJ5R2000")
-		(at 116.84 40.64 0)
+		(lib_id "Capstone:10118192-0002LF")
+		(at 116.84 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b5832cb7-7a23-4478-84d2-6eff28149aab")
-		(property "Reference" "J8"
-			(at 128.27 33.02 0)
+		(uuid "569421b0-8308-4f39-86d3-6bc4a918625a")
+		(property "Reference" "J9"
+			(at 129.54 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "DX4R005HJ5R2000"
-			(at 128.27 35.56 0)
+		(property "Value" "10118192-0002LF"
+			(at 129.54 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "DX4R005HJ5R2000"
-			(at 135.89 135.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.jae.com/direct/topics/topics_file_download/topics_id=88137&ext_no=06&index=0&_lang=en&v="
-			(at 135.89 235.56 0)
+		(property "Footprint" "101181920002LF"
+			(at 138.43 136.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1258,17 +1312,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "(Not Recommended for New Designs.) USB 2.0 micro-B Type, On-Board, Right-angle Standard mount"
-			(at 116.84 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "2.55"
-			(at 135.89 435.56 0)
+		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/10118192.pdf"
+			(at 138.43 236.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1277,8 +1322,17 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "JAE"
-			(at 135.89 535.56 0)
+		(property "Description" "Micro USB 2.0, Input Output Connectors, B TYPE RECEPTACLE without flange"
+			(at 116.84 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "3.08"
+			(at 138.43 436.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1287,8 +1341,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "DX4R005HJ5R2000"
-			(at 135.89 635.56 0)
+		(property "Mouser Part Number" ""
+			(at 138.43 536.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1297,8 +1351,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "656-DX4R005HJ5R2000"
-			(at 135.89 735.56 0)
+		(property "Mouser Price/Stock" ""
+			(at 138.43 636.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1307,8 +1361,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JAE-Electronics/DX4R005HJ5R2000?qs=ckml%252BxrUdjRCojuv779Rbg%3D%3D"
-			(at 135.89 835.56 0)
+		(property "Manufacturer_Name" "Amphenol Communications Solutions"
+			(at 138.43 736.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1317,8 +1371,8 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 135.89 935.56 0)
+		(property "Manufacturer_Part_Number" "10118192-0002LF"
+			(at 138.43 836.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1326,48 +1380,110 @@
 				(justify left top)
 				(hide yes)
 			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 135.89 1035.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "MP3"
-			(uuid "847ffeca-3b48-4c9a-8b87-b7fb792d7bdb")
 		)
 		(pin "1"
-			(uuid "2be5c2af-b656-4713-99a6-d603bbc002c8")
-		)
-		(pin "3"
-			(uuid "174481d5-d2d8-4cc8-9543-be81a771720a")
-		)
-		(pin "MP2"
-			(uuid "b2d85065-2a4a-4664-a1bc-cb56b25c6e28")
-		)
-		(pin "MP1"
-			(uuid "be61a801-9cb7-4fc6-bed3-ee18c32c7764")
+			(uuid "d80ea7e7-710c-4ed0-860e-d52c4ff5756f")
 		)
 		(pin "2"
-			(uuid "4f85fbbd-1c81-4abd-841c-929b1700a3b7")
+			(uuid "959aedb8-8f63-4dad-ac75-6a1198076c71")
 		)
-		(pin "5"
-			(uuid "f3311ddb-9748-4432-ad0a-daefbf88c2b0")
+		(pin "3"
+			(uuid "1e7f8575-ab53-4102-9ad9-8bee01082a66")
 		)
 		(pin "4"
-			(uuid "ff8873e1-5d4f-4341-8a17-901952e36a4b")
+			(uuid "acebaa46-04a3-4b7f-91b9-c4156bbc4bd9")
+		)
+		(pin "MP3"
+			(uuid "a870ad2f-022e-47a2-8943-ed23b848b88e")
+		)
+		(pin "MP6"
+			(uuid "4551d10d-678b-4a90-a62c-42ec2636634d")
+		)
+		(pin "5"
+			(uuid "9a3bb419-d8c2-49bb-84b1-1cc5af540ba7")
+		)
+		(pin "MP1"
+			(uuid "c6754d17-5712-406c-86b0-4efe7727ae21")
 		)
 		(pin "MP4"
-			(uuid "90b8d012-92e6-4cd5-bda4-f7ae2f176e36")
+			(uuid "4f527c27-019c-47e9-9da8-f29099baa58a")
+		)
+		(pin "MP2"
+			(uuid "5f7fbc90-2bc0-4db5-9122-a47895f747ba")
+		)
+		(pin "MP5"
+			(uuid "54759165-fd62-4155-82ab-a390c8443c3a")
 		)
 		(instances
 			(project ""
 				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/475e8643-d62a-4908-a92e-220cf1933ab9"
-					(reference "J8")
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 111.76 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84156bfc-067f-4620-8c51-e6ef17dadef9")
+		(property "Reference" "#PWR037"
+			(at 111.76 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 111.76 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 111.76 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44f4971f-18a0-433c-b3a6-eefd58885bcb")
+		)
+		(instances
+			(project ""
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/475e8643-d62a-4908-a92e-220cf1933ab9"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
