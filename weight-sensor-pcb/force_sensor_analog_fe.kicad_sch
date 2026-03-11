@@ -436,6 +436,198 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Capstone:GRM033C71C104KE14D"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "0.1uF"
+				(at 8.89 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "CAPC0603X33N"
+				(at 8.89 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033C71C104KE14-01A.pdf"
+				(at 8.89 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0201 0.10uF 16volts *Derate Voltage/Temp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.33"
+				(at 8.89 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "81-GRM33C71C104KE14D"
+				(at 8.89 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM033C71C104KE14D?qs=P%2FC4Eoq9CDzkjc0H6wJP9A%3D%3D"
+				(at 8.89 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Murata Electronics"
+				(at 8.89 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "GRM033C71C104KE14D"
+				(at 8.89 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "GRM033C71C104KE14D_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.588 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 2.54) (xy 5.588 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 2.54) (xy 7.112 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Capstone:INA333AIDGKR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1066,31 +1258,49 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x04_Socket"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
+		(symbol "Capstone:SM04B-GHS-TB_LF__SN_"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 5.08 0)
+				(at 16.51 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Value" "Conn_01x04_Socket"
-				(at 0 -7.62 0)
+			(property "Value" "SM04B-GHS-TB_LF__SN_"
+				(at 16.51 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "SM04B-GHS-TB"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "JST GH Series, 1.25mm Pitch 4 Way Right Angle PCB Header, Solder Termination, 1A"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1099,151 +1309,72 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
+			(property "Height" ""
+				(at 16.51 -394.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x04, script generated"
-				(at 0 0 0)
+			(property "Mouser Part Number" "N/A"
+				(at 16.51 -494.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST-Commercial/SM04B-GHS-TBLFSN?qs=QpmGXVUTftEJzKB1YHGCXw%3D%3D"
+				(at 16.51 -594.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
+			(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
+				(at 16.51 -694.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x04_Socket_1_1"
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy -0.508 2.54)
+			(property "Manufacturer_Part_Number" "SM04B-GHS-TB(LF)(SN)"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
+					(justify left top)
+					(hide yes)
 				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
+			)
+			(symbol "SM04B-GHS-TB_LF__SN__1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -5.08)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -0.508 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -5.08) (xy -0.508 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 2.032)
-					(mid -0.5058 2.54)
-					(end 0 3.048)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -0.508)
-					(mid -0.5058 0)
-					(end 0 0.508)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -3.048)
-					(mid -0.5058 -2.54)
-					(end 0 -2.032)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -5.588)
-					(mid -0.5058 -5.08)
-					(end 0 -4.572)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1259,9 +1390,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1277,9 +1408,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1295,9 +1426,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_4"
+					(at 20.32 -2.54 180)
+					(length 5.08)
+					(name "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1305,146 +1436,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:C_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.254 1.778 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Small"
-				(at 0.254 -2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "capacitor cap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Small_0_1"
-				(polyline
-					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
-					)
-					(stroke
-						(width 0.3302)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1818,6 +1809,28 @@
 		)
 		(uuid a176f514-b1bb-4fe6-ab5b-fd7537e3a12f)
 	)
+	(rectangle
+		(start 123.19 13.97)
+		(end 190.5 61.595)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e202d0c9-9a44-4d18-8b24-9fad0929cc75)
+	)
+	(text "Load Cell Connections"
+		(exclude_from_sim no)
+		(at 146.05 17.272 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "05470680-b6f9-456b-b9d4-69e674d1b4e2")
+	)
 	(text "Signals S1, S2, S3, and S4 input to ADC\n"
 		(exclude_from_sim no)
 		(at 89.154 190.754 0)
@@ -1840,7 +1853,7 @@
 	)
 	(text "Connector footprints for each of the sensors (needs definition)\nSensors placed in corners of compartment and wired to main PCB\n"
 		(exclude_from_sim no)
-		(at 153.416 57.912 0)
+		(at 156.972 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2000,16 +2013,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 48.26) (xy 140.97 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0144ace1-c772-4fcb-a83b-bf6eda11ed57")
-	)
-	(wire
-		(pts
 			(xy 72.39 64.77) (xy 77.47 64.77)
 		)
 		(stroke
@@ -2110,16 +2113,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 45.72) (xy 140.97 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "142fbd04-a7b3-4e94-a9c5-7a97835bdad1")
-	)
-	(wire
-		(pts
 			(xy 72.39 118.11) (xy 72.39 135.89)
 		)
 		(stroke
@@ -2127,6 +2120,16 @@
 			(type default)
 		)
 		(uuid "14d36639-b047-4905-ab2c-bb6f128f2807")
+	)
+	(wire
+		(pts
+			(xy 135.89 102.87) (xy 135.89 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15e31929-7da8-4ea2-8c6c-29e35180a54e")
 	)
 	(wire
 		(pts
@@ -2200,16 +2203,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 50.8) (xy 140.97 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "293a357b-77c5-40a4-8e2d-b8c32136eb4a")
-	)
-	(wire
-		(pts
 			(xy 96.52 177.8) (xy 100.33 177.8)
 		)
 		(stroke
@@ -2267,16 +2260,6 @@
 			(type default)
 		)
 		(uuid "3420b267-7335-4929-aa08-00abb53a7d1e")
-	)
-	(wire
-		(pts
-			(xy 135.89 78.74) (xy 135.89 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34d96ba4-5f10-406d-94cf-fec0a8a5c627")
 	)
 	(wire
 		(pts
@@ -2377,16 +2360,6 @@
 			(type default)
 		)
 		(uuid "4dff5533-cc84-4de6-b6a2-cf69483c3617")
-	)
-	(wire
-		(pts
-			(xy 142.24 26.67) (xy 140.97 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e258383-7c59-41ae-b26a-2308f514bfb9")
 	)
 	(wire
 		(pts
@@ -2560,16 +2533,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 29.21) (xy 140.97 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69c2af2c-e9d3-48fd-a7f6-6bcee4540f80")
-	)
-	(wire
-		(pts
 			(xy 71.12 152.4) (xy 71.12 162.56)
 		)
 		(stroke
@@ -2590,7 +2553,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 85.09) (xy 135.89 116.84)
+			(xy 135.89 78.74) (xy 135.89 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2617,16 +2580,6 @@
 			(type default)
 		)
 		(uuid "72b74dcf-8c00-4e5b-bf04-0fe0a60eb14d")
-	)
-	(wire
-		(pts
-			(xy 167.64 21.59) (xy 166.37 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "751afcd7-69cb-459d-a2ea-27e5d77ee15d")
 	)
 	(wire
 		(pts
@@ -2660,16 +2613,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 43.18) (xy 140.97 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7da41291-4cbb-476b-9793-e24177fad857")
-	)
-	(wire
-		(pts
 			(xy 21.59 87.63) (xy 25.4 87.63)
 		)
 		(stroke
@@ -2687,16 +2630,6 @@
 			(type default)
 		)
 		(uuid "7e1e06d7-ade6-4d1f-9957-084c14cd2c88")
-	)
-	(polyline
-		(pts
-			(xy 179.07 13.97) (xy 179.07 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "801ed24a-48de-4be1-9011-2bef65763340")
 	)
 	(wire
 		(pts
@@ -2720,16 +2653,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 43.18) (xy 166.37 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8371de21-e81d-440f-9b4b-b97f55bb7025")
-	)
-	(wire
-		(pts
 			(xy 71.12 162.56) (xy 73.66 162.56)
 		)
 		(stroke
@@ -2747,16 +2670,6 @@
 			(type default)
 		)
 		(uuid "88e690ca-50ae-42f1-acca-4f57b49350b0")
-	)
-	(wire
-		(pts
-			(xy 167.64 26.67) (xy 166.37 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b2b50c9-fd14-4c36-800a-d04fbecc649a")
 	)
 	(wire
 		(pts
@@ -2797,16 +2710,6 @@
 			(type default)
 		)
 		(uuid "903095a8-7b67-400e-a530-44de59428436")
-	)
-	(wire
-		(pts
-			(xy 167.64 50.8) (xy 166.37 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90d01eac-69b1-4b87-a471-387f093de459")
 	)
 	(wire
 		(pts
@@ -2868,16 +2771,6 @@
 		)
 		(uuid "9ca8cbca-40f1-4f06-90cc-76a7ac2d2c6f")
 	)
-	(polyline
-		(pts
-			(xy 124.46 13.97) (xy 124.46 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f4629dd-2588-4555-925e-a4a09f8902c2")
-	)
 	(wire
 		(pts
 			(xy 21.59 95.25) (xy 25.4 95.25)
@@ -2917,16 +2810,6 @@
 			(type default)
 		)
 		(uuid "a847bdce-4b9e-444b-875d-bef5159eb6b1")
-	)
-	(wire
-		(pts
-			(xy 142.24 21.59) (xy 140.97 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa06d0b5-e8b6-4cb6-98c4-6ab51da9794c")
 	)
 	(wire
 		(pts
@@ -3040,16 +2923,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 29.21) (xy 166.37 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c59ad4d4-a2e7-49e8-8e60-c189b42e77bd")
-	)
-	(wire
-		(pts
 			(xy 21.59 90.17) (xy 25.4 90.17)
 		)
 		(stroke
@@ -3080,16 +2953,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 45.72) (xy 166.37 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce33bec9-7191-4d81-b89c-5bbfc86b18b2")
-	)
-	(wire
-		(pts
 			(xy 72.39 64.77) (xy 72.39 76.2)
 		)
 		(stroke
@@ -3107,26 +2970,6 @@
 			(type default)
 		)
 		(uuid "d2355eec-ea72-4b74-b77a-f12afb3e55da")
-	)
-	(wire
-		(pts
-			(xy 167.64 48.26) (xy 166.37 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3998e0e-ff3f-40d1-8b4f-b13392d30bcc")
-	)
-	(wire
-		(pts
-			(xy 142.24 24.13) (xy 140.97 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d47517ca-39f2-4dda-a216-a48fc3d75143")
 	)
 	(wire
 		(pts
@@ -3180,16 +3023,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 24.13) (xy 166.37 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dcddf377-736b-4971-8c21-fec55473f4ae")
-	)
-	(wire
-		(pts
 			(xy 71.12 152.4) (xy 76.2 152.4)
 		)
 		(stroke
@@ -3207,16 +3040,6 @@
 			(type default)
 		)
 		(uuid "df148305-c2f0-4db1-ba1d-e3d78e085bee")
-	)
-	(polyline
-		(pts
-			(xy 179.07 54.61) (xy 124.46 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfdeb2b0-f4da-46da-9888-ab1bf4393fbc")
 	)
 	(wire
 		(pts
@@ -3237,16 +3060,6 @@
 			(type default)
 		)
 		(uuid "e2e1d966-3eb8-4a0f-b70c-b9265c14b631")
-	)
-	(polyline
-		(pts
-			(xy 124.46 13.97) (xy 179.07 13.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3a7178a-95c2-4f28-9632-032fa475bc59")
 	)
 	(wire
 		(pts
@@ -3379,7 +3192,7 @@
 		(uuid "0019cb60-1928-4384-93f0-b2305dd0b9ea")
 	)
 	(label "V1i-"
-		(at 142.24 29.21 0)
+		(at 151.13 29.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3387,6 +3200,16 @@
 			(justify left bottom)
 		)
 		(uuid "0fb3e5a6-d41b-4273-af2b-ad6e6e1ca056")
+	)
+	(label "V2i-"
+		(at 151.13 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "10c0aa4e-bd8a-46c1-909f-075b13f0b594")
 	)
 	(label "Vcc-"
 		(at 83.82 99.06 0)
@@ -3408,6 +3231,16 @@
 		)
 		(uuid "1b238f93-cef7-4105-b4c9-856c6f8c2dd5")
 	)
+	(label "V4i-"
+		(at 184.15 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "20b1d537-f538-4af8-bad9-d8e2ca7b486e")
+	)
 	(label "Vcc+"
 		(at 83.82 38.1 0)
 		(effects
@@ -3419,44 +3252,24 @@
 		(uuid "249c41db-ab98-45f9-b41a-96a7df48e521")
 	)
 	(label "V1i+"
-		(at 142.24 26.67 0)
+		(at 130.81 31.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "26601631-0cba-4ac9-8e47-0e9d4cbd1c46")
 	)
 	(label "Vcc+"
-		(at 142.24 43.18 0)
+		(at 163.83 29.21 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "2b095adb-402a-4ef2-96de-fc933ccf0d18")
-	)
-	(label "V4i-"
-		(at 167.64 50.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2c1f1ccc-2bad-41dd-b09f-abaf0e830856")
-	)
-	(label "V2i-"
-		(at 142.24 50.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "412c31ef-0aaf-4b7a-ad01-53a7dca3dc55")
+		(uuid "4317529f-51a3-4a35-9e58-679e9ad8867a")
 	)
 	(label "Vcc+"
 		(at 83.82 124.46 0)
@@ -3469,14 +3282,14 @@
 		(uuid "4c699d29-3be0-44e6-8fed-52e614b86faf")
 	)
 	(label "Vcc-"
-		(at 142.24 45.72 0)
+		(at 184.15 31.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "55521988-a38f-444b-9ad1-ad9375034ec5")
+		(uuid "54f9fdeb-5275-40e3-b5a1-b26ca5cb9246")
 	)
 	(label "Vcc-"
 		(at 21.59 95.25 0)
@@ -3499,24 +3312,14 @@
 		(uuid "63c3d74a-780b-4527-9247-f3d26989568a")
 	)
 	(label "Vcc-"
-		(at 167.64 45.72 0)
+		(at 151.13 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "64b48f87-b46e-41ff-8db9-3c8776aa0ac5")
-	)
-	(label "V2i+"
-		(at 142.24 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6829c569-f931-4db1-852b-e40b7d767b48")
+		(uuid "6558dcb7-2d46-4ae9-bc9a-79dd9e6dcc76")
 	)
 	(label "Vcc+"
 		(at 54.61 46.99 0)
@@ -3559,16 +3362,6 @@
 		(uuid "719d3d9c-3e19-41ff-9f8b-232dcef34eac")
 	)
 	(label "Vcc-"
-		(at 167.64 24.13 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "75095f9a-5f36-4f77-a8de-06c0df55b8b9")
-	)
-	(label "Vcc-"
 		(at 83.82 55.88 0)
 		(effects
 			(font
@@ -3577,6 +3370,16 @@
 			(justify left bottom)
 		)
 		(uuid "786dea55-d9f9-45da-a06c-7733bce61b43")
+	)
+	(label "V3i-"
+		(at 184.15 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "78ad6210-c193-46e5-bf35-7156a8a57d28")
 	)
 	(label "V1i-"
 		(at 21.59 46.99 0)
@@ -3609,7 +3412,7 @@
 		(uuid "87ac503a-3b51-4dd7-9b9d-6fcf39c6829b")
 	)
 	(label "Vcc-"
-		(at 142.24 24.13 0)
+		(at 151.13 31.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3617,16 +3420,6 @@
 			(justify left bottom)
 		)
 		(uuid "89dcdcbc-1d57-41ec-b592-8d0e1fe73a25")
-	)
-	(label "V3i+"
-		(at 167.64 26.67 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9e8249c0-c6b0-4cf6-81e0-b2b03f59b007")
 	)
 	(label "Vcc-"
 		(at 140.97 116.84 0)
@@ -3647,16 +3440,6 @@
 			(justify left bottom)
 		)
 		(uuid "a9e7950e-7a4c-4edc-bae4-b5ddf717862a")
-	)
-	(label "Vcc+"
-		(at 167.64 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "acef8913-3849-4a59-a253-fb384efb68ee")
 	)
 	(label "Vcc+"
 		(at 82.55 168.91 0)
@@ -3688,6 +3471,16 @@
 		)
 		(uuid "b7022ab8-500d-4670-a24f-0e0463718bc4")
 	)
+	(label "V3i+"
+		(at 163.83 31.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b9e1444d-75b6-4b95-92c5-7076f690900c")
+	)
 	(label "Vcc+"
 		(at 129.54 90.17 0)
 		(effects
@@ -3709,12 +3502,12 @@
 		(uuid "c69fdd16-ac52-4e76-8a01-2d7fe6316007")
 	)
 	(label "Vcc+"
-		(at 142.24 21.59 0)
+		(at 130.81 29.21 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "cbe204d1-99ee-415f-b41b-5e52c1609875")
 	)
@@ -3728,15 +3521,35 @@
 		)
 		(uuid "cc0a99f9-9f57-4352-9bba-8acd20bdad1a")
 	)
-	(label "V3i-"
-		(at 167.64 29.21 0)
+	(label "Vcc+"
+		(at 130.81 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cd049917-bbdd-4a70-971f-ba3cc3441517")
+	)
+	(label "Vcc-"
+		(at 184.15 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "d979e224-5a86-4c17-b50d-b85ce20120c1")
+		(uuid "d095405c-0bc2-4ce6-a2b4-3456ebd53b8c")
+	)
+	(label "V4i+"
+		(at 163.83 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "daffa37e-8928-46da-ac3c-4327b7a380b5")
 	)
 	(label "Vcc+"
 		(at 83.82 81.28 0)
@@ -3748,15 +3561,15 @@
 		)
 		(uuid "ddb73567-673e-4bab-880d-0cbf0a6e1950")
 	)
-	(label "Vcc+"
-		(at 167.64 21.59 0)
+	(label "V2i+"
+		(at 130.81 52.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "e3e68034-f485-4c51-b540-499d84aa5dc0")
+		(uuid "e4592df4-707f-4b16-9b8d-fe6e60abf00c")
 	)
 	(label "Vcc-"
 		(at 21.59 138.43 0)
@@ -3778,15 +3591,15 @@
 		)
 		(uuid "ebef1d3d-7140-4714-a01a-43083b569f1d")
 	)
-	(label "V4i+"
-		(at 167.64 48.26 0)
+	(label "Vcc+"
+		(at 163.83 49.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "f6e423d8-8ac3-4f86-b404-73aab766d155")
+		(uuid "f4eee220-8f91-4591-a971-604ae97a0e67")
 	)
 	(label "Vcc+"
 		(at 54.61 133.35 0)
@@ -4804,32 +4617,52 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x04_Socket")
-		(at 161.29 26.67 180)
+		(lib_id "Capstone:SM04B-GHS-TB_LF__SN_")
+		(at 130.81 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "25d8efeb-c546-470c-bffd-6421c2b3b9d0")
-		(property "Reference" "J6"
-			(at 161.925 16.51 0)
+		(uuid "21ae9f82-bb95-42c2-8776-8e4b4927d7e2")
+		(property "Reference" "J3"
+			(at 140.97 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Conn_01x04_Socket"
-			(at 161.925 19.05 0)
+		(property "Value" "SM04B-GHS-TB_LF__SN_"
+			(at 140.97 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 161.29 26.67 0)
+		(property "Footprint" "SM04B-GHS-TB"
+			(at 147.32 124.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 224.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "JST GH Series, 1.25mm Pitch 4 Way Right Angle PCB Header, Solder Termination, 1A"
+			(at 130.81 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4837,46 +4670,72 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 161.29 26.67 0)
+		(property "Height" ""
+			(at 147.32 424.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 161.29 26.67 0)
+		(property "Mouser Part Number" "N/A"
+			(at 147.32 524.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(pin "4"
-			(uuid "51c0d890-9b58-41b5-ae8a-fd0650a2257a")
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST-Commercial/SM04B-GHS-TBLFSN?qs=QpmGXVUTftEJzKB1YHGCXw%3D%3D"
+			(at 147.32 624.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
 		)
-		(pin "1"
-			(uuid "39d644c0-edf2-4f46-b271-fa0ceff68cff")
+		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
+			(at 147.32 724.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
 		)
-		(pin "2"
-			(uuid "b9eb6670-294e-45f5-bb4a-e39cb1d43dd9")
+		(property "Manufacturer_Part_Number" "SM04B-GHS-TB(LF)(SN)"
+			(at 147.32 824.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
 		)
 		(pin "3"
-			(uuid "e8bb58bd-685b-4b13-80b2-d07d8e39c238")
+			(uuid "d6c44904-6b96-464c-8813-486cf6fa3751")
+		)
+		(pin "2"
+			(uuid "b56d53fd-19eb-4264-9289-ef60109080b5")
+		)
+		(pin "1"
+			(uuid "0d162335-d346-4f71-8756-8a55fbaaca5c")
+		)
+		(pin "4"
+			(uuid "067becf5-2fcb-484d-bbdd-d7bc71f43112")
 		)
 		(instances
-			(project "weight-sensor-pcb"
+			(project ""
 				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-			(project "force_sensor_analog_fe"
-				(path "/d326fe0b-f81f-461c-8be3-8cfa0c7f2e25"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -5023,6 +4882,131 @@
 		)
 	)
 	(symbol
+		(lib_id "Capstone:SM04B-GHS-TB_LF__SN_")
+		(at 163.83 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2ed7a146-ca49-45d9-ad85-f2a437bb3f15")
+		(property "Reference" "J6"
+			(at 173.99 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SM04B-GHS-TB_LF__SN_"
+			(at 173.99 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SM04B-GHS-TB"
+			(at 180.34 124.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 224.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "JST GH Series, 1.25mm Pitch 4 Way Right Angle PCB Header, Solder Termination, 1A"
+			(at 163.83 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 180.34 424.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "N/A"
+			(at 180.34 524.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST-Commercial/SM04B-GHS-TBLFSN?qs=QpmGXVUTftEJzKB1YHGCXw%3D%3D"
+			(at 180.34 624.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
+			(at 180.34 724.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SM04B-GHS-TB(LF)(SN)"
+			(at 180.34 824.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "33d651e8-1aa2-4cb8-b27c-ba101c21044a")
+		)
+		(pin "2"
+			(uuid "7f0cd927-5fea-4202-8260-f5ccf25a5bed")
+		)
+		(pin "1"
+			(uuid "ade43aea-cf8b-4024-98bf-4f326e70891c")
+		)
+		(pin "4"
+			(uuid "77703e4c-5eb5-408b-bfb3-1ff3698cbadf")
+		)
+		(instances
+			(project "weight-sensor-pcb"
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Capstone:RC0603FR-07100RL")
 		(at 20.32 162.56 0)
 		(unit 1)
@@ -5157,85 +5141,6 @@
 			(project "weight-sensor-pcb"
 				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
 					(reference "R26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x04_Socket")
-		(at 135.89 48.26 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "39728fe8-b0e6-459f-a583-ae1f5a0aed1b")
-		(property "Reference" "J5"
-			(at 136.525 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x04_Socket"
-			(at 136.525 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 135.89 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 135.89 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "6f45b621-2cb4-47ed-90d9-84b6855731d7")
-		)
-		(pin "1"
-			(uuid "8e41ac20-2f1e-4de4-a367-3e1f4632a8cb")
-		)
-		(pin "2"
-			(uuid "18470afe-ff64-4c3e-b23b-9cfdbec48384")
-		)
-		(pin "3"
-			(uuid "8869a2bb-d7a0-4c73-bd27-39be91a933a7")
-		)
-		(instances
-			(project "weight-sensor-pcb"
-				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-			(project "force_sensor_analog_fe"
-				(path "/d326fe0b-f81f-461c-8be3-8cfa0c7f2e25"
-					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -5596,85 +5501,6 @@
 			(project "weight-sensor-pcb"
 				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x04_Socket")
-		(at 161.29 48.26 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "50b1b8cf-5760-44f4-95c0-f8556ff43557")
-		(property "Reference" "J7"
-			(at 161.925 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x04_Socket"
-			(at 161.925 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 161.29 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 161.29 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 161.29 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "5de2f344-1f05-4072-851f-3b00214eb92f")
-		)
-		(pin "1"
-			(uuid "8f35113e-f3b4-4533-8340-6d2f922563aa")
-		)
-		(pin "2"
-			(uuid "c71e1049-a5f4-45b6-9863-15686e667364")
-		)
-		(pin "3"
-			(uuid "0d9be008-1a99-43bd-aa6a-be7d02724fff")
-		)
-		(instances
-			(project "weight-sensor-pcb"
-				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-			(project "force_sensor_analog_fe"
-				(path "/d326fe0b-f81f-461c-8be3-8cfa0c7f2e25"
-					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -6154,6 +5980,131 @@
 		)
 	)
 	(symbol
+		(lib_id "Capstone:SM04B-GHS-TB_LF__SN_")
+		(at 163.83 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7603ea6e-c836-430f-b82d-e9e0cc3d10a1")
+		(property "Reference" "J7"
+			(at 173.99 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SM04B-GHS-TB_LF__SN_"
+			(at 173.99 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SM04B-GHS-TB"
+			(at 180.34 144.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 244.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "JST GH Series, 1.25mm Pitch 4 Way Right Angle PCB Header, Solder Termination, 1A"
+			(at 163.83 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 180.34 444.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "N/A"
+			(at 180.34 544.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST-Commercial/SM04B-GHS-TBLFSN?qs=QpmGXVUTftEJzKB1YHGCXw%3D%3D"
+			(at 180.34 644.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
+			(at 180.34 744.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SM04B-GHS-TB(LF)(SN)"
+			(at 180.34 844.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "027072e3-c819-4289-982b-214f9346a0f2")
+		)
+		(pin "2"
+			(uuid "53742894-deee-4ec4-92d0-df3e2d11da1e")
+		)
+		(pin "1"
+			(uuid "9bf4fb37-1619-43e4-b5be-bf2a876e53b0")
+		)
+		(pin "4"
+			(uuid "1bad70a5-80e4-41c8-b55d-332fec3ee887")
+		)
+		(instances
+			(project "weight-sensor-pcb"
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 140.97 118.11 0)
 		(unit 1)
@@ -6163,7 +6114,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77bd22b2-b69c-4602-b238-0f04448361bc")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0107"
 			(at 140.97 124.46 0)
 			(effects
 				(font
@@ -6213,7 +6164,7 @@
 		(instances
 			(project "weight-sensor-pcb"
 				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
-					(reference "#PWR?")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -7468,6 +7419,128 @@
 		)
 	)
 	(symbol
+		(lib_id "Capstone:GRM033C71C104KE14D")
+		(at 135.89 102.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac0e7b99-dcd2-481c-bb5c-a02312c24dd8")
+		(property "Reference" "C9"
+			(at 139.7 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 139.7 97.7899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "CAPC0603X33N"
+			(at 232.08 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033C71C104KE14-01A.pdf"
+			(at 332.08 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0201 0.10uF 16volts *Derate Voltage/Temp"
+			(at 135.89 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.33"
+			(at 532.08 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM33C71C104KE14D"
+			(at 632.08 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM033C71C104KE14D?qs=P%2FC4Eoq9CDzkjc0H6wJP9A%3D%3D"
+			(at 732.08 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
+			(at 832.08 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRM033C71C104KE14D"
+			(at 932.08 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04994592-8861-44e3-b77c-203ed2e1b771")
+		)
+		(pin "2"
+			(uuid "c1d1716d-7b48-4590-9364-fa9394731269")
+		)
+		(instances
+			(project ""
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:OPA333xxD")
 		(at 86.36 133.35 0)
 		(unit 1)
@@ -7554,75 +7627,6 @@
 			(project "force_sensor_analog_fe"
 				(path "/d326fe0b-f81f-461c-8be3-8cfa0c7f2e25"
 					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 135.89 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b4f50c3d-8697-4717-838c-589982247921")
-		(property "Reference" "C11"
-			(at 138.43 81.2862 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1u"
-			(at 138.43 83.8262 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 135.89 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 135.89 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8349bacb-4b9d-4b0d-a1e6-a3472e886ce2")
-		)
-		(pin "2"
-			(uuid "41d32c14-2cc7-4896-88e2-3e8fe543bf1c")
-		)
-		(instances
-			(project "weight-sensor-pcb"
-				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
-					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -8403,6 +8407,131 @@
 		)
 	)
 	(symbol
+		(lib_id "Capstone:SM04B-GHS-TB_LF__SN_")
+		(at 130.81 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cedccd56-9f83-4a35-8b9a-e6496c2ca929")
+		(property "Reference" "J5"
+			(at 140.97 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SM04B-GHS-TB_LF__SN_"
+			(at 140.97 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SM04B-GHS-TB"
+			(at 147.32 144.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 244.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "JST GH Series, 1.25mm Pitch 4 Way Right Angle PCB Header, Solder Termination, 1A"
+			(at 130.81 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 147.32 444.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "N/A"
+			(at 147.32 544.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST-Commercial/SM04B-GHS-TBLFSN?qs=QpmGXVUTftEJzKB1YHGCXw%3D%3D"
+			(at 147.32 644.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
+			(at 147.32 744.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SM04B-GHS-TB(LF)(SN)"
+			(at 147.32 844.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "80d5dcc3-5a02-4bc2-84a0-9a7236b50388")
+		)
+		(pin "2"
+			(uuid "c31e2a01-83dc-4c73-9c95-dcde81bc5e5b")
+		)
+		(pin "1"
+			(uuid "967da143-9647-427b-8258-c7a6e96d735b")
+		)
+		(pin "4"
+			(uuid "009d1988-90f7-49af-a6c4-8c67b00c83df")
+		)
+		(instances
+			(project "weight-sensor-pcb"
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Capstone:INA333AIDGKR")
 		(at 25.4 44.45 0)
 		(unit 1)
@@ -8627,85 +8756,6 @@
 			(project ""
 				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x04_Socket")
-		(at 135.89 26.67 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d9bb1faf-dd77-4d9a-8d54-7a5c1e01140e")
-		(property "Reference" "J3"
-			(at 136.525 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x04_Socket"
-			(at 136.525 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 135.89 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 135.89 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "5e5fc6e4-cfc4-49b3-9c4b-ced2af9e6e36")
-		)
-		(pin "1"
-			(uuid "59ed477a-6315-4612-8bf9-b536c2f1d3d8")
-		)
-		(pin "2"
-			(uuid "e06775e8-a17d-49e3-a575-7e1c37515f69")
-		)
-		(pin "3"
-			(uuid "5b32438f-d31b-49a4-ba09-2a541a6c5fb0")
-		)
-		(instances
-			(project "weight-sensor-pcb"
-				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/d326fe0b-f81f-461c-8be3-8cfa0c7f2e25"
-					(reference "J1")
 					(unit 1)
 				)
 			)

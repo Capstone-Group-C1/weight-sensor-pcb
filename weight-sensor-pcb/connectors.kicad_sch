@@ -828,7 +828,7 @@
 	)
 	(rectangle
 		(start 62.23 26.035)
-		(end 106.045 55.88)
+		(end 106.045 74.295)
 		(stroke
 			(width 0)
 			(type default)
@@ -930,7 +930,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 41.91) (xy 73.66 41.91)
+			(xy 72.39 39.37) (xy 73.66 39.37)
 		)
 		(stroke
 			(width 0)
@@ -997,6 +997,16 @@
 			(type default)
 		)
 		(uuid "4606a066-0f80-4353-93dc-1bb6c5d58a65")
+	)
+	(wire
+		(pts
+			(xy 93.98 59.69) (xy 95.25 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fafafa0-ddaa-4d1b-b4e3-17da2d439eeb")
 	)
 	(wire
 		(pts
@@ -1100,7 +1110,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 41.91) (xy 95.25 41.91)
+			(xy 93.98 39.37) (xy 95.25 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1158,6 +1168,16 @@
 		)
 		(uuid "ee555d33-92a1-4f8a-8d55-42ba4ec531a8")
 	)
+	(wire
+		(pts
+			(xy 72.39 59.69) (xy 73.66 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3b96821-52ae-4a6f-92a9-bdd3fe71df58")
+	)
 	(label "D+"
 		(at 114.3 46.99 0)
 		(effects
@@ -1190,7 +1210,18 @@
 	)
 	(hierarchical_label "CAN_L"
 		(shape bidirectional)
-		(at 95.25 41.91 0)
+		(at 95.25 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0a1d468e-0bd3-4f73-b89e-e55d7b97bb75")
+	)
+	(hierarchical_label "CAN_L"
+		(shape bidirectional)
+		(at 95.25 39.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1201,7 +1232,7 @@
 	)
 	(hierarchical_label "CAN_H"
 		(shape bidirectional)
-		(at 72.39 41.91 180)
+		(at 72.39 39.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1209,6 +1240,17 @@
 			(justify right)
 		)
 		(uuid "b1e97d2f-fce0-48e1-8c43-5e3adab7d856")
+	)
+	(hierarchical_label "CAN_H"
+		(shape bidirectional)
+		(at 72.39 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d432ed82-0831-460e-8bf5-3c2997832bdf")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1424,6 +1466,164 @@
 		)
 	)
 	(symbol
+		(lib_id "Capstone:54602-908LF")
+		(at 73.66 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71852541-1d0d-4186-8fd8-b43c249d71d4")
+		(property "Reference" "J8"
+			(at 83.82 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "54602-908LF"
+			(at 83.82 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "54602908LF"
+			(at 90.17 154.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/c-bmj-0102.pdf"
+			(at 90.17 254.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Modular Jack, Input Output Connectors, Cat 3 Single Modular Jack, Horizontal, Board Through Mount, 8P8C, 1 Port"
+			(at 73.66 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "12.85"
+			(at 90.17 454.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Amphenol Communications Solutions"
+			(at 90.17 554.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "54602-908LF"
+			(at 90.17 654.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 90.17 754.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 90.17 854.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "54602-908LF"
+			(at 90.17 954.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/54602-908lf/amphenol-fci?utm_currency=USD&region=nac"
+			(at 90.17 1054.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "13c1d7ff-ecd8-4f89-8872-169d1654100f")
+		)
+		(pin "2"
+			(uuid "95d96271-8f87-4efc-b153-a2c52a630f6f")
+		)
+		(pin "7"
+			(uuid "6d5bfcc9-2f4c-4011-991b-8967147390a4")
+		)
+		(pin "6"
+			(uuid "6124ca58-1b95-46d5-8dad-404a75e60eeb")
+		)
+		(pin "1"
+			(uuid "d11d36d7-5210-465f-900f-80191ffc7168")
+		)
+		(pin "4"
+			(uuid "4883da28-45b8-44f8-8926-d8e37dbb2be4")
+		)
+		(pin "8"
+			(uuid "37b2c77a-87ae-42b1-b2a0-5259996bd175")
+		)
+		(pin "5"
+			(uuid "14b0f8a8-598c-4aa2-a36c-3792accb9cf5")
+		)
+		(instances
+			(project "weight-sensor-pcb"
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/475e8643-d62a-4908-a92e-220cf1933ab9"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 111.76 38.1 0)
 		(unit 1)
@@ -1491,7 +1691,7 @@
 	)
 	(symbol
 		(lib_id "Capstone:54602-908LF")
-		(at 73.66 41.91 0)
+		(at 73.66 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1500,7 +1700,7 @@
 		(fields_autoplaced yes)
 		(uuid "c6ad6fb7-3411-49ec-96e1-ab0ebbbc5f83")
 		(property "Reference" "J2"
-			(at 83.82 34.29 0)
+			(at 83.82 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1508,7 +1708,7 @@
 			)
 		)
 		(property "Value" "54602-908LF"
-			(at 83.82 36.83 0)
+			(at 83.82 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1516,7 +1716,7 @@
 			)
 		)
 		(property "Footprint" "54602908LF"
-			(at 90.17 136.83 0)
+			(at 90.17 134.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1526,7 +1726,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/c-bmj-0102.pdf"
-			(at 90.17 236.83 0)
+			(at 90.17 234.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1536,7 +1736,7 @@
 			)
 		)
 		(property "Description" "Modular Jack, Input Output Connectors, Cat 3 Single Modular Jack, Horizontal, Board Through Mount, 8P8C, 1 Port"
-			(at 73.66 41.91 0)
+			(at 73.66 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1545,7 +1745,7 @@
 			)
 		)
 		(property "Height" "12.85"
-			(at 90.17 436.83 0)
+			(at 90.17 434.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1555,7 +1755,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Amphenol Communications Solutions"
-			(at 90.17 536.83 0)
+			(at 90.17 534.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1565,7 +1765,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "54602-908LF"
-			(at 90.17 636.83 0)
+			(at 90.17 634.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1575,7 +1775,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 90.17 736.83 0)
+			(at 90.17 734.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1585,7 +1785,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 90.17 836.83 0)
+			(at 90.17 834.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1595,7 +1795,7 @@
 			)
 		)
 		(property "Arrow Part Number" "54602-908LF"
-			(at 90.17 936.83 0)
+			(at 90.17 934.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1605,7 +1805,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/54602-908lf/amphenol-fci?utm_currency=USD&region=nac"
-			(at 90.17 1036.83 0)
+			(at 90.17 1034.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
