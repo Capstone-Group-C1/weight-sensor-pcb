@@ -162,4 +162,10 @@ K
 F https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033C71C104KE14-01A.pdf
 $ENDCMP
 #
+$CMP LM2776DBVR
+D Switched Capacitor Inverter
+K
+F http://www.ti.com/lit/gpn/lm2776
+$ENDCMP
+#
 #End Doc Library

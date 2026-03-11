@@ -2783,7 +2783,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ea64fd89-db29-454f-9afb-abd76f0a20f8")
 		(property "Reference" "IC1"
 			(at 151.13 88.9 0)

@@ -1385,6 +1385,250 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Capstone:LM2776DBVR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 24.13 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "LM2776DBVR"
+				(at 24.13 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SOT95P280X145-6N"
+				(at 24.13 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/gpn/lm2776"
+				(at 24.13 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switched Capacitor Inverter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.45"
+				(at 24.13 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 24.13 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "LM2776DBVR"
+				(at 24.13 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "595-LM2776DBVR"
+				(at 24.13 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM2776DBVR?qs=GJ%2F2ZGcr5uNWFBSWrQXDWw%3D%3D"
+				(at 24.13 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "LM2776DBVR"
+				(at 24.13 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/lm2776dbvr/texas-instruments?utm_currency=USD&region=nac"
+				(at 24.13 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "LM2776DBVR_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 22.86 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 0 180)
+					(length 5.08)
+					(name "C1-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -2.54 180)
+					(length 5.08)
+					(name "C1+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -5.08 180)
+					(length 5.08)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Capstone:RMCF0603FT10K0"
 			(pin_names
 				(hide yes)
@@ -1742,6 +1986,113 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2241,6 +2592,18 @@
 		)
 		(uuid 1990040f-3e9d-4b5b-aeb8-16bb4583457a)
 	)
+	(rectangle
+		(start 119.38 25.4)
+		(end 154.94 48.26)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e8ffc9c1-aaef-47dd-ba06-ec779300b727)
+	)
 	(text "RJ45 Power Bus Regulator"
 		(exclude_from_sim no)
 		(at 184.15 28.448 0)
@@ -2250,6 +2613,16 @@
 			)
 		)
 		(uuid "368a6860-a40a-44b3-85ea-ecdbefd2bace")
+	)
+	(text "Test Points"
+		(exclude_from_sim no)
+		(at 130.81 28.194 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "3783bfca-1682-4296-a2cf-bf2600cfa52c")
 	)
 	(junction
 		(at 161.29 60.96)
@@ -2332,6 +2705,16 @@
 			(type default)
 		)
 		(uuid "04c5fdfb-fdf9-4845-9ab7-0efd1c99be8f")
+	)
+	(wire
+		(pts
+			(xy 97.79 81.28) (xy 97.79 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07e344be-5b4b-4f5f-97a6-04c5bc3ef26b")
 	)
 	(wire
 		(pts
@@ -2635,6 +3018,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 76.2) (xy 100.33 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7b7ba8c-2d41-4631-ad7a-6e40cca80ac7")
+	)
+	(wire
+		(pts
 			(xy 212.09 78.74) (xy 212.09 81.28)
 		)
 		(stroke
@@ -2745,6 +3138,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 35.56) (xy 124.46 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eccf54b5-43fe-47d8-aff7-8f265fd70584")
+	)
+	(wire
+		(pts
 			(xy 161.29 39.37) (xy 161.29 49.53)
 		)
 		(stroke
@@ -2753,7 +3156,7 @@
 		)
 		(uuid "f12319bb-03e7-4f0a-ac86-d91e1a814ca9")
 	)
-	(label "Input"
+	(label "VIN"
 		(at 182.88 60.96 0)
 		(effects
 			(font
@@ -2762,6 +3165,26 @@
 			(justify left bottom)
 		)
 		(uuid "37670ce4-ee8d-4116-abd6-28462db00fdc")
+	)
+	(label "SW"
+		(at 231.14 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d924c4a0-eb0c-43a6-8f2c-c2504f78b77d")
+	)
+	(label "SW"
+		(at 124.46 35.56 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e8549a27-4a22-42ad-a1f1-7ef3dd85fcc2")
 	)
 	(symbol
 		(lib_id "Capstone:ASPI-0628-3R9M-T1")
@@ -3152,6 +3575,158 @@
 			(project "weight-sensor-pcb"
 				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/9609f5e9-cdf8-44f2-8bc7-12b44334f144"
 					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capstone:LM2776DBVR")
+		(at 100.33 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1bff98b3-40ab-49d5-90ed-c5fe5ef6a4c0")
+		(property "Reference" "IC6"
+			(at 114.3 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM2776DBVR"
+			(at 114.3 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOT95P280X145-6N"
+			(at 124.46 168.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/lm2776"
+			(at 124.46 268.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switched Capacitor Inverter"
+			(at 100.33 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.45"
+			(at 124.46 468.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 124.46 568.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LM2776DBVR"
+			(at 124.46 668.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-LM2776DBVR"
+			(at 124.46 768.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM2776DBVR?qs=GJ%2F2ZGcr5uNWFBSWrQXDWw%3D%3D"
+			(at 124.46 868.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "LM2776DBVR"
+			(at 124.46 968.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/lm2776dbvr/texas-instruments?utm_currency=USD&region=nac"
+			(at 124.46 1068.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dbf77fd6-cb9b-4206-9f88-f36018deb234")
+		)
+		(pin "2"
+			(uuid "beee82bc-3ea1-4316-928c-3a80a77c935c")
+		)
+		(pin "3"
+			(uuid "23fbdb40-e2d9-48e3-9b5c-a80aecf0e27d")
+		)
+		(pin "6"
+			(uuid "28731b08-327e-4cc6-a0ca-6c86845e54e9")
+		)
+		(pin "5"
+			(uuid "6d944564-3a37-4ba3-842a-0f366c5d561d")
+		)
+		(pin "4"
+			(uuid "68ac9691-eb30-4c4e-9fe8-a25bc303f07a")
+		)
+		(instances
+			(project ""
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/9609f5e9-cdf8-44f2-8bc7-12b44334f144"
+					(reference "IC6")
 					(unit 1)
 				)
 			)
@@ -3628,6 +4203,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 124.46 36.83 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "67826976-efa1-460d-99ee-bc5c2be32944")
+		(property "Reference" "TP21"
+			(at 122.174 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW"
+			(at 124.46 44.196 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 119.38 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 124.46 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2807a16-90b0-4669-bc27-f82f7505df62")
+		)
+		(instances
+			(project "weight-sensor-pcb"
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/9609f5e9-cdf8-44f2-8bc7-12b44334f144"
+					(reference "TP21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Capstone:AP63203WU-7")
 		(at 199.39 55.88 0)
 		(unit 1)
@@ -3635,7 +4276,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6f339fce-9f46-48cb-853a-6dbcb9bbd611")
 		(property "Reference" "IC7"
 			(at 212.09 48.26 0)
@@ -4223,6 +4863,72 @@
 			(project ""
 				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/9609f5e9-cdf8-44f2-8bc7-12b44334f144"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 97.79 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ece9f0b9-d7f4-4768-bdbc-0685837ccda5")
+		(property "Reference" "#PWR02"
+			(at 97.79 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 97.79 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 97.79 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56d83bab-897a-46b2-9961-4b6abbf7d312")
+		)
+		(instances
+			(project ""
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/9609f5e9-cdf8-44f2-8bc7-12b44334f144"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)

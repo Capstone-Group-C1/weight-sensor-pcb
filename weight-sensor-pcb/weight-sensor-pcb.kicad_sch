@@ -10,6 +10,36 @@
 	(lib_symbols)
 	(wire
 		(pts
+			(xy 116.84 77.47) (xy 133.35 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "368f5696-d943-4640-8d3a-098cd1e58d48")
+	)
+	(wire
+		(pts
+			(xy 116.84 74.93) (xy 133.35 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66035a10-4624-4b7d-ab38-dbea350cd87d")
+	)
+	(wire
+		(pts
+			(xy 116.84 80.01) (xy 133.35 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "727124e8-0549-4235-9e91-f46cacf8c7b9")
+	)
+	(wire
+		(pts
 			(xy 209.55 77.47) (xy 209.55 109.22)
 		)
 		(stroke
@@ -57,6 +87,16 @@
 			(type default)
 		)
 		(uuid "d09ec9db-4a57-4b37-8def-66010106fd54")
+	)
+	(wire
+		(pts
+			(xy 116.84 82.55) (xy 133.35 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df137092-a854-4d2f-8b25-07a58144c08c")
 	)
 	(wire
 		(pts
@@ -264,6 +304,46 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "S1" output
+			(at 116.84 74.93 0)
+			(uuid "ff955063-e781-40e7-8278-0a999a0edcc4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "S2" output
+			(at 116.84 77.47 0)
+			(uuid "17666c11-6e0a-47d5-8c67-e57961a2179a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "S3" output
+			(at 116.84 80.01 0)
+			(uuid "dd98abe1-c923-4089-986e-bff304da74a8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "S4" output
+			(at 116.84 82.55 0)
+			(uuid "ecdf3ee0-12a7-4055-a421-e888b3d1f5ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

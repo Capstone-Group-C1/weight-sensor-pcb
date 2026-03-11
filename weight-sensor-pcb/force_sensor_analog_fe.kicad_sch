@@ -1083,6 +1083,181 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Capstone:RC0603JR-070RL"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 13.97 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "0Ω"
+				(at 13.97 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "RESC1608X55N"
+				(at 13.97 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.yageo.com/documents/recent/PYu-RC0603_51_RoHS_L_v5.pdf"
+				(at 13.97 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "YAGEO (PHYCOMP) - RC0603JR-070RL - RES, THICK FILM, 0R, 5%, 0.1W, 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.55"
+				(at 13.97 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "KEMET"
+				(at 13.97 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "RC0603JR-070RL"
+				(at 13.97 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "603-RC0603JR-070RL"
+				(at 13.97 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/RC0603JR-070RL?qs=2cAdsCoAWRGWyPcuXgGiXQ%3D%3D"
+				(at 13.97 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "RC0603JR-070RL"
+				(at 13.97 -896.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rc0603jr-070rl/yageo?utm_currency=USD&region=nac"
+				(at 13.97 -996.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "RC0603JR-070RL_1_1"
+				(rectangle
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Capstone:RMCF0603FT10K0"
 			(pin_names
 				(hide yes)
@@ -1446,26 +1621,27 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
+		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 0)
+				(offset 0.762)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "R"
-				(at 0 0 90)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1473,7 +1649,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at -1.778 0 90)
+				(at 5.08 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1482,6 +1658,15 @@
 				)
 			)
 			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1490,7 +1675,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor"
+			(property "ki_keywords" "test point tp"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1499,7 +1684,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "R res resistor"
+			(property "ki_fp_filters" "Pin* Test*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1508,21 +1693,12 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1530,11 +1706,171 @@
 					)
 				)
 			)
-			(symbol "R_1_1"
+			(symbol "TestPoint_1_1"
 				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "RMCF0603FT10K0_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 13.97 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "10k"
+				(at 13.97 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "RESC1608X55N"
+				(at 13.97 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf"
+				(at 13.97 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "RES, 0603, 10 Kohm, 1%, 0.1W"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.55"
+				(at 13.97 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Stackpole Electronics, Inc."
+				(at 13.97 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "RMCF0603FT10K0"
+				(at 13.97 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "708-RMCF0603FT10K0"
+				(at 13.97 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/SEI-Stackpole/RMCF0603FT10K0?qs=eqvyn46aSBQsvdGhIyiuWw%3D%3D"
+				(at 13.97 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "RMCF0603FT10K0"
+				(at 13.97 -896.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rmcf0603ft10k0/stackpole-electronics?utm_currency=USD&region=asia"
+				(at 13.97 -996.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "RMCF0603FT10K0_1_1_1"
+				(rectangle
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1550,9 +1886,543 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "RMCF0603FT10K0_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 13.97 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "10k"
+				(at 13.97 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "RESC1608X55N"
+				(at 13.97 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf"
+				(at 13.97 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "RES, 0603, 10 Kohm, 1%, 0.1W"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.55"
+				(at 13.97 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Stackpole Electronics, Inc."
+				(at 13.97 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "RMCF0603FT10K0"
+				(at 13.97 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "708-RMCF0603FT10K0"
+				(at 13.97 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/SEI-Stackpole/RMCF0603FT10K0?qs=eqvyn46aSBQsvdGhIyiuWw%3D%3D"
+				(at 13.97 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "RMCF0603FT10K0"
+				(at 13.97 -896.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rmcf0603ft10k0/stackpole-electronics?utm_currency=USD&region=asia"
+				(at 13.97 -996.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "RMCF0603FT10K0_2_1_1"
+				(rectangle
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "RMCF0603FT10K0_3"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 13.97 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "10k"
+				(at 13.97 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "RESC1608X55N"
+				(at 13.97 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf"
+				(at 13.97 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "RES, 0603, 10 Kohm, 1%, 0.1W"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.55"
+				(at 13.97 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Stackpole Electronics, Inc."
+				(at 13.97 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "RMCF0603FT10K0"
+				(at 13.97 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "708-RMCF0603FT10K0"
+				(at 13.97 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/SEI-Stackpole/RMCF0603FT10K0?qs=eqvyn46aSBQsvdGhIyiuWw%3D%3D"
+				(at 13.97 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "RMCF0603FT10K0"
+				(at 13.97 -896.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rmcf0603ft10k0/stackpole-electronics?utm_currency=USD&region=asia"
+				(at 13.97 -996.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "RMCF0603FT10K0_3_1_1"
+				(rectangle
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "RMCF0603FT10K0_4"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 13.97 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "10k"
+				(at 13.97 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "RESC1608X55N"
+				(at 13.97 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf"
+				(at 13.97 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "RES, 0603, 10 Kohm, 1%, 0.1W"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.55"
+				(at 13.97 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Stackpole Electronics, Inc."
+				(at 13.97 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "RMCF0603FT10K0"
+				(at 13.97 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "708-RMCF0603FT10K0"
+				(at 13.97 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/SEI-Stackpole/RMCF0603FT10K0?qs=eqvyn46aSBQsvdGhIyiuWw%3D%3D"
+				(at 13.97 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "RMCF0603FT10K0"
+				(at 13.97 -896.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rmcf0603ft10k0/stackpole-electronics?utm_currency=USD&region=asia"
+				(at 13.97 -996.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "RMCF0603FT10K0_4_1_1"
+				(rectangle
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1798,8 +2668,8 @@
 		)
 	)
 	(rectangle
-		(start 125.095 64.135)
-		(end 179.07 125.095)
+		(start 124.46 64.135)
+		(end 177.8 124.46)
 		(stroke
 			(width 0)
 			(type default)
@@ -1808,6 +2678,18 @@
 			(type none)
 		)
 		(uuid a176f514-b1bb-4fe6-ab5b-fd7537e3a12f)
+	)
+	(rectangle
+		(start 124.46 127)
+		(end 177.8 154.94)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d72ba14e-c0e1-4ae1-9d5a-c117b4a91b8b)
 	)
 	(rectangle
 		(start 123.19 13.97)
@@ -1831,9 +2713,19 @@
 		)
 		(uuid "05470680-b6f9-456b-b9d4-69e674d1b4e2")
 	)
+	(text "0603"
+		(exclude_from_sim no)
+		(at 103.886 136.652 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2ac7175e-63a9-4f04-ad8a-3c0d79612762")
+	)
 	(text "Signals S1, S2, S3, and S4 input to ADC\n"
 		(exclude_from_sim no)
-		(at 89.154 190.754 0)
+		(at 85.344 190.754 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1841,15 +2733,35 @@
 		)
 		(uuid "2d2381e4-bd25-4022-8d4f-57d09080bffe")
 	)
+	(text "0603"
+		(exclude_from_sim no)
+		(at 103.886 50.292 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4922dd86-6dac-4f7e-b1eb-086800804e3a")
+	)
 	(text "Amplification and filter stages on the same board\n"
 		(exclude_from_sim no)
-		(at 93.726 193.548 0)
+		(at 89.916 193.548 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "6122dbdf-b682-41fb-967d-f3124d0f973f")
+	)
+	(text "0603"
+		(exclude_from_sim no)
+		(at 104.14 181.102 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a49383c2-a58b-42bd-bd98-e90fc4ff2e1b")
 	)
 	(text "Connector footprints for each of the sensors (needs definition)\nSensors placed in corners of compartment and wired to main PCB\n"
 		(exclude_from_sim no)
@@ -1861,6 +2773,16 @@
 		)
 		(uuid "c421f7b9-ee2f-414f-ae3e-b997df635009")
 	)
+	(text "Test Points"
+		(exclude_from_sim no)
+		(at 136.144 130.048 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "cef1ef51-ed4b-4083-8fbe-c8509d1510e8")
+	)
 	(text "Vcc+, Vcc-, Vref"
 		(exclude_from_sim no)
 		(at 142.748 67.056 0)
@@ -1870,6 +2792,16 @@
 			)
 		)
 		(uuid "ec314aef-65df-48c1-a4d0-5000730e11e2")
+	)
+	(text "0603"
+		(exclude_from_sim no)
+		(at 103.886 93.472 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fcc75b2c-ad17-4fe4-b757-1cfcf1caff5a")
 	)
 	(text_box "Simple voltage divider to get the middle value between +3.3 and GND (1.65v)"
 		(exclude_from_sim no)
@@ -1904,91 +2836,91 @@
 		(uuid "081bacec-971f-4aea-affa-d051834e3dfd")
 	)
 	(junction
-		(at 97.79 31.75)
+		(at 93.98 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "30df948d-1c98-415c-a940-418203d1c1d2")
 	)
 	(junction
-		(at 97.79 46.99)
+		(at 93.98 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3a6a1af8-7e4c-4ead-bd04-732389260442")
 	)
 	(junction
-		(at 97.79 90.17)
+		(at 93.98 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3c3b7605-7b9f-42ec-aebf-d66eeb13c823")
 	)
 	(junction
-		(at 96.52 177.8)
+		(at 92.71 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "405d8a3c-7eac-4754-9d05-c4ea09a47734")
 	)
 	(junction
-		(at 97.79 118.11)
+		(at 93.98 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "78adb8e7-9e1c-49fc-876a-5efe0d9cf7ad")
 	)
 	(junction
-		(at 72.39 49.53)
+		(at 68.58 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "89baa37e-628a-41cc-a165-d2a9649a7e7c")
 	)
 	(junction
-		(at 71.12 180.34)
+		(at 67.31 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "911ca508-0b61-46d3-897f-9c3c7cfcca5c")
 	)
 	(junction
-		(at 72.39 118.11)
+		(at 68.58 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "956b4b00-dc72-4ec3-9e65-b9057971e0b5")
 	)
 	(junction
-		(at 97.79 133.35)
+		(at 93.98 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a46e5992-075e-4a5c-8789-b36046d62100")
 	)
 	(junction
-		(at 97.79 76.2)
+		(at 93.98 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9b3a1a4-6709-4759-9b4f-0ca1ffda1e2f")
 	)
 	(junction
-		(at 72.39 92.71)
+		(at 68.58 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb79f745-6e7a-4069-b1f5-3376e9a51ecb")
 	)
 	(junction
-		(at 71.12 162.56)
+		(at 67.31 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c17bf23e-a82c-46cc-9670-099b2ca34fa8")
 	)
 	(junction
-		(at 96.52 162.56)
+		(at 92.71 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c85a185a-e817-4e43-a720-bbec11432903")
 	)
 	(junction
-		(at 72.39 135.89)
+		(at 68.58 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca201a07-1ab9-4f97-aa92-0dbacab0b3c3")
 	)
 	(junction
-		(at 72.39 31.75)
+		(at 68.58 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d4d6fdf5-1483-45b3-ae73-a5d86d0650d4")
@@ -2000,7 +2932,7 @@
 		(uuid "e7fe7daa-200a-4218-96da-299c8441e44b")
 	)
 	(junction
-		(at 72.39 76.2)
+		(at 68.58 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea197b1d-b648-492c-b019-95d274f64709")
@@ -2013,7 +2945,27 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 64.77) (xy 77.47 64.77)
+			(xy 73.66 130.81) (xy 74.93 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "007f503b-011f-4943-9444-eb0088145282")
+	)
+	(wire
+		(pts
+			(xy 137.16 139.7) (xy 137.16 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0165afc0-e43c-4edd-91e5-1b78ba2e4a08")
+	)
+	(wire
+		(pts
+			(xy 68.58 64.77) (xy 73.66 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2023,7 +2975,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 162.56) (xy 71.12 180.34)
+			(xy 67.31 162.56) (xy 67.31 180.34)
 		)
 		(stroke
 			(width 0)
@@ -2033,7 +2985,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 118.11) (xy 74.93 118.11)
+			(xy 68.58 118.11) (xy 71.12 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2043,13 +2995,33 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 76.2) (xy 97.79 76.2)
+			(xy 88.9 76.2) (xy 93.98 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "05aa2b61-1481-4a40-92bf-85b42178d59c")
+	)
+	(wire
+		(pts
+			(xy 19.05 118.11) (xy 26.67 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05ef7e88-ad39-48cc-81e7-8b6d710d6652")
+	)
+	(wire
+		(pts
+			(xy 113.03 90.17) (xy 114.3 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07c0b6af-b1ac-4c45-ba60-04366934287c")
 	)
 	(wire
 		(pts
@@ -2063,7 +3035,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 46.99) (xy 53.34 46.99)
+			(xy 50.8 46.99) (xy 49.53 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2073,7 +3045,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 162.56) (xy 55.88 175.26)
+			(xy 50.8 162.56) (xy 50.8 175.26)
 		)
 		(stroke
 			(width 0)
@@ -2083,7 +3055,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 76.2) (xy 97.79 90.17)
+			(xy 93.98 76.2) (xy 93.98 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2093,7 +3065,17 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 106.68) (xy 77.47 106.68)
+			(xy 19.05 31.75) (xy 26.67 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fe4f500-efe3-4ff6-baaf-12fcbca33367")
+	)
+	(wire
+		(pts
+			(xy 68.58 106.68) (xy 73.66 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2103,7 +3085,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 44.45) (xy 21.59 31.75)
+			(xy 19.05 44.45) (xy 19.05 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2113,7 +3095,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 118.11) (xy 72.39 135.89)
+			(xy 68.58 118.11) (xy 68.58 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2133,13 +3115,23 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 87.63) (xy 21.59 74.93)
+			(xy 19.05 87.63) (xy 19.05 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "19bd4947-461b-4342-b978-137c866b5c6e")
+	)
+	(wire
+		(pts
+			(xy 52.07 31.75) (xy 44.45 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a3c848d-b8a8-4b14-9f10-dda8f538f1d6")
 	)
 	(wire
 		(pts
@@ -2163,6 +3155,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 139.7) (xy 149.86 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dee46b1-b85b-4498-b428-5e13852ef92f")
+	)
+	(wire
+		(pts
 			(xy 146.05 96.52) (xy 146.05 97.79)
 		)
 		(stroke
@@ -2173,7 +3175,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 46.99) (xy 97.79 46.99)
+			(xy 90.17 46.99) (xy 93.98 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2183,7 +3185,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 21.59) (xy 72.39 31.75)
+			(xy 68.58 21.59) (xy 68.58 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2193,7 +3195,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 46.99) (xy 25.4 46.99)
+			(xy 17.78 46.99) (xy 21.59 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2203,7 +3205,17 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 177.8) (xy 100.33 177.8)
+			(xy 143.51 139.7) (xy 143.51 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28e43a44-0155-4924-9e5f-077b626c7a75")
+	)
+	(wire
+		(pts
+			(xy 92.71 177.8) (xy 95.25 177.8)
 		)
 		(stroke
 			(width 0)
@@ -2213,17 +3225,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 49.53) (xy 72.39 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b525e2e-f6ce-42d4-b4e1-e54db0e27578")
-	)
-	(wire
-		(pts
-			(xy 90.17 21.59) (xy 97.79 21.59)
+			(xy 86.36 21.59) (xy 93.98 21.59)
 		)
 		(stroke
 			(width 0)
@@ -2233,7 +3235,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 106.68) (xy 97.79 118.11)
+			(xy 93.98 106.68) (xy 93.98 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2243,13 +3245,23 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 130.81) (xy 57.15 130.81)
+			(xy 52.07 130.81) (xy 49.53 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "33b0ff5d-579f-4cee-884b-d4610781ad2b")
+	)
+	(wire
+		(pts
+			(xy 156.21 139.7) (xy 156.21 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33f40f02-13cd-44da-83d9-2bd2721448ee")
 	)
 	(polyline
 		(pts
@@ -2263,7 +3275,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 133.35) (xy 25.4 133.35)
+			(xy 17.78 133.35) (xy 21.59 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2273,17 +3285,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 40.64) (xy 78.74 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3764c731-ef0d-45d3-837b-11c2a977f68a")
-	)
-	(wire
-		(pts
-			(xy 97.79 90.17) (xy 101.6 90.17)
+			(xy 93.98 90.17) (xy 95.25 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2293,7 +3295,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 162.56) (xy 96.52 177.8)
+			(xy 92.71 162.56) (xy 92.71 177.8)
 		)
 		(stroke
 			(width 0)
@@ -2313,7 +3315,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 133.35) (xy 53.34 133.35)
+			(xy 50.8 133.35) (xy 49.53 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2323,7 +3325,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 182.88) (xy 24.13 182.88)
+			(xy 16.51 182.88) (xy 20.32 182.88)
 		)
 		(stroke
 			(width 0)
@@ -2333,7 +3335,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 106.68) (xy 72.39 118.11)
+			(xy 68.58 106.68) (xy 68.58 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2343,7 +3345,17 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 175.26) (xy 20.32 175.26)
+			(xy 130.81 140.97) (xy 130.81 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4adb8aa5-eeca-454e-aa1a-2bda327fb66e")
+	)
+	(wire
+		(pts
+			(xy 17.78 175.26) (xy 20.32 175.26)
 		)
 		(stroke
 			(width 0)
@@ -2353,7 +3365,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 162.56) (xy 20.32 175.26)
+			(xy 17.78 162.56) (xy 17.78 175.26)
 		)
 		(stroke
 			(width 0)
@@ -2363,7 +3375,17 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 186.69) (xy 82.55 185.42)
+			(xy 72.39 175.26) (xy 73.66 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4eda322f-e1ca-4dcb-9a01-531f7aaa05b3")
+	)
+	(wire
+		(pts
+			(xy 78.74 186.69) (xy 78.74 185.42)
 		)
 		(stroke
 			(width 0)
@@ -2373,7 +3395,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 152.4) (xy 96.52 152.4)
+			(xy 85.09 152.4) (xy 92.71 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2403,7 +3425,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 64.77) (xy 97.79 76.2)
+			(xy 93.98 64.77) (xy 93.98 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2423,7 +3445,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 106.68) (xy 97.79 106.68)
+			(xy 86.36 106.68) (xy 93.98 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2433,7 +3455,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 81.28) (xy 83.82 82.55)
+			(xy 80.01 81.28) (xy 80.01 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2443,7 +3465,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 31.75) (xy 97.79 31.75)
+			(xy 88.9 31.75) (xy 93.98 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2473,7 +3495,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 76.2) (xy 72.39 92.71)
+			(xy 68.58 76.2) (xy 68.58 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2483,7 +3505,37 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 21.59) (xy 77.47 21.59)
+			(xy 50.8 49.53) (xy 49.53 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5db9f4b0-a740-42dc-96ba-51fb0cfb5459")
+	)
+	(wire
+		(pts
+			(xy 19.05 74.93) (xy 26.67 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f733552-fbf7-4308-a362-209a6e61e7e7")
+	)
+	(wire
+		(pts
+			(xy 49.53 182.88) (xy 48.26 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6142879a-f38c-4bd7-9a90-1a6ab7487aa2")
+	)
+	(wire
+		(pts
+			(xy 68.58 21.59) (xy 73.66 21.59)
 		)
 		(stroke
 			(width 0)
@@ -2493,7 +3545,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 99.06) (xy 83.82 97.79)
+			(xy 80.01 99.06) (xy 80.01 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2503,7 +3555,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 133.35) (xy 97.79 133.35)
+			(xy 90.17 133.35) (xy 93.98 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2513,7 +3565,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 46.99) (xy 101.6 46.99)
+			(xy 93.98 46.99) (xy 95.25 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2523,7 +3575,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 64.77) (xy 97.79 64.77)
+			(xy 86.36 64.77) (xy 93.98 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2533,7 +3585,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 152.4) (xy 71.12 162.56)
+			(xy 67.31 152.4) (xy 67.31 162.56)
 		)
 		(stroke
 			(width 0)
@@ -2543,7 +3595,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 124.46) (xy 83.82 125.73)
+			(xy 80.01 124.46) (xy 80.01 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2563,7 +3615,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 92.71) (xy 78.74 92.71)
+			(xy 68.58 92.71) (xy 74.93 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2573,7 +3625,27 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 177.8) (xy 52.07 177.8)
+			(xy 50.8 138.43) (xy 49.53 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fd53d1c-065e-405a-a861-ca37cc2532ae")
+	)
+	(wire
+		(pts
+			(xy 52.07 74.93) (xy 44.45 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7222329f-cf48-48b6-bab0-3b20c343e300")
+	)
+	(wire
+		(pts
+			(xy 49.53 177.8) (xy 48.26 177.8)
 		)
 		(stroke
 			(width 0)
@@ -2583,7 +3655,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 180.34) (xy 24.13 180.34)
+			(xy 16.51 180.34) (xy 20.32 180.34)
 		)
 		(stroke
 			(width 0)
@@ -2593,7 +3665,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 55.88) (xy 83.82 54.61)
+			(xy 80.01 55.88) (xy 80.01 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2603,7 +3675,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 135.89) (xy 25.4 135.89)
+			(xy 17.78 135.89) (xy 21.59 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2613,7 +3685,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 87.63) (xy 25.4 87.63)
+			(xy 19.05 87.63) (xy 21.59 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2623,17 +3695,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 182.88) (xy 52.07 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e1e06d7-ade6-4d1f-9957-084c14cd2c88")
-	)
-	(wire
-		(pts
-			(xy 57.15 74.93) (xy 57.15 87.63)
+			(xy 52.07 74.93) (xy 52.07 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2643,7 +3705,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 152.4) (xy 96.52 162.56)
+			(xy 92.71 152.4) (xy 92.71 162.56)
 		)
 		(stroke
 			(width 0)
@@ -2653,7 +3715,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 162.56) (xy 73.66 162.56)
+			(xy 67.31 162.56) (xy 69.85 162.56)
 		)
 		(stroke
 			(width 0)
@@ -2663,17 +3725,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 83.82) (xy 78.74 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88e690ca-50ae-42f1-acca-4f57b49350b0")
-	)
-	(wire
-		(pts
-			(xy 92.71 118.11) (xy 97.79 118.11)
+			(xy 88.9 118.11) (xy 93.98 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2683,7 +3735,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 52.07) (xy 25.4 52.07)
+			(xy 17.78 52.07) (xy 21.59 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2693,7 +3745,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 38.1) (xy 83.82 39.37)
+			(xy 80.01 38.1) (xy 80.01 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2703,27 +3755,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 127) (xy 78.74 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "903095a8-7b67-400e-a530-44de59428436")
-	)
-	(wire
-		(pts
-			(xy 71.12 92.71) (xy 72.39 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92227d5a-b6df-45b7-9507-a14b39da19f2")
-	)
-	(wire
-		(pts
-			(xy 54.61 90.17) (xy 53.34 90.17)
+			(xy 50.8 90.17) (xy 49.53 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2733,7 +3765,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 180.34) (xy 77.47 180.34)
+			(xy 67.31 180.34) (xy 73.66 180.34)
 		)
 		(stroke
 			(width 0)
@@ -2743,7 +3775,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 87.63) (xy 57.15 87.63)
+			(xy 52.07 87.63) (xy 49.53 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2753,17 +3785,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 180.34) (xy 71.12 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c4172e5-8b62-4845-9f22-3e94e9c07289")
-	)
-	(wire
-		(pts
-			(xy 52.07 175.26) (xy 55.88 175.26)
+			(xy 50.8 175.26) (xy 48.26 175.26)
 		)
 		(stroke
 			(width 0)
@@ -2773,7 +3795,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 95.25) (xy 25.4 95.25)
+			(xy 17.78 95.25) (xy 21.59 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2783,7 +3805,47 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 118.11) (xy 97.79 133.35)
+			(xy 113.03 133.35) (xy 114.3 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a118f482-153d-4cd5-be28-5381070ccb16")
+	)
+	(wire
+		(pts
+			(xy 50.8 52.07) (xy 49.53 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a16ba47c-61a1-4992-81bc-c62b8021347c")
+	)
+	(wire
+		(pts
+			(xy 50.8 162.56) (xy 43.18 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3aa52c3-1a96-4ef4-b3ae-976a1bb24e87")
+	)
+	(wire
+		(pts
+			(xy 73.66 87.63) (xy 74.93 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a52062cf-ad15-41fa-9c57-29ba895c0137")
+	)
+	(wire
+		(pts
+			(xy 93.98 118.11) (xy 93.98 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2793,7 +3855,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 142.24) (xy 83.82 140.97)
+			(xy 80.01 142.24) (xy 80.01 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2803,7 +3865,17 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 133.35) (xy 101.6 133.35)
+			(xy 50.8 95.25) (xy 49.53 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7be47bd-85f5-4c5f-828c-191b89f675d8")
+	)
+	(wire
+		(pts
+			(xy 93.98 133.35) (xy 95.25 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2813,7 +3885,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 31.75) (xy 57.15 44.45)
+			(xy 52.07 31.75) (xy 52.07 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2823,7 +3895,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 49.53) (xy 25.4 49.53)
+			(xy 17.78 49.53) (xy 21.59 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2833,7 +3905,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 44.45) (xy 53.34 44.45)
+			(xy 52.07 44.45) (xy 49.53 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2853,6 +3925,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 180.34) (xy 48.26 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6fe4f1b-ce6b-4d00-b308-75fbe9f5e5f0")
+	)
+	(wire
+		(pts
 			(xy 135.89 78.74) (xy 146.05 78.74)
 		)
 		(stroke
@@ -2863,7 +3945,17 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 44.45) (xy 25.4 44.45)
+			(xy 113.03 46.99) (xy 114.3 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b93802cc-def4-4d05-8b36-c18641b5acc2")
+	)
+	(wire
+		(pts
+			(xy 19.05 44.45) (xy 21.59 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2873,7 +3965,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 21.59) (xy 97.79 31.75)
+			(xy 93.98 21.59) (xy 93.98 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2883,7 +3975,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 130.81) (xy 25.4 130.81)
+			(xy 19.05 130.81) (xy 21.59 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2893,7 +3985,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 76.2) (xy 74.93 76.2)
+			(xy 68.58 76.2) (xy 71.12 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2903,27 +3995,17 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 135.89) (xy 72.39 135.89)
+			(xy 50.8 135.89) (xy 49.53 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c3d0c770-4563-4532-8947-ae4047a1a670")
+		(uuid "bf78097e-6fa1-45cb-a2ca-ebfd1a3e9fbe")
 	)
 	(wire
 		(pts
-			(xy 53.34 95.25) (xy 53.34 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c45a85c9-ac17-427e-90e0-76102f149ecd")
-	)
-	(wire
-		(pts
-			(xy 21.59 90.17) (xy 25.4 90.17)
+			(xy 17.78 90.17) (xy 21.59 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2933,7 +4015,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 31.75) (xy 72.39 49.53)
+			(xy 68.58 31.75) (xy 68.58 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2943,7 +4025,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 31.75) (xy 97.79 46.99)
+			(xy 93.98 31.75) (xy 93.98 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2953,7 +4035,37 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 64.77) (xy 72.39 76.2)
+			(xy 52.07 118.11) (xy 44.45 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc91215d-b45c-45cf-be26-f96fd75d65cf")
+	)
+	(wire
+		(pts
+			(xy 113.03 177.8) (xy 114.3 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccad8baf-1ef9-43f3-befd-4ad3858eae70")
+	)
+	(wire
+		(pts
+			(xy 17.78 162.56) (xy 25.4 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf934cbb-5dd1-4899-a31d-5f9f7983c6e4")
+	)
+	(wire
+		(pts
+			(xy 68.58 64.77) (xy 68.58 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2963,17 +4075,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 46.99) (xy 109.22 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2355eec-ea72-4b74-b77a-f12afb3e55da")
-	)
-	(wire
-		(pts
-			(xy 93.98 90.17) (xy 97.79 90.17)
+			(xy 90.17 90.17) (xy 93.98 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2983,27 +4085,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 133.35) (xy 109.22 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8ec5bba-bd36-4627-8dba-d9b2f7540a81")
-	)
-	(wire
-		(pts
-			(xy 77.47 171.45) (xy 77.47 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db58ee51-c7de-47a4-8bbe-4c68f2bfbaa6")
-	)
-	(wire
-		(pts
-			(xy 21.59 130.81) (xy 21.59 118.11)
+			(xy 19.05 130.81) (xy 19.05 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3013,7 +4095,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 135.89) (xy 78.74 135.89)
+			(xy 68.58 135.89) (xy 74.93 135.89)
 		)
 		(stroke
 			(width 0)
@@ -3023,7 +4105,17 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 152.4) (xy 76.2 152.4)
+			(xy 50.8 92.71) (xy 49.53 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddde308c-5cba-4e75-bd1c-61dbbcc5935b")
+	)
+	(wire
+		(pts
+			(xy 67.31 152.4) (xy 72.39 152.4)
 		)
 		(stroke
 			(width 0)
@@ -3033,7 +4125,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 177.8) (xy 24.13 177.8)
+			(xy 16.51 177.8) (xy 20.32 177.8)
 		)
 		(stroke
 			(width 0)
@@ -3043,7 +4135,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 92.71) (xy 25.4 92.71)
+			(xy 17.78 92.71) (xy 21.59 92.71)
 		)
 		(stroke
 			(width 0)
@@ -3053,7 +4145,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 49.53) (xy 78.74 49.53)
+			(xy 68.58 49.53) (xy 74.93 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3063,7 +4155,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 118.11) (xy 57.15 130.81)
+			(xy 52.07 118.11) (xy 52.07 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3073,7 +4165,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 31.75) (xy 74.93 31.75)
+			(xy 68.58 31.75) (xy 71.12 31.75)
 		)
 		(stroke
 			(width 0)
@@ -3083,27 +4175,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 90.17) (xy 109.22 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e77e2bf9-576a-436e-a61d-8f4903bfb239")
-	)
-	(wire
-		(pts
-			(xy 53.34 52.07) (xy 53.34 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8342c57-c9f4-40e5-873c-e25296a0aed6")
-	)
-	(wire
-		(pts
-			(xy 92.71 177.8) (xy 96.52 177.8)
+			(xy 88.9 177.8) (xy 92.71 177.8)
 		)
 		(stroke
 			(width 0)
@@ -3113,33 +4185,13 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 138.43) (xy 25.4 138.43)
+			(xy 17.78 138.43) (xy 21.59 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ea85f728-e4df-431a-9437-92542f9b390a")
-	)
-	(wire
-		(pts
-			(xy 110.49 177.8) (xy 107.95 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eba6d13c-947c-44e9-aaec-2b388073a815")
-	)
-	(wire
-		(pts
-			(xy 53.34 138.43) (xy 53.34 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec590278-acd8-431e-8d42-ac7efe20b165")
 	)
 	(wire
 		(pts
@@ -3163,7 +4215,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 162.56) (xy 96.52 162.56)
+			(xy 87.63 162.56) (xy 92.71 162.56)
 		)
 		(stroke
 			(width 0)
@@ -3173,7 +4225,17 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 168.91) (xy 82.55 170.18)
+			(xy 73.66 44.45) (xy 74.93 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fce3c1eb-1881-48d1-a1e2-88aa239fc436")
+	)
+	(wire
+		(pts
+			(xy 78.74 168.91) (xy 78.74 170.18)
 		)
 		(stroke
 			(width 0)
@@ -3190,6 +4252,26 @@
 			(justify left bottom)
 		)
 		(uuid "0019cb60-1928-4384-93f0-b2305dd0b9ea")
+	)
+	(label "Vref"
+		(at 73.66 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "029b1808-72e8-4f33-aba4-cf1f968c1b87")
+	)
+	(label "V2out"
+		(at 143.51 139.7 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "09f82107-30cc-4309-b3d1-6b8190302f86")
 	)
 	(label "V1i-"
 		(at 151.13 29.21 0)
@@ -3212,7 +4294,7 @@
 		(uuid "10c0aa4e-bd8a-46c1-909f-075b13f0b594")
 	)
 	(label "Vcc-"
-		(at 83.82 99.06 0)
+		(at 80.01 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3222,7 +4304,7 @@
 		(uuid "11cbac03-6cd1-4def-b0bb-fb11aec9f7b1")
 	)
 	(label "V4i+"
-		(at 20.32 180.34 0)
+		(at 16.51 180.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3230,6 +4312,16 @@
 			(justify left bottom)
 		)
 		(uuid "1b238f93-cef7-4105-b4c9-856c6f8c2dd5")
+	)
+	(label "V1out"
+		(at 137.16 139.7 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1ecd79eb-e396-4768-9a02-3e304b1d0819")
 	)
 	(label "V4i-"
 		(at 184.15 49.53 0)
@@ -3242,7 +4334,7 @@
 		(uuid "20b1d537-f538-4af8-bad9-d8e2ca7b486e")
 	)
 	(label "Vcc+"
-		(at 83.82 38.1 0)
+		(at 80.01 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3261,6 +4353,16 @@
 		)
 		(uuid "26601631-0cba-4ac9-8e47-0e9d4cbd1c46")
 	)
+	(label "V3out"
+		(at 149.86 139.7 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3272e707-b5af-4609-b1fe-e58870991077")
+	)
 	(label "Vcc+"
 		(at 163.83 29.21 180)
 		(effects
@@ -3272,7 +4374,7 @@
 		(uuid "4317529f-51a3-4a35-9e58-679e9ad8867a")
 	)
 	(label "Vcc+"
-		(at 83.82 124.46 0)
+		(at 80.01 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3280,6 +4382,16 @@
 			(justify left bottom)
 		)
 		(uuid "4c699d29-3be0-44e6-8fed-52e614b86faf")
+	)
+	(label "Vref"
+		(at 50.8 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "51a5966c-1841-4eef-bff2-a7a2aa435c4a")
 	)
 	(label "Vcc-"
 		(at 184.15 31.75 0)
@@ -3291,8 +4403,28 @@
 		)
 		(uuid "54f9fdeb-5275-40e3-b5a1-b26ca5cb9246")
 	)
+	(label "Vref"
+		(at 49.53 182.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "567d10e4-bb3c-4f3b-8e20-9903529d01b3")
+	)
+	(label "V1out"
+		(at 68.58 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5afe4cc1-5f19-4922-a2b1-0d5942de2cd8")
+	)
 	(label "Vcc-"
-		(at 21.59 95.25 0)
+		(at 17.78 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3302,7 +4434,7 @@
 		(uuid "634587fd-378c-47d4-9f1b-b0483dd23a59")
 	)
 	(label "V4i-"
-		(at 20.32 177.8 0)
+		(at 16.51 177.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3310,6 +4442,16 @@
 			(justify left bottom)
 		)
 		(uuid "63c3d74a-780b-4527-9247-f3d26989568a")
+	)
+	(label "V2out"
+		(at 68.58 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "64316d4f-7271-454d-88d9-8635b8ab7ec4")
 	)
 	(label "Vcc-"
 		(at 151.13 52.07 0)
@@ -3321,8 +4463,18 @@
 		)
 		(uuid "6558dcb7-2d46-4ae9-bc9a-79dd9e6dcc76")
 	)
+	(label "Vref"
+		(at 50.8 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "69da2005-b8e7-4aab-9ce3-89f9a3109f91")
+	)
 	(label "Vcc+"
-		(at 54.61 46.99 0)
+		(at 50.8 46.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3332,7 +4484,7 @@
 		(uuid "69f8daaa-8216-4ad4-ab36-fdc998f8186b")
 	)
 	(label "Vcc-"
-		(at 21.59 52.07 0)
+		(at 17.78 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3342,7 +4494,7 @@
 		(uuid "6e916be5-e7bc-4ae1-ae8a-2da316cda3f8")
 	)
 	(label "V1i+"
-		(at 21.59 49.53 0)
+		(at 17.78 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3352,7 +4504,7 @@
 		(uuid "6f04f041-4087-40fe-b51e-b7192fcc1432")
 	)
 	(label "V3i-"
-		(at 21.59 133.35 0)
+		(at 17.78 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3362,7 +4514,7 @@
 		(uuid "719d3d9c-3e19-41ff-9f8b-232dcef34eac")
 	)
 	(label "Vcc-"
-		(at 83.82 55.88 0)
+		(at 80.01 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3381,8 +4533,18 @@
 		)
 		(uuid "78ad6210-c193-46e5-bf35-7156a8a57d28")
 	)
+	(label "Vref"
+		(at 73.66 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7cec5311-61dc-4511-8848-7eb4e952d34f")
+	)
 	(label "V1i-"
-		(at 21.59 46.99 0)
+		(at 17.78 46.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3392,7 +4554,7 @@
 		(uuid "824aeeac-4f55-43f2-9bf6-ee62b07d117f")
 	)
 	(label "Vcc+"
-		(at 54.61 90.17 0)
+		(at 50.8 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3402,7 +4564,7 @@
 		(uuid "85a4fa04-92ed-4c75-8e0c-1b8d89999736")
 	)
 	(label "Vcc-"
-		(at 20.32 182.88 0)
+		(at 16.51 182.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3421,6 +4583,26 @@
 		)
 		(uuid "89dcdcbc-1d57-41ec-b592-8d0e1fe73a25")
 	)
+	(label "Vref"
+		(at 73.66 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "954b30de-3fb3-4b6d-a3de-c1489ccc09a6")
+	)
+	(label "V4out"
+		(at 67.31 180.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "96f1bfd1-ed6d-418e-aec8-9dcbb998e4ca")
+	)
 	(label "Vcc-"
 		(at 140.97 116.84 0)
 		(effects
@@ -3432,7 +4614,7 @@
 		(uuid "a0bb0066-5fa4-4342-a674-2f5c12bb665a")
 	)
 	(label "Vcc-"
-		(at 82.55 186.69 0)
+		(at 78.74 186.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3442,7 +4624,7 @@
 		(uuid "a9e7950e-7a4c-4edc-bae4-b5ddf717862a")
 	)
 	(label "Vcc+"
-		(at 82.55 168.91 0)
+		(at 78.74 168.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3451,8 +4633,18 @@
 		)
 		(uuid "b1ec537d-6dca-4211-be1e-d23004c1173a")
 	)
+	(label "Vref"
+		(at 72.39 175.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b25bc3f7-e30f-40bb-89b1-17bde44072d3")
+	)
 	(label "V3i+"
-		(at 21.59 135.89 0)
+		(at 17.78 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3462,7 +4654,7 @@
 		(uuid "b42314cc-2459-4f5f-b755-bace04b1768a")
 	)
 	(label "Vcc+"
-		(at 53.34 177.8 0)
+		(at 49.53 177.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3492,7 +4684,7 @@
 		(uuid "ba8a705d-0754-4d13-8fd8-a8d7388d11a0")
 	)
 	(label "Vcc-"
-		(at 83.82 142.24 0)
+		(at 80.01 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3512,7 +4704,7 @@
 		(uuid "cbe204d1-99ee-415f-b41b-5e52c1609875")
 	)
 	(label "V2i+"
-		(at 21.59 92.71 0)
+		(at 17.78 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3552,7 +4744,7 @@
 		(uuid "daffa37e-8928-46da-ac3c-4327b7a380b5")
 	)
 	(label "Vcc+"
-		(at 83.82 81.28 0)
+		(at 80.01 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3571,8 +4763,18 @@
 		)
 		(uuid "e4592df4-707f-4b16-9b8d-fe6e60abf00c")
 	)
+	(label "V4out"
+		(at 156.21 139.7 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e7172666-9959-417d-ab66-b02ee3ee8013")
+	)
 	(label "Vcc-"
-		(at 21.59 138.43 0)
+		(at 17.78 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3582,7 +4784,7 @@
 		(uuid "eb6f7d9d-55e4-4c26-b44d-95e662246a62")
 	)
 	(label "V2i-"
-		(at 21.59 90.17 0)
+		(at 17.78 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3590,6 +4792,16 @@
 			(justify left bottom)
 		)
 		(uuid "ebef1d3d-7140-4714-a01a-43083b569f1d")
+	)
+	(label "Vref"
+		(at 50.8 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f2ac3eab-1c8a-4ff0-ac5f-79a43fc72e89")
 	)
 	(label "Vcc+"
 		(at 163.83 49.53 180)
@@ -3601,8 +4813,18 @@
 		)
 		(uuid "f4eee220-8f91-4591-a971-604ae97a0e67")
 	)
+	(label "Vref"
+		(at 130.81 139.7 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f9c803ae-5c39-456e-a743-2a06e38f8294")
+	)
 	(label "Vcc+"
-		(at 54.61 133.35 0)
+		(at 50.8 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3611,9 +4833,19 @@
 		)
 		(uuid "fb1ccc22-10bb-4dbf-8971-21dae1218abe")
 	)
+	(label "V3out"
+		(at 68.58 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc47ab15-c383-4492-94bf-9b5024c35c26")
+	)
 	(hierarchical_label "S4"
 		(shape output)
-		(at 110.49 177.8 0)
+		(at 114.3 177.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3624,7 +4856,7 @@
 	)
 	(hierarchical_label "S3"
 		(shape output)
-		(at 111.76 133.35 0)
+		(at 114.3 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3635,7 +4867,7 @@
 	)
 	(hierarchical_label "S2"
 		(shape output)
-		(at 111.76 90.17 0)
+		(at 114.3 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3646,7 +4878,7 @@
 	)
 	(hierarchical_label "S1"
 		(shape output)
-		(at 111.76 46.99 0)
+		(at 114.3 46.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3656,152 +4888,8 @@
 		(uuid "be468a7b-0966-4f60-9620-b523a4784f56")
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 53.34 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0096fb6d-629a-40d7-9c1c-875359fe5a22")
-		(property "Reference" "#PWR07"
-			(at 53.34 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 53.34 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "59ae5456-5fb6-48b2-8f8d-fb3b37151287")
-		)
-		(instances
-			(project ""
-				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-			(project "force_sensor_analog_fe"
-				(path "/d326fe0b-f81f-461c-8be3-8cfa0c7f2e25"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 78.74 40.64 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "015ce9d1-db9d-43d3-af4d-7ac2b5cab08e")
-		(property "Reference" "#PWR08"
-			(at 78.74 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 78.74 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 78.74 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 78.74 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "659ca80f-5693-4bc5-8808-7e1c53ac8e7b")
-		)
-		(instances
-			(project ""
-				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-			(project "force_sensor_analog_fe"
-				(path "/d326fe0b-f81f-461c-8be3-8cfa0c7f2e25"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Amplifier_Operational:OPA333xxD")
-		(at 86.36 90.17 0)
+		(at 82.55 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3809,7 +4897,7 @@
 		(dnp no)
 		(uuid "028bdfa7-b52e-421c-830b-fba860d7fcb3")
 		(property "Reference" "U3"
-			(at 90.932 82.042 0)
+			(at 87.122 82.042 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3817,7 +4905,7 @@
 			)
 		)
 		(property "Value" "OPA333xxD"
-			(at 91.186 84.074 0)
+			(at 87.376 84.074 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3825,7 +4913,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 83.82 95.25 0)
+			(at 80.01 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3835,7 +4923,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa333.pdf"
-			(at 90.17 86.36 0)
+			(at 86.36 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3844,7 +4932,7 @@
 			)
 		)
 		(property "Description" "Single 1.8V, microPower, CMOS Operational Amplifiers, Zero-Drift Series, SOIC-8"
-			(at 86.36 90.17 0)
+			(at 82.55 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3893,7 +4981,7 @@
 	)
 	(symbol
 		(lib_id "Capstone:RC0603FR-07100RL")
-		(at 21.59 31.75 0)
+		(at 26.67 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3902,7 +4990,7 @@
 		(fields_autoplaced yes)
 		(uuid "02e57058-36c1-4283-b8c6-36fae7620e71")
 		(property "Reference" "R23"
-			(at 30.48 25.4 0)
+			(at 35.56 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3910,7 +4998,7 @@
 			)
 		)
 		(property "Value" "100Ω"
-			(at 30.48 27.94 0)
+			(at 35.56 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3918,7 +5006,7 @@
 			)
 		)
 		(property "Footprint" "RESC1608X55N"
-			(at 35.56 127.94 0)
+			(at 40.64 127.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3928,7 +5016,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.yageo.com/documents/recent/PYu-RC0603_51_RoHS_L_v5.pdf"
-			(at 35.56 227.94 0)
+			(at 40.64 227.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3938,7 +5026,7 @@
 			)
 		)
 		(property "Description" "Yageo RC Series Thick Film Surface Mount Resistor 0603 Case 100"
-			(at 21.59 31.75 0)
+			(at 26.67 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3947,7 +5035,7 @@
 			)
 		)
 		(property "Height" "0.55"
-			(at 35.56 427.94 0)
+			(at 40.64 427.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3957,7 +5045,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "KEMET"
-			(at 35.56 527.94 0)
+			(at 40.64 527.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3967,7 +5055,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RC0603FR-07100RL"
-			(at 35.56 627.94 0)
+			(at 40.64 627.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3977,7 +5065,7 @@
 			)
 		)
 		(property "Mouser Part Number" "603-RC0603FR-07100RL"
-			(at 35.56 727.94 0)
+			(at 40.64 727.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3987,7 +5075,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/RC0603FR-07100RL?qs=NEN%2FsE%2FLsvPIwIWKCOS4%2FA%3D%3D"
-			(at 35.56 827.94 0)
+			(at 40.64 827.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3997,7 +5085,7 @@
 			)
 		)
 		(property "Arrow Part Number" "RC0603FR-07100RL"
-			(at 35.56 927.94 0)
+			(at 40.64 927.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4007,7 +5095,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rc0603fr-07100rl/yageo?region=europe"
-			(at 35.56 1027.94 0)
+			(at 40.64 1027.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4032,428 +5120,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Capstone:RC0603FR-07100RL")
-		(at 38.1 162.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "051018cb-0666-4801-b4a7-1937c37a2c72")
-		(property "Reference" "R27"
-			(at 46.99 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100Ω"
-			(at 46.99 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "RESC1608X55N"
-			(at 52.07 258.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.yageo.com/documents/recent/PYu-RC0603_51_RoHS_L_v5.pdf"
-			(at 52.07 358.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Yageo RC Series Thick Film Surface Mount Resistor 0603 Case 100"
-			(at 38.1 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.55"
-			(at 52.07 558.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "KEMET"
-			(at 52.07 658.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RC0603FR-07100RL"
-			(at 52.07 758.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "603-RC0603FR-07100RL"
-			(at 52.07 858.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/RC0603FR-07100RL?qs=NEN%2FsE%2FLsvPIwIWKCOS4%2FA%3D%3D"
-			(at 52.07 958.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "RC0603FR-07100RL"
-			(at 52.07 1058.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rc0603fr-07100rl/yageo?region=europe"
-			(at 52.07 1158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cc65e11c-e4a3-4ea6-b927-395d7ed6717b")
-		)
-		(pin "1"
-			(uuid "abcf7e2e-6d2c-4a48-a872-6d5aebceac09")
-		)
-		(instances
-			(project "weight-sensor-pcb"
-				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
-					(reference "R27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Capstone:RC0603FR-07100RL")
-		(at 39.37 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0efe80c2-bb43-477a-9964-4ef7cf0e689c")
-		(property "Reference" "R2"
-			(at 48.26 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100Ω"
-			(at 48.26 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "RESC1608X55N"
-			(at 53.34 171.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.yageo.com/documents/recent/PYu-RC0603_51_RoHS_L_v5.pdf"
-			(at 53.34 271.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Yageo RC Series Thick Film Surface Mount Resistor 0603 Case 100"
-			(at 39.37 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.55"
-			(at 53.34 471.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "KEMET"
-			(at 53.34 571.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RC0603FR-07100RL"
-			(at 53.34 671.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "603-RC0603FR-07100RL"
-			(at 53.34 771.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/RC0603FR-07100RL?qs=NEN%2FsE%2FLsvPIwIWKCOS4%2FA%3D%3D"
-			(at 53.34 871.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "RC0603FR-07100RL"
-			(at 53.34 971.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rc0603fr-07100rl/yageo?region=europe"
-			(at 53.34 1071.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8645bb6a-5327-4b51-8777-bedd8de4800e")
-		)
-		(pin "1"
-			(uuid "f2fea9ad-9671-42da-884f-c1f5f21e4da8")
-		)
-		(instances
-			(project "weight-sensor-pcb"
-				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Capstone:RC0603FR-07100RL")
-		(at 39.37 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1dd5de1d-91ff-4911-b1f0-d8d9299aea7f")
-		(property "Reference" "R25"
-			(at 48.26 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100Ω"
-			(at 48.26 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "RESC1608X55N"
-			(at 53.34 127.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.yageo.com/documents/recent/PYu-RC0603_51_RoHS_L_v5.pdf"
-			(at 53.34 227.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Yageo RC Series Thick Film Surface Mount Resistor 0603 Case 100"
-			(at 39.37 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.55"
-			(at 53.34 427.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "KEMET"
-			(at 53.34 527.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RC0603FR-07100RL"
-			(at 53.34 627.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "603-RC0603FR-07100RL"
-			(at 53.34 727.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/RC0603FR-07100RL?qs=NEN%2FsE%2FLsvPIwIWKCOS4%2FA%3D%3D"
-			(at 53.34 827.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "RC0603FR-07100RL"
-			(at 53.34 927.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rc0603fr-07100rl/yageo?region=europe"
-			(at 53.34 1027.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "dc33de8f-8d5a-4b91-8ec3-576cf387e374")
-		)
-		(pin "1"
-			(uuid "80876b6b-ffc6-494d-bab2-1bfefb531b25")
-		)
-		(instances
-			(project "weight-sensor-pcb"
-				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
-					(reference "R25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Capstone:INA333AIDGKR")
-		(at 24.13 175.26 0)
+		(at 20.32 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4462,7 +5130,7 @@
 		(fields_autoplaced yes)
 		(uuid "1f10717e-eb30-4358-bdf7-095d08249195")
 		(property "Reference" "IC2"
-			(at 38.1 167.64 0)
+			(at 34.29 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4471,7 +5139,7 @@
 			)
 		)
 		(property "Value" "INA333AIDGKR"
-			(at 38.1 170.18 0)
+			(at 34.29 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4479,7 +5147,7 @@
 			)
 		)
 		(property "Footprint" "SOP65P490X110-8N"
-			(at 48.26 270.18 0)
+			(at 44.45 270.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4489,7 +5157,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina333.pdf"
-			(at 48.26 370.18 0)
+			(at 44.45 370.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4499,7 +5167,7 @@
 			)
 		)
 		(property "Description" "Low-Power, Zero-Drift, Precision Instrumentation Amplifier"
-			(at 24.13 175.26 0)
+			(at 20.32 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4508,7 +5176,7 @@
 			)
 		)
 		(property "Height" "1.1"
-			(at 48.26 570.18 0)
+			(at 44.45 570.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4518,7 +5186,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 48.26 670.18 0)
+			(at 44.45 670.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4528,7 +5196,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "INA333AIDGKR"
-			(at 48.26 770.18 0)
+			(at 44.45 770.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4538,7 +5206,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-INA333AIDGKR"
-			(at 48.26 870.18 0)
+			(at 44.45 870.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4548,7 +5216,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/INA333AIDGKR?qs=nJRxFdq%252BlvaKwfZOdHFpKg%3D%3D"
-			(at 48.26 970.18 0)
+			(at 44.45 970.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4558,7 +5226,7 @@
 			)
 		)
 		(property "Arrow Part Number" "INA333AIDGKR"
-			(at 48.26 1070.18 0)
+			(at 44.45 1070.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4568,7 +5236,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ina333aidgkr/texas-instruments?utm_currency=USD&region=nac"
-			(at 48.26 1170.18 0)
+			(at 44.45 1170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4742,8 +5410,9 @@
 		)
 	)
 	(symbol
+		(lib_name "RMCF0603FT10K0_2")
 		(lib_id "Capstone:RMCF0603FT10K0")
-		(at 53.34 92.71 0)
+		(at 50.8 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4752,7 +5421,7 @@
 		(fields_autoplaced yes)
 		(uuid "2897ad0c-7017-4f69-ab0c-1ede2437211c")
 		(property "Reference" "R11"
-			(at 62.23 86.36 0)
+			(at 59.69 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4760,7 +5429,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 62.23 88.9 0)
+			(at 59.69 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4768,7 +5437,7 @@
 			)
 		)
 		(property "Footprint" "RESC1608X55N"
-			(at 67.31 188.9 0)
+			(at 64.77 188.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4778,7 +5447,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf"
-			(at 67.31 288.9 0)
+			(at 64.77 288.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4788,7 +5457,7 @@
 			)
 		)
 		(property "Description" "RES, 0603, 10 Kohm, 1%, 0.1W"
-			(at 53.34 92.71 0)
+			(at 50.8 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4797,7 +5466,7 @@
 			)
 		)
 		(property "Height" "0.55"
-			(at 67.31 488.9 0)
+			(at 64.77 488.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4807,7 +5476,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Stackpole Electronics, Inc."
-			(at 67.31 588.9 0)
+			(at 64.77 588.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4817,7 +5486,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RMCF0603FT10K0"
-			(at 67.31 688.9 0)
+			(at 64.77 688.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4827,7 +5496,7 @@
 			)
 		)
 		(property "Mouser Part Number" "708-RMCF0603FT10K0"
-			(at 67.31 788.9 0)
+			(at 64.77 788.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4837,7 +5506,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/SEI-Stackpole/RMCF0603FT10K0?qs=eqvyn46aSBQsvdGhIyiuWw%3D%3D"
-			(at 67.31 888.9 0)
+			(at 64.77 888.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4847,7 +5516,7 @@
 			)
 		)
 		(property "Arrow Part Number" "RMCF0603FT10K0"
-			(at 67.31 988.9 0)
+			(at 64.77 988.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4857,7 +5526,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rmcf0603ft10k0/stackpole-electronics?utm_currency=USD&region=asia"
-			(at 67.31 1088.9 0)
+			(at 64.77 1088.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5007,25 +5676,25 @@
 		)
 	)
 	(symbol
-		(lib_id "Capstone:RC0603FR-07100RL")
-		(at 20.32 162.56 0)
+		(lib_id "Capstone:RC0603JR-070RL")
+		(at 95.25 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3887aac7-aef9-438c-bf91-606f8b891df4")
-		(property "Reference" "R26"
-			(at 29.21 156.21 0)
+		(uuid "31827cab-7a42-4134-b64f-1122c221b26f")
+		(property "Reference" "R9"
+			(at 104.14 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "100Ω"
-			(at 29.21 158.75 0)
+		(property "Value" "0Ω"
+			(at 104.14 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5033,7 +5702,7 @@
 			)
 		)
 		(property "Footprint" "RESC1608X55N"
-			(at 34.29 258.75 0)
+			(at 109.22 229.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5043,7 +5712,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.yageo.com/documents/recent/PYu-RC0603_51_RoHS_L_v5.pdf"
-			(at 34.29 358.75 0)
+			(at 109.22 329.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5052,8 +5721,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Yageo RC Series Thick Film Surface Mount Resistor 0603 Case 100"
-			(at 20.32 162.56 0)
+		(property "Description" "YAGEO (PHYCOMP) - RC0603JR-070RL - RES, THICK FILM, 0R, 5%, 0.1W, 0603"
+			(at 95.25 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5062,7 +5731,7 @@
 			)
 		)
 		(property "Height" "0.55"
-			(at 34.29 558.75 0)
+			(at 109.22 529.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5072,7 +5741,147 @@
 			)
 		)
 		(property "Manufacturer_Name" "KEMET"
-			(at 34.29 658.75 0)
+			(at 109.22 629.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603JR-070RL"
+			(at 109.22 729.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0603JR-070RL"
+			(at 109.22 829.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/RC0603JR-070RL?qs=2cAdsCoAWRGWyPcuXgGiXQ%3D%3D"
+			(at 109.22 929.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "RC0603JR-070RL"
+			(at 109.22 1029.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rc0603jr-070rl/yageo?utm_currency=USD&region=nac"
+			(at 109.22 1129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7edf5929-d97d-4dd7-b08e-259c163b7a18")
+		)
+		(pin "2"
+			(uuid "195ec00d-8750-46b6-94c4-124d8ad5a89a")
+		)
+		(instances
+			(project "weight-sensor-pcb"
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capstone:RC0603FR-07100RL")
+		(at 25.4 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3887aac7-aef9-438c-bf91-606f8b891df4")
+		(property "Reference" "R26"
+			(at 34.29 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100Ω"
+			(at 34.29 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RESC1608X55N"
+			(at 39.37 258.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.yageo.com/documents/recent/PYu-RC0603_51_RoHS_L_v5.pdf"
+			(at 39.37 358.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Yageo RC Series Thick Film Surface Mount Resistor 0603 Case 100"
+			(at 25.4 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55"
+			(at 39.37 558.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 39.37 658.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5082,7 +5891,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RC0603FR-07100RL"
-			(at 34.29 758.75 0)
+			(at 39.37 758.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5092,7 +5901,7 @@
 			)
 		)
 		(property "Mouser Part Number" "603-RC0603FR-07100RL"
-			(at 34.29 858.75 0)
+			(at 39.37 858.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5102,7 +5911,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/RC0603FR-07100RL?qs=NEN%2FsE%2FLsvPIwIWKCOS4%2FA%3D%3D"
-			(at 34.29 958.75 0)
+			(at 39.37 958.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5112,7 +5921,7 @@
 			)
 		)
 		(property "Arrow Part Number" "RC0603FR-07100RL"
-			(at 34.29 1058.75 0)
+			(at 39.37 1058.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5122,7 +5931,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rc0603fr-07100rl/yageo?region=europe"
-			(at 34.29 1158.75 0)
+			(at 39.37 1158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5147,228 +5956,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 78.74 83.82 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3fbbbe46-a40d-42c5-8290-3992c5b90748")
-		(property "Reference" "#PWR0106"
-			(at 78.74 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 78.74 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 78.74 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 78.74 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "804a406c-e600-4223-aedf-c20e555d78c4")
-		)
-		(instances
-			(project "weight-sensor-pcb"
-				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
-					(reference "#PWR0106")
-					(unit 1)
-				)
-			)
-			(project "force_sensor_analog_fe"
-				(path "/d326fe0b-f81f-461c-8be3-8cfa0c7f2e25"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 105.41 133.35 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "403e3674-319c-4b0b-b413-7140b6207aab")
-		(property "Reference" "R20"
-			(at 105.41 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 105.41 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 105.41 135.128 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 105.41 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 105.41 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3bce9cf9-936d-4eac-9663-74c078d1365e")
-		)
-		(pin "1"
-			(uuid "3c849bf9-0f01-407b-9aaf-0a0db42499dd")
-		)
-		(instances
-			(project "weight-sensor-pcb"
-				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-			(project "force_sensor_analog_fe"
-				(path "/d326fe0b-f81f-461c-8be3-8cfa0c7f2e25"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 104.14 177.8 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4f5a9a1a-5c7d-4c0f-a962-76e7aee40bc7")
-		(property "Reference" "R18"
-			(at 104.14 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 104.14 173.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 179.578 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 104.14 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 104.14 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2b654d6e-776e-48d2-900d-1da2403d18e1")
-		)
-		(pin "1"
-			(uuid "691fa017-083e-4254-a2c2-7d8cd5428edd")
-		)
-		(instances
-			(project "weight-sensor-pcb"
-				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-			(project "force_sensor_analog_fe"
-				(path "/d326fe0b-f81f-461c-8be3-8cfa0c7f2e25"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Capstone:RC0603FR-07100RL")
-		(at 21.59 118.11 0)
+		(at 26.67 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5377,7 +5966,7 @@
 		(fields_autoplaced yes)
 		(uuid "501403bc-75d6-4398-8e7c-bfcc67633876")
 		(property "Reference" "R3"
-			(at 30.48 111.76 0)
+			(at 35.56 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5385,7 +5974,7 @@
 			)
 		)
 		(property "Value" "100Ω"
-			(at 30.48 114.3 0)
+			(at 35.56 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5393,7 +5982,7 @@
 			)
 		)
 		(property "Footprint" "RESC1608X55N"
-			(at 35.56 214.3 0)
+			(at 40.64 214.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5403,7 +5992,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.yageo.com/documents/recent/PYu-RC0603_51_RoHS_L_v5.pdf"
-			(at 35.56 314.3 0)
+			(at 40.64 314.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5413,7 +6002,7 @@
 			)
 		)
 		(property "Description" "Yageo RC Series Thick Film Surface Mount Resistor 0603 Case 100"
-			(at 21.59 118.11 0)
+			(at 26.67 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5422,7 +6011,7 @@
 			)
 		)
 		(property "Height" "0.55"
-			(at 35.56 514.3 0)
+			(at 40.64 514.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5432,7 +6021,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "KEMET"
-			(at 35.56 614.3 0)
+			(at 40.64 614.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5442,7 +6031,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RC0603FR-07100RL"
-			(at 35.56 714.3 0)
+			(at 40.64 714.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5452,7 +6041,7 @@
 			)
 		)
 		(property "Mouser Part Number" "603-RC0603FR-07100RL"
-			(at 35.56 814.3 0)
+			(at 40.64 814.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5462,7 +6051,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/RC0603FR-07100RL?qs=NEN%2FsE%2FLsvPIwIWKCOS4%2FA%3D%3D"
-			(at 35.56 914.3 0)
+			(at 40.64 914.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5472,7 +6061,7 @@
 			)
 		)
 		(property "Arrow Part Number" "RC0603FR-07100RL"
-			(at 35.56 1014.3 0)
+			(at 40.64 1014.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5482,7 +6071,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rc0603fr-07100rl/yageo?region=europe"
-			(at 35.56 1114.3 0)
+			(at 40.64 1114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5508,7 +6097,7 @@
 	)
 	(symbol
 		(lib_id "Capstone:RMCF0603FT10K0")
-		(at 74.93 76.2 0)
+		(at 71.12 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5517,7 +6106,7 @@
 		(fields_autoplaced yes)
 		(uuid "5daa3ee3-d8cf-41af-b6b3-57b8395a0577")
 		(property "Reference" "R15"
-			(at 83.82 69.85 0)
+			(at 80.01 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5525,7 +6114,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 83.82 72.39 0)
+			(at 80.01 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5533,7 +6122,7 @@
 			)
 		)
 		(property "Footprint" "RESC1608X55N"
-			(at 88.9 172.39 0)
+			(at 85.09 172.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5543,7 +6132,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf"
-			(at 88.9 272.39 0)
+			(at 85.09 272.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5553,7 +6142,7 @@
 			)
 		)
 		(property "Description" "RES, 0603, 10 Kohm, 1%, 0.1W"
-			(at 74.93 76.2 0)
+			(at 71.12 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5562,7 +6151,7 @@
 			)
 		)
 		(property "Height" "0.55"
-			(at 88.9 472.39 0)
+			(at 85.09 472.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5572,7 +6161,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Stackpole Electronics, Inc."
-			(at 88.9 572.39 0)
+			(at 85.09 572.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5582,7 +6171,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RMCF0603FT10K0"
-			(at 88.9 672.39 0)
+			(at 85.09 672.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5592,7 +6181,7 @@
 			)
 		)
 		(property "Mouser Part Number" "708-RMCF0603FT10K0"
-			(at 88.9 772.39 0)
+			(at 85.09 772.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5602,7 +6191,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/SEI-Stackpole/RMCF0603FT10K0?qs=eqvyn46aSBQsvdGhIyiuWw%3D%3D"
-			(at 88.9 872.39 0)
+			(at 85.09 872.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5612,7 +6201,7 @@
 			)
 		)
 		(property "Arrow Part Number" "RMCF0603FT10K0"
-			(at 88.9 972.39 0)
+			(at 85.09 972.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5622,7 +6211,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rmcf0603ft10k0/stackpole-electronics?utm_currency=USD&region=asia"
-			(at 88.9 1072.39 0)
+			(at 85.09 1072.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5647,8 +6236,148 @@
 		)
 	)
 	(symbol
+		(lib_id "Capstone:RC0603JR-070RL")
+		(at 95.25 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66a66e8d-42f8-45ab-aef5-e27833b96a58")
+		(property "Reference" "R4"
+			(at 104.14 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0Ω"
+			(at 104.14 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RESC1608X55N"
+			(at 109.22 186.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.yageo.com/documents/recent/PYu-RC0603_51_RoHS_L_v5.pdf"
+			(at 109.22 286.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "YAGEO (PHYCOMP) - RC0603JR-070RL - RES, THICK FILM, 0R, 5%, 0.1W, 0603"
+			(at 95.25 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55"
+			(at 109.22 486.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 109.22 586.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603JR-070RL"
+			(at 109.22 686.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0603JR-070RL"
+			(at 109.22 786.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/RC0603JR-070RL?qs=2cAdsCoAWRGWyPcuXgGiXQ%3D%3D"
+			(at 109.22 886.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "RC0603JR-070RL"
+			(at 109.22 986.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rc0603jr-070rl/yageo?utm_currency=USD&region=nac"
+			(at 109.22 1086.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6795cdfb-57e2-4628-8e53-cd2baa13edc6")
+		)
+		(pin "2"
+			(uuid "15bbefb0-b95c-4104-a25c-764ceec8a2cc")
+		)
+		(instances
+			(project "weight-sensor-pcb"
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Capstone:C4532C0G1H154J250KA")
-		(at 77.47 21.59 0)
+		(at 73.66 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5656,7 +6385,7 @@
 		(dnp no)
 		(uuid "6aa5f1d8-f633-41a6-9412-5965d65758a2")
 		(property "Reference" "C1"
-			(at 89.408 15.494 0)
+			(at 85.598 15.494 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5664,7 +6393,7 @@
 			)
 		)
 		(property "Value" "150nF"
-			(at 89.408 18.034 0)
+			(at 85.598 18.034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5672,7 +6401,7 @@
 			)
 		)
 		(property "Footprint" "C4532_Commercial"
-			(at 86.36 117.78 0)
+			(at 82.55 117.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5682,7 +6411,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
-			(at 86.36 217.78 0)
+			(at 82.55 217.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5692,7 +6421,7 @@
 			)
 		)
 		(property "Description" "MULTILAYER CERAMIC CHIP CAPACITORS, 4532, Commercial grade, general (Up to 75V)"
-			(at 77.47 21.59 0)
+			(at 73.66 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5701,7 +6430,7 @@
 			)
 		)
 		(property "Height" "2.2"
-			(at 86.36 417.78 0)
+			(at 82.55 417.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5711,7 +6440,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 86.36 517.78 0)
+			(at 82.55 517.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5721,7 +6450,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 86.36 617.78 0)
+			(at 82.55 617.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5731,7 +6460,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "TDK"
-			(at 86.36 717.78 0)
+			(at 82.55 717.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5741,7 +6470,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C4532C0G1H154J250KA"
-			(at 86.36 817.78 0)
+			(at 82.55 817.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5760,6 +6489,146 @@
 			(project ""
 				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capstone:RC0603JR-070RL")
+		(at 95.25 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d13ea82-6f5e-4dce-941a-5af9aacc0694")
+		(property "Reference" "R2"
+			(at 104.14 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0Ω"
+			(at 104.14 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RESC1608X55N"
+			(at 109.22 143.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.yageo.com/documents/recent/PYu-RC0603_51_RoHS_L_v5.pdf"
+			(at 109.22 243.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "YAGEO (PHYCOMP) - RC0603JR-070RL - RES, THICK FILM, 0R, 5%, 0.1W, 0603"
+			(at 95.25 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55"
+			(at 109.22 443.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 109.22 543.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603JR-070RL"
+			(at 109.22 643.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0603JR-070RL"
+			(at 109.22 743.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/RC0603JR-070RL?qs=2cAdsCoAWRGWyPcuXgGiXQ%3D%3D"
+			(at 109.22 843.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "RC0603JR-070RL"
+			(at 109.22 943.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rc0603jr-070rl/yageo?utm_currency=USD&region=nac"
+			(at 109.22 1043.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4702f851-dd59-442b-bbce-082126091289")
+		)
+		(pin "2"
+			(uuid "902cefb5-c97a-4cf1-b040-ecca1253e274")
+		)
+		(instances
+			(project "weight-sensor-pcb"
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -5908,78 +6777,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 53.34 143.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "722c3972-62d2-490a-8a75-94d6b5a72bac")
-		(property "Reference" "#PWR0103"
-			(at 53.34 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 53.34 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "77ad577f-4284-4af8-adb0-d53a4af55827")
-		)
-		(instances
-			(project "weight-sensor-pcb"
-				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
-					(reference "#PWR0103")
-					(unit 1)
-				)
-			)
-			(project "force_sensor_analog_fe"
-				(path "/d326fe0b-f81f-461c-8be3-8cfa0c7f2e25"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Capstone:SM04B-GHS-TB_LF__SN_")
 		(at 163.83 49.53 0)
 		(unit 1)
@@ -6105,6 +6902,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 156.21 140.97 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "770d296b-074e-4b27-9f14-07d754467b03")
+		(property "Reference" "TP20"
+			(at 153.924 149.352 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "V4 OUT"
+			(at 156.21 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 151.13 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 156.21 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "504b4200-8d9d-4c75-9a03-752c4d40c8bb")
+		)
+		(instances
+			(project "weight-sensor-pcb"
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
+					(reference "TP20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 140.97 118.11 0)
 		(unit 1)
@@ -6171,8 +7034,9 @@
 		)
 	)
 	(symbol
+		(lib_name "RMCF0603FT10K0_1")
 		(lib_id "Capstone:RMCF0603FT10K0")
-		(at 53.34 49.53 0)
+		(at 50.8 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6181,7 +7045,7 @@
 		(fields_autoplaced yes)
 		(uuid "793c07de-1a10-403b-9394-cc8aad7831fc")
 		(property "Reference" "R10"
-			(at 62.23 43.18 0)
+			(at 59.69 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6189,7 +7053,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 62.23 45.72 0)
+			(at 59.69 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6197,7 +7061,7 @@
 			)
 		)
 		(property "Footprint" "RESC1608X55N"
-			(at 67.31 145.72 0)
+			(at 64.77 145.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6207,7 +7071,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf"
-			(at 67.31 245.72 0)
+			(at 64.77 245.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6217,7 +7081,7 @@
 			)
 		)
 		(property "Description" "RES, 0603, 10 Kohm, 1%, 0.1W"
-			(at 53.34 49.53 0)
+			(at 50.8 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6226,7 +7090,7 @@
 			)
 		)
 		(property "Height" "0.55"
-			(at 67.31 445.72 0)
+			(at 64.77 445.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6236,7 +7100,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Stackpole Electronics, Inc."
-			(at 67.31 545.72 0)
+			(at 64.77 545.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6246,7 +7110,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RMCF0603FT10K0"
-			(at 67.31 645.72 0)
+			(at 64.77 645.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6256,7 +7120,7 @@
 			)
 		)
 		(property "Mouser Part Number" "708-RMCF0603FT10K0"
-			(at 67.31 745.72 0)
+			(at 64.77 745.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6266,7 +7130,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/SEI-Stackpole/RMCF0603FT10K0?qs=eqvyn46aSBQsvdGhIyiuWw%3D%3D"
-			(at 67.31 845.72 0)
+			(at 64.77 845.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6276,7 +7140,7 @@
 			)
 		)
 		(property "Arrow Part Number" "RMCF0603FT10K0"
-			(at 67.31 945.72 0)
+			(at 64.77 945.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6286,7 +7150,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rmcf0603ft10k0/stackpole-electronics?utm_currency=USD&region=asia"
-			(at 67.31 1045.72 0)
+			(at 64.77 1045.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6312,7 +7176,7 @@
 	)
 	(symbol
 		(lib_id "Capstone:RMCF0603FT10K0")
-		(at 74.93 31.75 0)
+		(at 71.12 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6321,7 +7185,7 @@
 		(fields_autoplaced yes)
 		(uuid "7a2122e8-5b8b-42e9-b99d-03c387c119bb")
 		(property "Reference" "R14"
-			(at 83.82 25.4 0)
+			(at 80.01 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6329,7 +7193,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 83.82 27.94 0)
+			(at 80.01 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6337,7 +7201,7 @@
 			)
 		)
 		(property "Footprint" "RESC1608X55N"
-			(at 88.9 127.94 0)
+			(at 85.09 127.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6347,7 +7211,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf"
-			(at 88.9 227.94 0)
+			(at 85.09 227.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6357,7 +7221,7 @@
 			)
 		)
 		(property "Description" "RES, 0603, 10 Kohm, 1%, 0.1W"
-			(at 74.93 31.75 0)
+			(at 71.12 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6366,7 +7230,7 @@
 			)
 		)
 		(property "Height" "0.55"
-			(at 88.9 427.94 0)
+			(at 85.09 427.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6376,7 +7240,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Stackpole Electronics, Inc."
-			(at 88.9 527.94 0)
+			(at 85.09 527.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6386,7 +7250,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RMCF0603FT10K0"
-			(at 88.9 627.94 0)
+			(at 85.09 627.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6396,7 +7260,7 @@
 			)
 		)
 		(property "Mouser Part Number" "708-RMCF0603FT10K0"
-			(at 88.9 727.94 0)
+			(at 85.09 727.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6406,7 +7270,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/SEI-Stackpole/RMCF0603FT10K0?qs=eqvyn46aSBQsvdGhIyiuWw%3D%3D"
-			(at 88.9 827.94 0)
+			(at 85.09 827.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6416,7 +7280,7 @@
 			)
 		)
 		(property "Arrow Part Number" "RMCF0603FT10K0"
-			(at 88.9 927.94 0)
+			(at 85.09 927.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6426,7 +7290,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rmcf0603ft10k0/stackpole-electronics?utm_currency=USD&region=asia"
-			(at 88.9 1027.94 0)
+			(at 85.09 1027.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6452,7 +7316,7 @@
 	)
 	(symbol
 		(lib_id "Capstone:INA333AIDGKR")
-		(at 25.4 130.81 0)
+		(at 21.59 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6461,7 +7325,7 @@
 		(fields_autoplaced yes)
 		(uuid "7d613517-9d4d-44b9-ac08-03b1b45ef2b6")
 		(property "Reference" "IC5"
-			(at 39.37 123.19 0)
+			(at 35.56 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6469,7 +7333,7 @@
 			)
 		)
 		(property "Value" "INA333AIDGKR"
-			(at 39.37 125.73 0)
+			(at 35.56 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6477,7 +7341,7 @@
 			)
 		)
 		(property "Footprint" "SOP65P490X110-8N"
-			(at 49.53 225.73 0)
+			(at 45.72 225.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6487,7 +7351,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina333.pdf"
-			(at 49.53 325.73 0)
+			(at 45.72 325.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6497,7 +7361,7 @@
 			)
 		)
 		(property "Description" "Low-Power, Zero-Drift, Precision Instrumentation Amplifier"
-			(at 25.4 130.81 0)
+			(at 21.59 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6506,7 +7370,7 @@
 			)
 		)
 		(property "Height" "1.1"
-			(at 49.53 525.73 0)
+			(at 45.72 525.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6516,7 +7380,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 49.53 625.73 0)
+			(at 45.72 625.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6526,7 +7390,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "INA333AIDGKR"
-			(at 49.53 725.73 0)
+			(at 45.72 725.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6536,7 +7400,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-INA333AIDGKR"
-			(at 49.53 825.73 0)
+			(at 45.72 825.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6546,7 +7410,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/INA333AIDGKR?qs=nJRxFdq%252BlvaKwfZOdHFpKg%3D%3D"
-			(at 49.53 925.73 0)
+			(at 45.72 925.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6556,7 +7420,7 @@
 			)
 		)
 		(property "Arrow Part Number" "INA333AIDGKR"
-			(at 49.53 1025.73 0)
+			(at 45.72 1025.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6566,7 +7430,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ina333aidgkr/texas-instruments?utm_currency=USD&region=nac"
-			(at 49.53 1125.73 0)
+			(at 45.72 1125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6616,7 +7480,7 @@
 	)
 	(symbol
 		(lib_id "Capstone:INA333AIDGKR")
-		(at 25.4 87.63 0)
+		(at 21.59 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6625,7 +7489,7 @@
 		(fields_autoplaced yes)
 		(uuid "7fa97567-cdf8-4d31-9440-79add9b73577")
 		(property "Reference" "IC4"
-			(at 39.37 80.01 0)
+			(at 35.56 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6633,7 +7497,7 @@
 			)
 		)
 		(property "Value" "INA333AIDGKR"
-			(at 39.37 82.55 0)
+			(at 35.56 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6641,7 +7505,7 @@
 			)
 		)
 		(property "Footprint" "SOP65P490X110-8N"
-			(at 49.53 182.55 0)
+			(at 45.72 182.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6651,7 +7515,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina333.pdf"
-			(at 49.53 282.55 0)
+			(at 45.72 282.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6661,7 +7525,7 @@
 			)
 		)
 		(property "Description" "Low-Power, Zero-Drift, Precision Instrumentation Amplifier"
-			(at 25.4 87.63 0)
+			(at 21.59 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6670,7 +7534,7 @@
 			)
 		)
 		(property "Height" "1.1"
-			(at 49.53 482.55 0)
+			(at 45.72 482.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6680,7 +7544,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 49.53 582.55 0)
+			(at 45.72 582.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6690,7 +7554,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "INA333AIDGKR"
-			(at 49.53 682.55 0)
+			(at 45.72 682.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6700,7 +7564,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-INA333AIDGKR"
-			(at 49.53 782.55 0)
+			(at 45.72 782.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6710,7 +7574,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/INA333AIDGKR?qs=nJRxFdq%252BlvaKwfZOdHFpKg%3D%3D"
-			(at 49.53 882.55 0)
+			(at 45.72 882.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6720,7 +7584,7 @@
 			)
 		)
 		(property "Arrow Part Number" "INA333AIDGKR"
-			(at 49.53 982.55 0)
+			(at 45.72 982.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6730,7 +7594,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ina333aidgkr/texas-instruments?utm_currency=USD&region=nac"
-			(at 49.53 1082.55 0)
+			(at 45.72 1082.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6780,7 +7644,7 @@
 	)
 	(symbol
 		(lib_id "Capstone:RMCF0603FT10K0")
-		(at 74.93 118.11 0)
+		(at 71.12 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6789,7 +7653,7 @@
 		(fields_autoplaced yes)
 		(uuid "832e019a-0ee4-4ffa-8780-f25cce2e3053")
 		(property "Reference" "R16"
-			(at 83.82 111.76 0)
+			(at 80.01 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6797,7 +7661,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 83.82 114.3 0)
+			(at 80.01 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6805,7 +7669,7 @@
 			)
 		)
 		(property "Footprint" "RESC1608X55N"
-			(at 88.9 214.3 0)
+			(at 85.09 214.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6815,7 +7679,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf"
-			(at 88.9 314.3 0)
+			(at 85.09 314.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6825,7 +7689,7 @@
 			)
 		)
 		(property "Description" "RES, 0603, 10 Kohm, 1%, 0.1W"
-			(at 74.93 118.11 0)
+			(at 71.12 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6834,7 +7698,7 @@
 			)
 		)
 		(property "Height" "0.55"
-			(at 88.9 514.3 0)
+			(at 85.09 514.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6844,7 +7708,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Stackpole Electronics, Inc."
-			(at 88.9 614.3 0)
+			(at 85.09 614.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6854,7 +7718,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RMCF0603FT10K0"
-			(at 88.9 714.3 0)
+			(at 85.09 714.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6864,7 +7728,7 @@
 			)
 		)
 		(property "Mouser Part Number" "708-RMCF0603FT10K0"
-			(at 88.9 814.3 0)
+			(at 85.09 814.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6874,7 +7738,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/SEI-Stackpole/RMCF0603FT10K0?qs=eqvyn46aSBQsvdGhIyiuWw%3D%3D"
-			(at 88.9 914.3 0)
+			(at 85.09 914.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6884,7 +7748,7 @@
 			)
 		)
 		(property "Arrow Part Number" "RMCF0603FT10K0"
-			(at 88.9 1014.3 0)
+			(at 85.09 1014.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6894,7 +7758,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rmcf0603ft10k0/stackpole-electronics?utm_currency=USD&region=asia"
-			(at 88.9 1114.3 0)
+			(at 85.09 1114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6919,17 +7783,53 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 78.74 127 180)
+		(lib_id "Capstone:RC0603JR-070RL")
+		(at 95.25 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "84ad4354-18bf-4ed7-970e-d8171d53f94d")
-		(property "Reference" "#PWR0102"
-			(at 78.74 120.65 0)
+		(uuid "86afa93f-5c8e-4c0e-b328-65fdd5ae06b5")
+		(property "Reference" "R18"
+			(at 104.14 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0Ω"
+			(at 104.14 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RESC1608X55N"
+			(at 109.22 273.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.yageo.com/documents/recent/PYu-RC0603_51_RoHS_L_v5.pdf"
+			(at 109.22 373.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "YAGEO (PHYCOMP) - RC0603JR-070RL - RES, THICK FILM, 0R, 5%, 0.1W, 0603"
+			(at 95.25 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6937,87 +7837,120 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 78.74 121.92 0)
+		(property "Height" "0.55"
+			(at 109.22 573.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Footprint" ""
-			(at 78.74 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 78.74 127 0)
+		(property "Manufacturer_Name" "KEMET"
+			(at 109.22 673.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 78.74 127 0)
+		(property "Manufacturer_Part_Number" "RC0603JR-070RL"
+			(at 109.22 773.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0603JR-070RL"
+			(at 109.22 873.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/RC0603JR-070RL?qs=2cAdsCoAWRGWyPcuXgGiXQ%3D%3D"
+			(at 109.22 973.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "RC0603JR-070RL"
+			(at 109.22 1073.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rc0603jr-070rl/yageo?utm_currency=USD&region=nac"
+			(at 109.22 1173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "ea782f78-b2bf-4420-b4da-c45ad368df9e")
+			(uuid "6b61b446-a429-458c-850e-f0d979b48ac7")
+		)
+		(pin "2"
+			(uuid "aea1a231-ded6-4f6b-9a02-a690d0f83738")
 		)
 		(instances
 			(project "weight-sensor-pcb"
 				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
-					(reference "#PWR0102")
-					(unit 1)
-				)
-			)
-			(project "force_sensor_analog_fe"
-				(path "/d326fe0b-f81f-461c-8be3-8cfa0c7f2e25"
-					(reference "#PWR06")
+					(reference "R18")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 105.41 90.17 90)
+		(lib_id "Connector:TestPoint")
+		(at 143.51 140.97 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8f1987f0-f4b1-4147-985c-539309a0fc37")
-		(property "Reference" "R19"
-			(at 105.41 83.82 90)
+		(uuid "8980905e-eb6b-4095-ac94-3d6fa3b136e0")
+		(property "Reference" "TP18"
+			(at 141.224 149.352 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "R"
-			(at 105.41 86.36 90)
+		(property "Value" "V2 OUT"
+			(at 143.51 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 105.41 91.948 90)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 138.43 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7026,7 +7959,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 105.41 90.17 0)
+			(at 138.43 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7034,83 +7967,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 105.41 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d6bac5ad-421c-4149-98b6-07c63df45543")
-		)
-		(pin "1"
-			(uuid "a7f16a42-ee21-4baa-81a8-9d6b878df9df")
-		)
-		(instances
-			(project "weight-sensor-pcb"
-				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
-					(reference "R19")
-					(unit 1)
-				)
-			)
-			(project "force_sensor_analog_fe"
-				(path "/d326fe0b-f81f-461c-8be3-8cfa0c7f2e25"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 77.47 171.45 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9ed16b0f-c086-4171-94a9-d7336656a3dc")
-		(property "Reference" "#PWR0104"
-			(at 77.47 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 77.47 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 77.47 171.45 0)
+		(property "Description" "test point"
+			(at 143.51 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7119,26 +7977,21 @@
 			)
 		)
 		(pin "1"
-			(uuid "7ca7b757-d232-4fbe-b94e-10ebbf58c69b")
+			(uuid "20b09fa2-04b1-4344-8904-bcd218ccc070")
 		)
 		(instances
 			(project "weight-sensor-pcb"
 				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
-					(reference "#PWR0104")
-					(unit 1)
-				)
-			)
-			(project "force_sensor_analog_fe"
-				(path "/d326fe0b-f81f-461c-8be3-8cfa0c7f2e25"
-					(reference "#PWR07")
+					(reference "TP18")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_name "RMCF0603FT10K0_3")
 		(lib_id "Capstone:RMCF0603FT10K0")
-		(at 53.34 135.89 0)
+		(at 50.8 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7147,7 +8000,7 @@
 		(fields_autoplaced yes)
 		(uuid "a2bb6684-ce69-4e1b-8e3b-3d6c304d51a9")
 		(property "Reference" "R12"
-			(at 62.23 129.54 0)
+			(at 59.69 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7155,7 +8008,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 62.23 132.08 0)
+			(at 59.69 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7163,7 +8016,7 @@
 			)
 		)
 		(property "Footprint" "RESC1608X55N"
-			(at 67.31 232.08 0)
+			(at 64.77 232.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7173,7 +8026,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf"
-			(at 67.31 332.08 0)
+			(at 64.77 332.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7183,7 +8036,7 @@
 			)
 		)
 		(property "Description" "RES, 0603, 10 Kohm, 1%, 0.1W"
-			(at 53.34 135.89 0)
+			(at 50.8 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7192,7 +8045,7 @@
 			)
 		)
 		(property "Height" "0.55"
-			(at 67.31 532.08 0)
+			(at 64.77 532.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7202,7 +8055,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Stackpole Electronics, Inc."
-			(at 67.31 632.08 0)
+			(at 64.77 632.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7212,7 +8065,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RMCF0603FT10K0"
-			(at 67.31 732.08 0)
+			(at 64.77 732.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7222,7 +8075,7 @@
 			)
 		)
 		(property "Mouser Part Number" "708-RMCF0603FT10K0"
-			(at 67.31 832.08 0)
+			(at 64.77 832.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7232,7 +8085,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/SEI-Stackpole/RMCF0603FT10K0?qs=eqvyn46aSBQsvdGhIyiuWw%3D%3D"
-			(at 67.31 932.08 0)
+			(at 64.77 932.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7242,7 +8095,7 @@
 			)
 		)
 		(property "Arrow Part Number" "RMCF0603FT10K0"
-			(at 67.31 1032.08 0)
+			(at 64.77 1032.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7252,7 +8105,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rmcf0603ft10k0/stackpole-electronics?utm_currency=USD&region=asia"
-			(at 67.31 1132.08 0)
+			(at 64.77 1132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7419,6 +8272,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 137.16 140.97 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa691f45-d9c1-48c3-95bf-ac3498b51f6b")
+		(property "Reference" "TP17"
+			(at 134.874 149.352 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "V1 OUT"
+			(at 137.16 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 132.08 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 137.16 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95fdb193-6437-4985-9484-e3f1dc68909e")
+		)
+		(instances
+			(project "weight-sensor-pcb"
+				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
+					(reference "TP17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Capstone:GRM033C71C104KE14D")
 		(at 135.89 102.87 90)
 		(unit 1)
@@ -7542,7 +8461,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:OPA333xxD")
-		(at 86.36 133.35 0)
+		(at 82.55 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7550,7 +8469,7 @@
 		(dnp no)
 		(uuid "ae50cd80-55ba-43bd-b82e-c645a660ce8f")
 		(property "Reference" "U5"
-			(at 90.932 125.222 0)
+			(at 87.122 125.222 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7558,7 +8477,7 @@
 			)
 		)
 		(property "Value" "OPA333xxD"
-			(at 91.186 127.254 0)
+			(at 87.376 127.254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7566,7 +8485,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 83.82 138.43 0)
+			(at 80.01 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7576,7 +8495,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa333.pdf"
-			(at 90.17 129.54 0)
+			(at 86.36 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7585,7 +8504,7 @@
 			)
 		)
 		(property "Description" "Single 1.8V, microPower, CMOS Operational Amplifiers, Zero-Drift Series, SOIC-8"
-			(at 86.36 133.35 0)
+			(at 82.55 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7634,7 +8553,7 @@
 	)
 	(symbol
 		(lib_id "Capstone:C4532C0G1H154J250KA")
-		(at 77.47 106.68 0)
+		(at 73.66 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7642,7 +8561,7 @@
 		(dnp no)
 		(uuid "b62e2364-a54a-4757-a585-0078289e8688")
 		(property "Reference" "C3"
-			(at 89.408 100.584 0)
+			(at 85.598 100.584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7650,7 +8569,7 @@
 			)
 		)
 		(property "Value" "150nF"
-			(at 89.408 103.124 0)
+			(at 85.598 103.124 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7658,7 +8577,7 @@
 			)
 		)
 		(property "Footprint" "C4532_Commercial"
-			(at 86.36 202.87 0)
+			(at 82.55 202.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7668,7 +8587,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
-			(at 86.36 302.87 0)
+			(at 82.55 302.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7678,7 +8597,7 @@
 			)
 		)
 		(property "Description" "MULTILAYER CERAMIC CHIP CAPACITORS, 4532, Commercial grade, general (Up to 75V)"
-			(at 77.47 106.68 0)
+			(at 73.66 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7687,7 +8606,7 @@
 			)
 		)
 		(property "Height" "2.2"
-			(at 86.36 502.87 0)
+			(at 82.55 502.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7697,7 +8616,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 86.36 602.87 0)
+			(at 82.55 602.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7707,7 +8626,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 86.36 702.87 0)
+			(at 82.55 702.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7717,7 +8636,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "TDK"
-			(at 86.36 802.87 0)
+			(at 82.55 802.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7727,7 +8646,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C4532C0G1H154J250KA"
-			(at 86.36 902.87 0)
+			(at 82.55 902.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7753,7 +8672,7 @@
 	)
 	(symbol
 		(lib_id "Capstone:C4532C0G1H154J250KA")
-		(at 77.47 64.77 0)
+		(at 73.66 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7761,7 +8680,7 @@
 		(dnp no)
 		(uuid "b77f3dbf-95a0-4f42-981a-dafd4f485f6c")
 		(property "Reference" "C2"
-			(at 89.408 58.674 0)
+			(at 85.598 58.674 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7769,7 +8688,7 @@
 			)
 		)
 		(property "Value" "150nF"
-			(at 89.408 61.214 0)
+			(at 85.598 61.214 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7777,7 +8696,7 @@
 			)
 		)
 		(property "Footprint" "C4532_Commercial"
-			(at 86.36 160.96 0)
+			(at 82.55 160.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7787,7 +8706,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
-			(at 86.36 260.96 0)
+			(at 82.55 260.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7797,7 +8716,7 @@
 			)
 		)
 		(property "Description" "MULTILAYER CERAMIC CHIP CAPACITORS, 4532, Commercial grade, general (Up to 75V)"
-			(at 77.47 64.77 0)
+			(at 73.66 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7806,7 +8725,7 @@
 			)
 		)
 		(property "Height" "2.2"
-			(at 86.36 460.96 0)
+			(at 82.55 460.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7816,7 +8735,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 86.36 560.96 0)
+			(at 82.55 560.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7826,7 +8745,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 86.36 660.96 0)
+			(at 82.55 660.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7836,7 +8755,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "TDK"
-			(at 86.36 760.96 0)
+			(at 82.55 760.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7846,7 +8765,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C4532C0G1H154J250KA"
-			(at 86.36 860.96 0)
+			(at 82.55 860.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7872,7 +8791,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:OPA333xxD")
-		(at 85.09 177.8 0)
+		(at 81.28 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7880,7 +8799,7 @@
 		(dnp no)
 		(uuid "bbe82ffc-ba97-4d47-9d6a-f63001cfe68e")
 		(property "Reference" "U1"
-			(at 89.662 169.672 0)
+			(at 85.852 169.672 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7888,7 +8807,7 @@
 			)
 		)
 		(property "Value" "OPA333xxD"
-			(at 89.916 171.704 0)
+			(at 86.106 171.704 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7896,7 +8815,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 82.55 182.88 0)
+			(at 78.74 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7906,7 +8825,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa333.pdf"
-			(at 88.9 173.99 0)
+			(at 85.09 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7915,7 +8834,7 @@
 			)
 		)
 		(property "Description" "Single 1.8V, microPower, CMOS Operational Amplifiers, Zero-Drift Series, SOIC-8"
-			(at 85.09 177.8 0)
+			(at 81.28 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7964,7 +8883,7 @@
 	)
 	(symbol
 		(lib_id "Capstone:RMCF0603FT10K0")
-		(at 73.66 162.56 0)
+		(at 69.85 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7973,7 +8892,7 @@
 		(fields_autoplaced yes)
 		(uuid "c1b4b82d-328a-42e7-9980-e72e70bc72a2")
 		(property "Reference" "R17"
-			(at 82.55 156.21 0)
+			(at 78.74 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7981,7 +8900,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 82.55 158.75 0)
+			(at 78.74 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7989,7 +8908,7 @@
 			)
 		)
 		(property "Footprint" "RESC1608X55N"
-			(at 87.63 258.75 0)
+			(at 83.82 258.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7999,7 +8918,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf"
-			(at 87.63 358.75 0)
+			(at 83.82 358.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8009,7 +8928,7 @@
 			)
 		)
 		(property "Description" "RES, 0603, 10 Kohm, 1%, 0.1W"
-			(at 73.66 162.56 0)
+			(at 69.85 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8018,7 +8937,7 @@
 			)
 		)
 		(property "Height" "0.55"
-			(at 87.63 558.75 0)
+			(at 83.82 558.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8028,7 +8947,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Stackpole Electronics, Inc."
-			(at 87.63 658.75 0)
+			(at 83.82 658.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8038,7 +8957,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RMCF0603FT10K0"
-			(at 87.63 758.75 0)
+			(at 83.82 758.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8048,7 +8967,7 @@
 			)
 		)
 		(property "Mouser Part Number" "708-RMCF0603FT10K0"
-			(at 87.63 858.75 0)
+			(at 83.82 858.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8058,7 +8977,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/SEI-Stackpole/RMCF0603FT10K0?qs=eqvyn46aSBQsvdGhIyiuWw%3D%3D"
-			(at 87.63 958.75 0)
+			(at 83.82 958.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8068,7 +8987,7 @@
 			)
 		)
 		(property "Arrow Part Number" "RMCF0603FT10K0"
-			(at 87.63 1058.75 0)
+			(at 83.82 1058.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8078,7 +8997,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rmcf0603ft10k0/stackpole-electronics?utm_currency=USD&region=asia"
-			(at 87.63 1158.75 0)
+			(at 83.82 1158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8104,7 +9023,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:OPA333xxD")
-		(at 86.36 46.99 0)
+		(at 82.55 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8112,7 +9031,7 @@
 		(dnp no)
 		(uuid "c3159b65-800d-4797-9b01-b0f92467bf13")
 		(property "Reference" "U2"
-			(at 90.932 38.862 0)
+			(at 87.122 38.862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8120,7 +9039,7 @@
 			)
 		)
 		(property "Value" "OPA333xxD"
-			(at 91.186 40.894 0)
+			(at 87.376 40.894 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8128,7 +9047,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 83.82 52.07 0)
+			(at 80.01 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8138,7 +9057,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa333.pdf"
-			(at 90.17 43.18 0)
+			(at 86.36 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8147,7 +9066,7 @@
 			)
 		)
 		(property "Description" "Single 1.8V, microPower, CMOS Operational Amplifiers, Zero-Drift Series, SOIC-8"
-			(at 86.36 46.99 0)
+			(at 82.55 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8196,7 +9115,7 @@
 	)
 	(symbol
 		(lib_id "Capstone:RC0603FR-07100RL")
-		(at 21.59 74.93 0)
+		(at 26.67 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8205,7 +9124,7 @@
 		(fields_autoplaced yes)
 		(uuid "c5cb9c5f-326c-4524-9dcf-3e5bfb9883bc")
 		(property "Reference" "R1"
-			(at 30.48 68.58 0)
+			(at 35.56 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8213,7 +9132,7 @@
 			)
 		)
 		(property "Value" "100Ω"
-			(at 30.48 71.12 0)
+			(at 35.56 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8221,7 +9140,7 @@
 			)
 		)
 		(property "Footprint" "RESC1608X55N"
-			(at 35.56 171.12 0)
+			(at 40.64 171.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8231,7 +9150,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.yageo.com/documents/recent/PYu-RC0603_51_RoHS_L_v5.pdf"
-			(at 35.56 271.12 0)
+			(at 40.64 271.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8241,7 +9160,7 @@
 			)
 		)
 		(property "Description" "Yageo RC Series Thick Film Surface Mount Resistor 0603 Case 100"
-			(at 21.59 74.93 0)
+			(at 26.67 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8250,7 +9169,7 @@
 			)
 		)
 		(property "Height" "0.55"
-			(at 35.56 471.12 0)
+			(at 40.64 471.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8260,7 +9179,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "KEMET"
-			(at 35.56 571.12 0)
+			(at 40.64 571.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8270,7 +9189,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RC0603FR-07100RL"
-			(at 35.56 671.12 0)
+			(at 40.64 671.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8280,7 +9199,7 @@
 			)
 		)
 		(property "Mouser Part Number" "603-RC0603FR-07100RL"
-			(at 35.56 771.12 0)
+			(at 40.64 771.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8290,7 +9209,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/RC0603FR-07100RL?qs=NEN%2FsE%2FLsvPIwIWKCOS4%2FA%3D%3D"
-			(at 35.56 871.12 0)
+			(at 40.64 871.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8300,7 +9219,7 @@
 			)
 		)
 		(property "Arrow Part Number" "RC0603FR-07100RL"
-			(at 35.56 971.12 0)
+			(at 40.64 971.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8310,7 +9229,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rc0603fr-07100rl/yageo?region=europe"
-			(at 35.56 1071.12 0)
+			(at 40.64 1071.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8335,17 +9254,34 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 53.34 100.33 0)
+		(lib_id "Connector:TestPoint")
+		(at 130.81 140.97 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c6fdffe0-7bc6-47ac-a2ac-5f338aed951c")
-		(property "Reference" "#PWR0105"
-			(at 53.34 106.68 0)
+		(uuid "c6f60ea8-d8d6-4711-8706-8b7ccfce022f")
+		(property "Reference" "TP16"
+			(at 128.524 149.352 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Vref"
+			(at 130.81 149.352 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 125.73 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8353,16 +9289,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 53.34 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 100.33 0)
+		(property "Datasheet" "~"
+			(at 125.73 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8370,17 +9298,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 53.34 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 100.33 0)
+		(property "Description" "test point"
+			(at 130.81 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8389,18 +9308,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "4842b955-01a5-40b9-8a4f-37ec8d3ef790")
+			(uuid "ade6003b-6d5b-4d82-afb3-9a6386c36edd")
 		)
 		(instances
 			(project "weight-sensor-pcb"
 				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
-					(reference "#PWR0105")
-					(unit 1)
-				)
-			)
-			(project "force_sensor_analog_fe"
-				(path "/d326fe0b-f81f-461c-8be3-8cfa0c7f2e25"
-					(reference "#PWR01")
+					(reference "TP16")
 					(unit 1)
 				)
 			)
@@ -8533,7 +9446,7 @@
 	)
 	(symbol
 		(lib_id "Capstone:INA333AIDGKR")
-		(at 25.4 44.45 0)
+		(at 21.59 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8542,7 +9455,7 @@
 		(fields_autoplaced yes)
 		(uuid "d0647619-78f7-49ab-90a6-fe9d15f1b547")
 		(property "Reference" "IC3"
-			(at 39.37 36.83 0)
+			(at 35.56 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8550,7 +9463,7 @@
 			)
 		)
 		(property "Value" "INA333AIDGKR"
-			(at 39.37 39.37 0)
+			(at 35.56 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8558,7 +9471,7 @@
 			)
 		)
 		(property "Footprint" "SOP65P490X110-8N"
-			(at 49.53 139.37 0)
+			(at 45.72 139.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8568,7 +9481,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina333.pdf"
-			(at 49.53 239.37 0)
+			(at 45.72 239.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8578,7 +9491,7 @@
 			)
 		)
 		(property "Description" "Low-Power, Zero-Drift, Precision Instrumentation Amplifier"
-			(at 25.4 44.45 0)
+			(at 21.59 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8587,7 +9500,7 @@
 			)
 		)
 		(property "Height" "1.1"
-			(at 49.53 439.37 0)
+			(at 45.72 439.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8597,7 +9510,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 49.53 539.37 0)
+			(at 45.72 539.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8607,7 +9520,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "INA333AIDGKR"
-			(at 49.53 639.37 0)
+			(at 45.72 639.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8617,7 +9530,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-INA333AIDGKR"
-			(at 49.53 739.37 0)
+			(at 45.72 739.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8627,7 +9540,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/INA333AIDGKR?qs=nJRxFdq%252BlvaKwfZOdHFpKg%3D%3D"
-			(at 49.53 839.37 0)
+			(at 45.72 839.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8637,7 +9550,7 @@
 			)
 		)
 		(property "Arrow Part Number" "INA333AIDGKR"
-			(at 49.53 939.37 0)
+			(at 45.72 939.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8647,7 +9560,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ina333aidgkr/texas-instruments?utm_currency=USD&region=nac"
-			(at 49.53 1039.37 0)
+			(at 45.72 1039.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8762,33 +9675,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 105.41 46.99 90)
+		(lib_id "Connector:TestPoint")
+		(at 149.86 140.97 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dd9a1900-3cf2-40f0-ace6-9f6e8bb8580b")
-		(property "Reference" "R4"
-			(at 105.41 40.64 90)
+		(uuid "f92e255c-cd9a-4253-989d-d65ad827f05e")
+		(property "Reference" "TP19"
+			(at 147.574 149.352 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "R"
-			(at 105.41 43.18 90)
+		(property "Value" "V3 OUT"
+			(at 149.86 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 105.41 48.768 90)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 144.78 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8797,7 +9711,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 105.41 46.99 0)
+			(at 144.78 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8805,83 +9719,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 105.41 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ac64deba-ec72-4cec-9206-64d8df41ef24")
-		)
-		(pin "1"
-			(uuid "e43b2d3c-6c65-41ee-8593-ae492d7d9a73")
-		)
-		(instances
-			(project ""
-				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-			(project "force_sensor_analog_fe"
-				(path "/d326fe0b-f81f-461c-8be3-8cfa0c7f2e25"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 52.07 187.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e217a120-06e0-4baf-abb0-63e76e59dd28")
-		(property "Reference" "#PWR0101"
-			(at 52.07 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 52.07 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 52.07 187.96 0)
+		(property "Description" "test point"
+			(at 149.86 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8890,18 +9729,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "6aad3886-4c7c-4ad0-a8d2-77fb89ecb3d2")
+			(uuid "2e59c418-bbcb-40c5-833b-97b89678210e")
 		)
 		(instances
 			(project "weight-sensor-pcb"
 				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
-					(reference "#PWR0101")
-					(unit 1)
-				)
-			)
-			(project "force_sensor_analog_fe"
-				(path "/d326fe0b-f81f-461c-8be3-8cfa0c7f2e25"
-					(reference "#PWR05")
+					(reference "TP19")
 					(unit 1)
 				)
 			)
@@ -8909,7 +9742,7 @@
 	)
 	(symbol
 		(lib_id "Capstone:C4532C0G1H154J250KA")
-		(at 76.2 152.4 0)
+		(at 72.39 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8917,7 +9750,7 @@
 		(dnp no)
 		(uuid "fa3ba0a7-045e-432e-a815-885ad4f52d0a")
 		(property "Reference" "C4"
-			(at 88.138 146.304 0)
+			(at 84.328 146.304 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8925,7 +9758,7 @@
 			)
 		)
 		(property "Value" "150nF"
-			(at 88.138 148.844 0)
+			(at 84.328 148.844 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8933,7 +9766,7 @@
 			)
 		)
 		(property "Footprint" "C4532_Commercial"
-			(at 85.09 248.59 0)
+			(at 81.28 248.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8943,7 +9776,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
-			(at 85.09 348.59 0)
+			(at 81.28 348.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8953,7 +9786,7 @@
 			)
 		)
 		(property "Description" "MULTILAYER CERAMIC CHIP CAPACITORS, 4532, Commercial grade, general (Up to 75V)"
-			(at 76.2 152.4 0)
+			(at 72.39 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8962,7 +9795,7 @@
 			)
 		)
 		(property "Height" "2.2"
-			(at 85.09 548.59 0)
+			(at 81.28 548.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8972,7 +9805,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 85.09 648.59 0)
+			(at 81.28 648.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8982,7 +9815,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 85.09 748.59 0)
+			(at 81.28 748.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8992,7 +9825,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "TDK"
-			(at 85.09 848.59 0)
+			(at 81.28 848.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9002,7 +9835,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C4532C0G1H154J250KA"
-			(at 85.09 948.59 0)
+			(at 81.28 948.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9027,148 +9860,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Capstone:RC0603FR-07100RL")
-		(at 39.37 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fab7a80c-d1eb-41af-8de2-4e0f3c320adb")
-		(property "Reference" "R9"
-			(at 48.26 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100Ω"
-			(at 48.26 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "RESC1608X55N"
-			(at 53.34 214.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.yageo.com/documents/recent/PYu-RC0603_51_RoHS_L_v5.pdf"
-			(at 53.34 314.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Yageo RC Series Thick Film Surface Mount Resistor 0603 Case 100"
-			(at 39.37 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.55"
-			(at 53.34 514.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "KEMET"
-			(at 53.34 614.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RC0603FR-07100RL"
-			(at 53.34 714.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "603-RC0603FR-07100RL"
-			(at 53.34 814.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/RC0603FR-07100RL?qs=NEN%2FsE%2FLsvPIwIWKCOS4%2FA%3D%3D"
-			(at 53.34 914.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "RC0603FR-07100RL"
-			(at 53.34 1014.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rc0603fr-07100rl/yageo?region=europe"
-			(at 53.34 1114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5c6f81e4-d0f2-4cb1-b19c-3b04f8a4ec92")
-		)
-		(pin "1"
-			(uuid "79d8043e-104c-4161-b205-9512803395ac")
-		)
-		(instances
-			(project "weight-sensor-pcb"
-				(path "/030ca1f5-68f0-4323-9a91-656d7965b13e/6677df09-7d73-4890-91f9-2c1f8721421d"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
+		(lib_name "RMCF0603FT10K0_4")
 		(lib_id "Capstone:RMCF0603FT10K0")
-		(at 52.07 180.34 0)
+		(at 49.53 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9177,7 +9871,7 @@
 		(fields_autoplaced yes)
 		(uuid "ffc13169-40bc-4e36-bff9-928e731eea64")
 		(property "Reference" "R13"
-			(at 60.96 173.99 0)
+			(at 58.42 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9185,7 +9879,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 60.96 176.53 0)
+			(at 58.42 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9193,7 +9887,7 @@
 			)
 		)
 		(property "Footprint" "RESC1608X55N"
-			(at 66.04 276.53 0)
+			(at 63.5 276.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9203,7 +9897,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf"
-			(at 66.04 376.53 0)
+			(at 63.5 376.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9213,7 +9907,7 @@
 			)
 		)
 		(property "Description" "RES, 0603, 10 Kohm, 1%, 0.1W"
-			(at 52.07 180.34 0)
+			(at 49.53 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9222,7 +9916,7 @@
 			)
 		)
 		(property "Height" "0.55"
-			(at 66.04 576.53 0)
+			(at 63.5 576.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9232,7 +9926,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Stackpole Electronics, Inc."
-			(at 66.04 676.53 0)
+			(at 63.5 676.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9242,7 +9936,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RMCF0603FT10K0"
-			(at 66.04 776.53 0)
+			(at 63.5 776.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9252,7 +9946,7 @@
 			)
 		)
 		(property "Mouser Part Number" "708-RMCF0603FT10K0"
-			(at 66.04 876.53 0)
+			(at 63.5 876.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9262,7 +9956,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/SEI-Stackpole/RMCF0603FT10K0?qs=eqvyn46aSBQsvdGhIyiuWw%3D%3D"
-			(at 66.04 976.53 0)
+			(at 63.5 976.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9272,7 +9966,7 @@
 			)
 		)
 		(property "Arrow Part Number" "RMCF0603FT10K0"
-			(at 66.04 1076.53 0)
+			(at 63.5 1076.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9282,7 +9976,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rmcf0603ft10k0/stackpole-electronics?utm_currency=USD&region=asia"
-			(at 66.04 1176.53 0)
+			(at 63.5 1176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
