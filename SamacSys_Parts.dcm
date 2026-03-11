@@ -168,4 +168,10 @@ K
 F http://www.ti.com/lit/gpn/lm2776
 $ENDCMP
 #
+$CMP GRM1885C1H222JA01D
+D 0603 ceramic capacitor,COG,50V,2.2nF Murata 0603 GRM 2.2nF Ceramic Multilayer Capacitor, 50 V dc C0G Dielectric +/-5% SMD
+K
+F https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1885C1H222JA01-01A.pdf
+$ENDCMP
+#
 #End Doc Library
